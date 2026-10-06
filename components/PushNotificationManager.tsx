@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { Bell, BellCheck } from "lucide-react";
-import { urlBase64ToUint8Array } from "@/utils/push";
+import { urlBase64ToUint8Array } from "../utils/push";
 
 export default function PushNotificationManager() {
   const [isSubscribed, setIsSubscribed] = useState(false);
