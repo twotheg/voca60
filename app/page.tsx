@@ -18,9 +18,9 @@ export default function Home() {
   const [progressMap, setProgressMap] = useState<Record<number, DayProgress>>({});
 
   // 주관식 테스트 상태
+  const [testMode, setTestMode] = useState<"wordToMeaning" | "meaningToWord" | null>(null);
   const [testIndex, setTestIndex] = useState(0);
   const [userInput, setUserInput] = useState("");
-  const [testMode, setTestMode] = useState<"wordToMeaning" | "meaningToWord">("wordToMeaning");
   const [testResult, setTestResult] = useState<"correct" | "incorrect" | null>(null);
   const [wrongWords, setWrongWords] = useState<WordItem[]>([]);
   const [testCompleted, setTestCompleted] = useState(false);
@@ -68,7 +68,7 @@ export default function Home() {
     setActiveTab("study");
     setWrongWords([]);
     setTestCompleted(false);
-    setTestIndex(0);
+    setTestMode(null);
     setUserInput("");
     setTestResult(null);
   };
@@ -76,6 +76,7 @@ export default function Home() {
   const handleTabChange = (tab: "study" | "test" | "wrong") => {
     setActiveTab(tab);
     if (tab === "test") {
+      setTestMode(null); // 테스트 탭 누르면 모드 선택 화면으로 진입
       setTestIndex(0);
       setUserInput("");
       setTestResult(null);
@@ -88,20 +89,16 @@ export default function Home() {
   // 주관식 정답 제출 체크
   const handleTestSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!userInput.trim() || testResult !== null) return;
+    if (!userInput.trim() || testResult !== null || !testMode) return;
 
     const currentTestWord = activeWordList[testIndex];
     let isCorrect = false;
-
     const cleanInput = userInput.trim().toLowerCase();
 
     if (testMode === "wordToMeaning") {
-      // 뜻 쓰기 (포함 여부 혹은 유사성 체크)
       const targetMeaning = currentTestWord.meaning.toLowerCase();
-      // 간단하게 핵심 키워드나 전체 텍스트 매칭
       isCorrect = targetMeaning.includes(cleanInput) || cleanInput.includes(targetMeaning.replace(/^[a-z]\.\s*/, ""));
     } else {
-      // 영어 단어 쓰기
       const targetWord = currentTestWord.word.toLowerCase();
       isCorrect = cleanInput === targetWord;
     }
@@ -126,22 +123,21 @@ export default function Home() {
       } else {
         setTestCompleted(true);
         if (selectedDay) {
-          saveProgress(selectedDay); // 테스트 완료 시 해당 Day 학습 횟수 1증가 및 컬러 업데이트
+          saveProgress(selectedDay);
         }
       }
     }, 1200);
   };
 
-  // 반복 횟수에 따른 버튼 배경색 결정 (빨간색 제외, 노란색 -> 초록색 -> 파란색/보라색 순환)
   const getDayButtonStyle = (count: number) => {
     if (!count || count === 0) {
       return "bg-slate-800/80 hover:bg-slate-700 border-slate-700 text-slate-300";
     } else if (count === 1) {
-      return "bg-amber-500/20 hover:bg-amber-500/30 border-amber-500/60 text-amber-200 shadow-amber-500/10"; // 1회: 노란빛
+      return "bg-amber-500/20 hover:bg-amber-500/30 border-amber-500/60 text-amber-200 shadow-amber-500/10";
     } else if (count === 2) {
-      return "bg-emerald-500/20 hover:bg-emerald-500/30 border-emerald-500/60 text-emerald-200 shadow-emerald-500/10"; // 2회: 초록빛
+      return "bg-emerald-500/20 hover:bg-emerald-500/30 border-emerald-500/60 text-emerald-200 shadow-emerald-500/10";
     } else {
-      return "bg-indigo-500/20 hover:bg-indigo-500/30 border-indigo-500/60 text-indigo-200 shadow-indigo-500/10"; // 3회 이상: 파란빛/보라빛
+      return "bg-indigo-500/20 hover:bg-indigo-500/30 border-indigo-500/60 text-indigo-200 shadow-indigo-500/10";
     }
   };
 
@@ -307,7 +303,7 @@ export default function Home() {
                       if (currentIndex < activeWordList.length - 1) {
                         setCurrentIndex((prev) => prev + 1);
                       } else {
-                        handleTabChange("test");
+                        setActiveTab("test");
                       }
                     }}
                     className="flex-1 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-500 font-semibold text-xs transition shadow-lg shadow-indigo-600/30"
@@ -319,96 +315,156 @@ export default function Home() {
             </div>
           )}
 
-          {/* 탭 2: 주관식 테스트 세션 */}
-          {activeTab === "test" && activeWordList[testIndex] && (
+          {/* 탭 2: 테스트 세션 */}
+          {activeTab === "test" && (
             <div className="space-y-4">
-              <div className="flex items-center justify-between text-xs text-slate-400 px-1">
-                <div className="flex items-center gap-2">
-                  <span className="bg-purple-950/80 text-purple-300 border border-purple-800/60 px-2.5 py-1 rounded-full font-semibold">
-                    Day {selectedDay} 테스트
-                  </span>
-                  <button
-                    onClick={() => setTestMode(testMode === "wordToMeaning" ? "meaningToWord" : "wordToMeaning")}
-                    className="text-[10px] bg-slate-800 hover:bg-slate-700 px-2 py-1 rounded border border-slate-700 text-slate-300"
-                  >
-                    {testMode === "wordToMeaning" ? "🔄 단어→뜻 쓰기" : "🔄 뜻→영어쓰기"}
-                  </button>
-                </div>
-                <span className="font-mono font-medium">
-                  {!testCompleted ? `${testIndex + 1} / ${activeWordList.length}` : "완료"}
-                </span>
-              </div>
-
-              {!testCompleted ? (
-                <div className="bg-slate-900 border border-slate-800 rounded-3xl p-6 shadow-2xl space-y-6">
-                  <div className="text-center py-8 bg-slate-950/40 rounded-2xl border border-slate-800/60">
-                    <span className="text-xs text-purple-400 font-bold uppercase tracking-wider">
-                      {testMode === "wordToMeaning" ? "영어 단어 뜻 쓰기" : "뜻 보고 영어 단어 쓰기"}
+              {/* 테스트 모드가 아직 선택되지 않았다면: 모드 선택 화면 표시 */}
+              {testMode === null ? (
+                <div className="bg-slate-900 border border-slate-800 rounded-3xl p-6 shadow-2xl space-y-4 text-center">
+                  <div className="py-2">
+                    <span className="bg-purple-950/80 text-purple-300 border border-purple-800/60 px-3 py-1 rounded-full text-xs font-semibold">
+                      Day {selectedDay} 테스트 모드 선택
                     </span>
-                    <h2 className="text-3xl font-black text-white mt-2">
-                      {testMode === "wordToMeaning" ? activeWordList[testIndex].word : activeWordList[testIndex].meaning}
-                    </h2>
-                    {testMode === "wordToMeaning" && (
-                      <p className="text-xs text-slate-500 font-mono mt-1">{activeWordList[testIndex].phonetic}</p>
-                    )}
+                    <h2 className="text-lg font-extrabold text-white mt-3">원하시는 테스트 방식을 골라주세요</h2>
+                    <p className="text-xs text-slate-400 mt-1">학습한 단어들을 두 가지 방식으로 점검할 수 있습니다.</p>
                   </div>
 
-                  <form onSubmit={handleTestSubmit} className="space-y-4">
-                    <input
-                      type="text"
-                      value={userInput}
-                      onChange={(e) => setUserInput(e.target.value)}
-                      placeholder={testMode === "wordToMeaning" ? "뜻을 입력하세요 (예: 이해하다)" : "영단어를 입력하세요"}
-                      disabled={testResult !== null}
-                      autoFocus
-                      className="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3.5 text-sm text-white focus:outline-none focus:border-indigo-500 transition"
-                    />
-
-                    {testResult !== null && (
-                      <div className={`p-3 rounded-xl text-xs font-bold text-center animate-pulse ${
-                        testResult === "correct" ? "bg-emerald-500/20 text-emerald-300 border border-emerald-500/40" : "bg-rose-500/20 text-rose-300 border border-rose-500/40"
-                      }`}>
-                        {testResult === "correct" ? "✅ 정답입니다!" : `❌ 오답! 정답: ${testMode === "wordToMeaning" ? activeWordList[testIndex].meaning : activeWordList[testIndex].word}`}
+                  <div className="grid grid-cols-1 gap-3 pt-2">
+                    <button
+                      onClick={() => {
+                        setTestMode("wordToMeaning");
+                        setTestIndex(0);
+                        setUserInput("");
+                        setTestResult(null);
+                        setTestCompleted(false);
+                      }}
+                      className="p-4 rounded-2xl bg-slate-800 hover:bg-indigo-600 border border-slate-700 hover:border-indigo-500 transition text-left group flex items-center justify-between shadow-md"
+                    >
+                      <div>
+                        <div className="text-sm font-bold text-white group-hover:text-white flex items-center gap-1.5">
+                          <span>✍️</span> 단어 → 뜻 쓰기 테스트
+                        </div>
+                        <p className="text-xs text-slate-400 group-hover:text-indigo-200 mt-0.5">
+                          영단어를 보고 우리말 뜻을 직접 적어봅니다.
+                        </p>
                       </div>
-                    )}
+                      <span className="text-indigo-400 group-hover:text-white font-bold">→</span>
+                    </button>
 
                     <button
-                      type="submit"
-                      disabled={testResult !== null || !userInput.trim()}
-                      className="w-full py-3.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 font-bold text-xs transition shadow-lg shadow-indigo-600/30"
+                      onClick={() => {
+                        setTestMode("meaningToWord");
+                        setTestIndex(0);
+                        setUserInput("");
+                        setTestResult(null);
+                        setTestCompleted(false);
+                      }}
+                      className="p-4 rounded-2xl bg-slate-800 hover:bg-purple-600 border border-slate-700 hover:border-purple-500 transition text-left group flex items-center justify-between shadow-md"
                     >
-                      정답 제출
+                      <div>
+                        <div className="text-sm font-bold text-white group-hover:text-white flex items-center gap-1.5">
+                          <span>🔤</span> 뜻 → 영어 쓰기 테스트
+                        </div>
+                        <p className="text-xs text-slate-400 group-hover:text-purple-200 mt-0.5">
+                          우리말 뜻을 보고 영단어를 직접 스펠링대로 적어봅니다.
+                        </p>
+                      </div>
+                      <span className="text-purple-400 group-hover:text-white font-bold">→</span>
                     </button>
-                  </form>
+                  </div>
                 </div>
               ) : (
-                <div className="bg-slate-900 border border-slate-800 rounded-3xl p-6 shadow-2xl text-center space-y-6">
-                  <div className="w-16 h-16 bg-indigo-600/20 border border-indigo-500/40 rounded-full flex items-center justify-center mx-auto text-2xl">
-                    🎉
-                  </div>
-                  <div>
-                    <h2 className="text-xl font-extrabold text-white mb-1">테스트 완료! (Day {selectedDay} 누적 반영됨)</h2>
-                    <p className="text-xs text-slate-400">틀린 문제 개수</p>
-                    <div className="text-3xl font-black text-rose-400 mt-2">
-                      {wrongWords.length}개 <span className="text-sm font-normal text-slate-400">/ 총 {activeWordList.length}문항</span>
-                    </div>
-                  </div>
-                  <div className="space-y-2">
-                    {wrongWords.length > 0 && (
+                /* 테스트 모드가 선택된 경우: 실제 주관식 퀴즈 화면 */
+                <div className="space-y-4">
+                  <div className="flex items-center justify-between text-xs text-slate-400 px-1">
+                    <div className="flex items-center gap-2">
+                      <span className="bg-purple-950/80 text-purple-300 border border-purple-800/60 px-2.5 py-1 rounded-full font-semibold">
+                        {testMode === "wordToMeaning" ? "✍️ 단어→뜻 테스트" : "🔤 뜻→영어 테스트"}
+                      </span>
                       <button
-                        onClick={() => handleTabChange("wrong")}
-                        className="w-full py-3.5 rounded-xl bg-rose-600 hover:bg-rose-500 font-bold text-xs transition shadow-lg shadow-rose-600/30"
+                        onClick={() => setTestMode(null)}
+                        className="text-[10px] bg-slate-800 hover:bg-slate-700 px-2 py-1 rounded border border-slate-700 text-slate-300"
                       >
-                        🔄 오답 노트 복습하기 ({wrongWords.length})
+                        모드 변경
                       </button>
-                    )}
-                    <button
-                      onClick={() => handleTabChange("test")}
-                      className="w-full py-3 rounded-xl bg-slate-800 hover:bg-slate-700 font-semibold text-xs transition border border-slate-700"
-                    >
-                      테스트 다시 풀기
-                    </button>
+                    </div>
+                    <span className="font-mono font-medium">
+                      {!testCompleted ? `${testIndex + 1} / ${activeWordList.length}` : "완료"}
+                    </span>
                   </div>
+
+                  {!testCompleted ? (
+                    <div className="bg-slate-900 border border-slate-800 rounded-3xl p-6 shadow-2xl space-y-6">
+                      <div className="text-center py-8 bg-slate-950/40 rounded-2xl border border-slate-800/60">
+                        <span className="text-xs text-purple-400 font-bold uppercase tracking-wider">
+                          {testMode === "wordToMeaning" ? "영어 단어 뜻 쓰기" : "뜻 보고 영어 단어 쓰기"}
+                        </span>
+                        <h2 className="text-3xl font-black text-white mt-2">
+                          {testMode === "wordToMeaning" ? activeWordList[testIndex].word : activeWordList[testIndex].meaning}
+                        </h2>
+                        {testMode === "wordToMeaning" && (
+                          <p className="text-xs text-slate-500 font-mono mt-1">{activeWordList[testIndex].phonetic}</p>
+                        )}
+                      </div>
+
+                      <form onSubmit={handleTestSubmit} className="space-y-4">
+                        <input
+                          type="text"
+                          value={userInput}
+                          onChange={(e) => setUserInput(e.target.value)}
+                          placeholder={testMode === "wordToMeaning" ? "뜻을 입력하세요 (예: 이해하다)" : "영단어를 입력하세요"}
+                          disabled={testResult !== null}
+                          autoFocus
+                          className="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3.5 text-sm text-white focus:outline-none focus:border-indigo-500 transition"
+                        />
+
+                        {testResult !== null && (
+                          <div className={`p-3 rounded-xl text-xs font-bold text-center animate-pulse ${
+                            testResult === "correct" ? "bg-emerald-500/20 text-emerald-300 border border-emerald-500/40" : "bg-rose-500/20 text-rose-300 border border-rose-500/40"
+                          }`}>
+                            {testResult === "correct" ? "✅ 정답입니다!" : `❌ 오답! 정답: ${testMode === "wordToMeaning" ? activeWordList[testIndex].meaning : activeWordList[testIndex].word}`}
+                          </div>
+                        )}
+
+                        <button
+                          type="submit"
+                          disabled={testResult !== null || !userInput.trim()}
+                          className="w-full py-3.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 font-bold text-xs transition shadow-lg shadow-indigo-600/30"
+                        >
+                          정답 제출
+                        </button>
+                      </form>
+                    </div>
+                  ) : (
+                    <div className="bg-slate-900 border border-slate-800 rounded-3xl p-6 shadow-2xl text-center space-y-6">
+                      <div className="w-16 h-16 bg-indigo-600/20 border border-indigo-500/40 rounded-full flex items-center justify-center mx-auto text-2xl">
+                        🎉
+                      </div>
+                      <div>
+                        <h2 className="text-xl font-extrabold text-white mb-1">테스트 완료! (Day {selectedDay} 누적 반영됨)</h2>
+                        <p className="text-xs text-slate-400">틀린 문제 개수</p>
+                        <div className="text-3xl font-black text-rose-400 mt-2">
+                          {wrongWords.length}개 <span className="text-sm font-normal text-slate-400">/ 총 {activeWordList.length}문항</span>
+                        </div>
+                      </div>
+                      <div className="space-y-2">
+                        {wrongWords.length > 0 && (
+                          <button
+                            onClick={() => handleTabChange("wrong")}
+                            className="w-full py-3.5 rounded-xl bg-rose-600 hover:bg-rose-500 font-bold text-xs transition shadow-lg shadow-rose-600/30"
+                          >
+                            🔄 오답 노트 복습하기 ({wrongWords.length})
+                          </button>
+                        )}
+                        <button
+                          onClick={() => setTestMode(null)}
+                          className="w-full py-3 rounded-xl bg-slate-800 hover:bg-slate-700 font-semibold text-xs transition border border-slate-700"
+                        >
+                          다른 테스트 모드 선택하기
+                        </button>
+                      </div>
+                    </div>
+                  )}
                 </div>
               )}
             </div>
