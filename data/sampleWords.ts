@@ -13,6 +13,7 @@ export interface WordItem {
   meaningSecondary?: string;
   exampleEn?: string;
   exampleKo?: string;
+  [key: string]: any;
 }
 
 export const INITIAL_WORDS: WordItem[] = [
