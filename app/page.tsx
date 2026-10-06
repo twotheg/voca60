@@ -2,8 +2,8 @@
 
 import React, { useState, useEffect } from "react";
 import { BookOpen, HelpCircle, RotateCcw, Volume2, Check, X, Eye, ChevronRight, ChevronLeft, Flame, Award } from "lucide-react";
-import { INITIAL_WORDS, WordItem } from "../data/sampleWords";
-import PushNotificationManager from "../components/PushNotificationManager";
+import { INITIAL_WORDS, WordItem } from "@/data/sampleWords";
+import PushNotificationManager from "@/components/PushNotificationManager";
 
 type Mode = "study" | "test" | "review";
 type TestType = "hide_meaning" | "hide_word";
