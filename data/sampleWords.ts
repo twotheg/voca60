@@ -9071,5 +9071,1194 @@ export const INITIAL_WORDS: WordItem[] = [
     example: "Six hours of sleep may not be sufficient for growing teenagers.",
     exampleTranslation: "6시간의 수면은 자라나는 십대들에게 충분하지 않을 수 있다."
   },
-
+  {
+    id: 1803, day: 54, word: "sugar", phonetic: "/ˈʃʊɡər/", meaning: "n. 설탕, 당",
+    example: "Add a little bit of sugar to sweeten the bitter coffee.",
+    exampleTranslation: "쓴 커피를 달게 만들기 위해 설탕을 조금 넣어라."
+  },
+  {
+    id: 1804, day: 54, word: "suggest", phonetic: "/səɡˈdʒest/", meaning: "v. 제안하다, 암시하다",
+    example: "She suggested holding the weekly meeting on Friday morning.",
+    exampleTranslation: "그녀는 주간 회의를 금요일 아침에 개최할 것을 제안했다."
+  },
+  {
+    id: 1805, day: 54, word: "suicide", phonetic: "/ˈsuːɪsaɪd/", meaning: "n. 자살",
+    example: "The government launched a campaign for suicide prevention.",
+    exampleTranslation: "정부는 자살 예방을 위한 캠페인을 시작했다."
+  },
+  {
+    id: 1806, day: 54, word: "suit", phonetic: "/suːt/", meaning: "n. 정장, 소송 / v. 어울리다, 적합하다",
+    example: "He wore a neat dark suit and tie for the formal interview.",
+    exampleTranslation: "그는 격식 있는 면접을 위해 단정한 어두운색 정장과 넥타이를 착용했다."
+  },
+  {
+    id: 1807, day: 54, word: "suitable", phonetic: "/ˈsuːtəbl/", meaning: "a. 적절한, 알맞은",
+    example: "Choose a suitable outfit for the outdoor hiking trip.",
+    exampleTranslation: "야외 하이킹 여행에 알맞은 옷차림을 선택하세요."
+  },
+  {
+    id: 1808, day: 54, word: "sum", phonetic: "/sʌm/", meaning: "n. 합, 총액 / v. 총합하다",
+    example: "The total sum of money was calculated accurately.",
+    exampleTranslation: "돈의 총합이 정확하게 계산되었다."
+  },
+  {
+    id: 1809, day: 54, word: "summarize", phonetic: "/ˈsʌməraɪz/", meaning: "v. 요약하다",
+    example: "Please summarize the main points of the article in your own words.",
+    exampleTranslation: "기사의 주요 요점들을 당신의 말로 요약해 주세요."
+  },
+  {
+    id: 1810, day: 54, word: "summer", phonetic: "/ˈsʌmər/", meaning: "n. 여름",
+    example: "Many families enjoy going to the beach during the hot summer.",
+    exampleTranslation: "많은 가족들이 더운 여름철에 해변으로 가는 것을 즐긴다."
+  },
+  {
+    id: 1811, day: 54, word: "sun", phonetic: "/sʌn/", meaning: "n. 태양",
+    example: "Bright sunlight warmed up the cold earth in the morning.",
+    exampleTranslation: "아침에 밝은 햇빛이 차가운 대지를 따뜻하게 데웠다."
+  },
+  {
+    id: 1812, day: 54, word: "sunday", phonetic: "/ˈsʌndeɪ/", meaning: "n. 일요일",
+    example: "They usually spend their Sundays relaxing at home.",
+    exampleTranslation: "그들은 보통 일요일을 집에서 휴식하며 보낸다."
+  },
+  {
+    id: 1813, day: 54, word: "super", phonetic: "/ˈsuːpər/", meaning: "a. 대단한, 최고의, 슈퍼의",
+    example: "Thank you for the super service at the hotel.",
+    exampleTranslation: "호텔에서의 최고의 서비스에 감사드립니다."
+  },
+  {
+    id: 1814, day: 54, word: "superficial", phonetic: "/ˌsuːpərˈfɪʃl/", meaning: "a. 표면적인, 피상적인",
+    example: "His knowledge of the complex subject was rather superficial.",
+    exampleTranslation: "그 복잡한 주제에 대한 그의 지식은 다소 피상적이었다."
+  },
+  {
+    id: 1815, day: 54, word: "superior", phonetic: "/suːˈpɪriər/", meaning: "a. 우수한, 상위의 / n. 상관, 상급자",
+    example: "This brand is known for its superior product quality.",
+    exampleTranslation: "이 브랜드는 우수한 제품 품질로 유명하다."
+  },
+  {
+    id: 1816, day: 54, word: "supermarket", phonetic: "/ˈsuːpərmɑːrkɪt/", meaning: "n. 슈퍼마켓",
+    example: "She bought fresh vegetables and fruit at the local supermarket.",
+    exampleTranslation: "그녀는 동네 슈퍼마켓에서 신선한 채소와 과일을 샀다."
+  },
+  {
+    id: 1817, day: 54, word: "supper", phonetic: "/ˈsʌpər/", meaning: "n. 저녁 식사",
+    example: "The family gathered around the table to eat a warm supper.",
+    exampleTranslation: "가족들이 따뜻한 저녁 식사를 먹기 위해 식탁 주위에 모였다."
+  },
+  {
+    id: 1818, day: 54, word: "supply", phonetic: "/səˈplaɪ/", meaning: "v. 공급하다 / n. 공급, 공급품",
+    example: "The company supplies clean drinking water to remote villages.",
+    exampleTranslation: "그 회사는 오지 마을들에 깨끗한 식수를 공급한다."
+  },
+  {
+    id: 1819, day: 54, word: "support", phonetic: "/səˈpɔːrt/", meaning: "v. 지지하다, 부양하다 / n. 지지, 지원",
+    example: "Her family gave her full support throughout her studies.",
+    exampleTranslation: "그녀의 가족은 그녀의 학업 기간 내내 전폭적인 지지를 보냈다."
+  },
+  {
+    id: 1820, day: 54, word: "suppose", phonetic: "/səˈpoʊz/", meaning: "v. 가정하다, 추측하다, 생각하다",
+    example: "Suppose we miss the last train; what should we do?",
+    exampleTranslation: "우리가 마지막 기차를 놓친다고 가정해 보자; 어떻게 해야 할까?"
+  },
+  {
+    id: 1821, day: 54, word: "supreme", phonetic: "/suːˈpriːm/", meaning: "a. 최고의, 지상의",
+    example: "The Supreme Court made a final decision on the case.",
+    exampleTranslation: "대법원은 그 사건에 대해 최종 결정을 내렸다."
+  },
+  {
+    id: 1822, day: 54, word: "sure", phonetic: "/ʃʊr/", meaning: "a. 확실하는, 틀림없는",
+    example: "Are you sure that you locked the front door?",
+    exampleTranslation: "현관문을 잠갔다는 것이 확실하니?"
+  },
+  {
+    id: 1823, day: 54, word: "surface", phonetic: "/ˈsɜːrfɪs/", meaning: "n. 표면, 수면",
+    example: "Oil floats lightly on the surface of water.",
+    exampleTranslation: "기름은 물의 표면 위에 가볍게 뜬다."
+  },
+  {
+    id: 1824, day: 54, word: "surgeon", phonetic: "/ˈsɜːrdʒən/", meaning: "n. 외과의사",
+    example: "The experienced surgeon performed the delicate operation.",
+    exampleTranslation: "경험 많은 외과의사가 섬세한 수술을 집행했다."
+  },
+  {
+    id: 1825, day: 54, word: "surplus", phonetic: "/ˈsɜːrpləs/", meaning: "n. 잉여, 흑자 / a. 과잉의, 남는",
+    example: "The government reported a massive financial budget surplus.",
+    exampleTranslation: "정부는 막대한 재정 예산 흑자를 보고했다."
+  },
+  {
+    id: 1826, day: 54, word: "surprise", phonetic: "/sərˈpraɪz/", meaning: "v. 놀라게 하다 / n. 놀람, 서프라이즈",
+    example: "Her unexpected visit came as a wonderful surprise.",
+    exampleTranslation: "그녀의 예상치 못한 방문은 멋진 놀라움으로 다가왔다."
+  },
+  {
+    id: 1827, day: 54, word: "surrender", phonetic: "/səˈrendər/", meaning: "v. 항복하다, 포기하다 / n. 항복",
+    example: "The outnumbered enemy troops had no choice but to surrender.",
+    exampleTranslation: "수적으로 열세인 적군은 항복하는 것 외에 다른 선택지가 없었다."
+  },
+  {
+    id: 1828, day: 54, word: "surround", phonetic: "/səˈraʊnd/", meaning: "v. 둘러싸다, 에워싸다",
+    example: "Tall green trees surround the peaceful country house.",
+    exampleTranslation: "키 큰 푸른 나무들이 평화로운 시골 주택을 둘러싸고 있다."
+  },
+  {
+    id: 1829, day: 54, word: "survey", phonetic: "/ˈsɜːrveɪ/", meaning: "n. 설문조사, 측량 / v. 조사하다",
+    example: "A recent survey showed high satisfaction among customers.",
+    exampleTranslation: "최근 설문조사에서 고객들의 높은 만족도가 나타났다."
+  },
+  {
+    id: 1830, day: 54, word: "survive", phonetic: "/sərˈvaɪv/", meaning: "v. 살아남다, 생존하다",
+    example: "Animals must adapt to changing climates to survive.",
+    exampleTranslation: "동물들은 살아남기 위해 변화하는 기후에 적응해야 한다."
+  },
+  {
+    id: 1831, day: 54, word: "suspect", phonetic: "/səˈspekt/", meaning: "v. 의심하다 / /ˈsʌspekt/ n. 용의자",
+    example: "Police questioned the main suspect regarding the robbery.",
+    exampleTranslation: "경찰은 강도 사건과 관련해 주 용의자를 심문했다."
+  },
+  {
+    id: 1832, day: 54, word: "suspend", phonetic: "/səˈspend/", meaning: "v. 중단하다, 매달다, 정직시키다",
+    example: "Train services were temporarily suspended due to heavy snow.",
+    exampleTranslation: "폭설로 인해 열차 운행이 일시 중단되었다."
+  },
+  {
+    id: 1833, day: 54, word: "sustain", phonetic: "/səˈsteɪn/", meaning: "v. 유지하다, 지속하다, 지탱하다",
+    example: "Plants need adequate water and sunlight to sustain life.",
+    exampleTranslation: "식물이 생명을 유지하기 위해서는 적절한 물과 햇빛이 필요하다."
+  },
+  {
+    id: 1834, day: 54, word: "swallow", phonetic: "/ˈswɑːloʊ/", meaning: "v. 삼키다 / n. 제비",
+    example: "Make sure to chew your food well before you swallow it.",
+    exampleTranslation: "음식을 삼키기 전에 잘 씹도록 하세요."
+  },
+  {
+    id: 1835, day: 54, word: "swamp", phonetic: "/swɑːmp/", meaning: "n. 늪, 습지 / v. 늪에 빠지게 하다",
+    example: "Alligators and various birds live in the tropical swamp.",
+    exampleTranslation: "열대 습지에는 악어들과 다양한 새들이 산다."
+  },
+  {
+    id: 1836, day: 54, word: "swear", phonetic: "/swer/", meaning: "v. 맹세하다, 욕하다",
+    example: "He swore to tell the truth in front of the court.",
+    exampleTranslation: "그는 법정 앞에서 진실을 말할 것을 맹세했다."
+  },
+{
+    id: 1837, day: 55, word: "sweat", phonetic: "/swet/", meaning: "n. 땀 / v. 땀을 흘리다",
+    example: "Athletes sweat heavily during intense physical training.",
+    exampleTranslation: "선수들은 고강도 신체 훈련 중에 땀을 많이 흘린다."
+  },
+  {
+    id: 1838, day: 55, word: "sweater", phonetic: "/ˈswetər/", meaning: "n. 스웨터",
+    example: "She wore a cozy woolen sweater to keep warm in winter.",
+    exampleTranslation: "그녀는 겨울에 따뜻하게 지내기 위해 아늑한 울 스웨터를 입었다."
+  },
+  {
+    id: 1839, day: 55, word: "sweep", phonetic: "/swiːp/", meaning: "v. 쓸다, 청소하다 / n. 쓸기",
+    example: "He grabbed a broom to sweep the dust off the floor.",
+    exampleTranslation: "그는 바닥의 먼지를 쓸어내기 위해 빗자루를 집어 들었다."
+  },
+  {
+    id: 1840, day: 55, word: "sweet", phonetic: "/swiːt/", meaning: "a. 단, 달콤한, 다정한",
+    example: "Ripe strawberries have a naturally sweet flavor.",
+    exampleTranslation: "잘 익은 딸기들은 자연적으로 달콤한 맛이 난다."
+  },
+  {
+    id: 1841, day: 55, word: "swell", phonetic: "/swel/", meaning: "v. 부풀다, 붓다 / n. 팽창",
+    example: "His ankle began to swell after the unexpected sports injury.",
+    exampleTranslation: "그의 발목은 예상치 못한 운동 부상 후에 부어오르기 시작했다."
+  },
+  {
+    id: 1842, day: 55, word: "swim", phonetic: "/swɪm/", meaning: "v. 수영하다 / n. 수영",
+    example: "Children love to swim in the outdoor pool during summer.",
+    exampleTranslation: "아이들은 여름철 야외 수영장에서 수영하는 것을 좋아한다."
+  },
+  {
+    id: 1843, day: 55, word: "swing", phonetic: "/swɪŋ/", meaning: "v. 흔들리다, 흔들다 / n. 그네, 흔들림",
+    example: "The heavy wooden sign swung back and forth in the wind.",
+    exampleTranslation: "무거운 나무 표지판이 바람에 이리저리 흔들렸다."
+  },
+  {
+    id: 1844, day: 55, word: "switch", phonetic: "/swɪtʃ/", meaning: "n. 스위치, 전환 / v. 바꾸다, 전환하다",
+    example: "Flip the wall switch to turn off the overhead lights.",
+    exampleTranslation: "천장 조명을 끄려면 벽 스위치를 켜고 꺼라(전환해라)."
+  },
+  {
+    id: 1845, day: 55, word: "sword", phonetic: "/sɔːrd/", meaning: "n. 칼, 검",
+    example: "Ancient knights carried sharp steel swords for protection.",
+    exampleTranslation: "고대 기사들은 보호를 위해 날카로운 강철 검을 휴대했다."
+  },
+  {
+    id: 1846, day: 55, word: "symbol", phonetic: "/ˈsɪmbl/", meaning: "n. 상징",
+    example: "The white dove is universally recognized as a symbol of peace.",
+    exampleTranslation: "하얀 비둘기는 평화의 상징으로 보편적으로 인정받는다."
+  },
+  {
+    id: 1847, day: 55, word: "sympathy", phonetic: "/ˈsɪmpəθi/", meaning: "n. 동정, 공감",
+    example: "She expressed deep sympathy for the grieving family.",
+    exampleTranslation: "그녀는 슬픔에 잠긴 가족에게 깊은 동정을 표했다."
+  },
+  {
+    id: 1848, day: 55, word: "symptom", phonetic: "/ˈsimptəm/", meaning: "n. 증상, 징후",
+    example: "A persistent cough and fever are common flu symptoms.",
+    exampleTranslation: "지속적인 기침과 열은 흔한 독감 증상이다."
+  },
+  {
+    id: 1849, day: 55, word: "system", phonetic: "/ˈsɪstəm/", meaning: "n. 시스템, 제도, 체계",
+    example: "The modern public transportation system is efficient.",
+    exampleTranslation: "현대 대중교통 시스템은 효율적이다."
+  },
+  {
+    id: 1850, day: 55, word: "table", phonetic: "/ˈteɪbl/", meaning: "n. 탁자, 식탁, 표",
+    example: "They gathered around the dining table to eat breakfast.",
+    exampleTranslation: "그들은 아침 식사를 먹기 위해 식탁 주위에 모였다."
+  },
+  {
+    id: 1851, day: 55, word: "tablet", phonetic: "/ˈtæblət/", meaning: "n. 태블릿, 알약",
+    example: "Students use digital tablets for interactive online classes.",
+    exampleTranslation: "학생들은 상호작용형 온라인 수업을 위해 디지털 태블릿을 사용한다."
+  },
+  {
+    id: 1852, day: 55, word: "tail", phonetic: "/teɪl/", meaning: "n. 꼬리",
+    example: "The friendly dog wagged its tail happily to welcome its owner.",
+    exampleTranslation: "친근한 개가 주인을 반기며 기쁘게 꼬리를 흔들었다."
+  },
+  {
+    id: 1853, day: 55, word: "tailor", phonetic: "/ˈteɪlər/", meaning: "n. 재단사 / v. 맞춤 제작하다, 맞추다",
+    example: "The tailor adjusted the suit jacket for a perfect fit.",
+    exampleTranslation: "재단사가 완벽한 핏을 위해 정장 재킷을 수선했다."
+  },
+  {
+    id: 1854, day: 55, word: "take", phonetic: "/teɪk/", meaning: "v. 가지다, 데려가다, 타다, (시간이) 걸리다",
+    example: "It takes about thirty minutes to walk to the station.",
+    exampleTranslation: "역까지 걸어가는 데 약 30분이 걸린다."
+  },
+  {
+    id: 1855, day: 55, word: "tale", phonetic: "/teɪl/", meaning: "n. 이야기, 전설",
+    example: "Grandmother told us an enchanting fairy tale before bed.",
+    exampleTranslation: "할머니께서 잠들기 전에 우리에게 매혹적인 동화를 들려주셨다."
+  },
+  {
+    id: 1856, day: 55, word: "talent", phonetic: "/ˈtælənt/", meaning: "n. 재능, 재주",
+    example: "She showed exceptional musical talent at a very young age.",
+    exampleTranslation: "그녀는 매우 어린 나이에 유난히 뛰어난 음악적 재능을 보였다."
+  },
+  {
+    id: 1857, day: 55, word: "talk", phonetic: "/tɔːk/", meaning: "v. 이야기하다, 말하다 / n. 대화, 강연",
+    example: "They sat on the bench talking quietly for hours.",
+    exampleTranslation: "그들은 벤치에 앉아 몇 시간 동안 조용히 이야기를 나눴다."
+  },
+  {
+    id: 1858, day: 55, word: "tall", phonetic: "/tɔːl/", meaning: "a. 키가 큰, 높은",
+    example: "A row of tall buildings lined the busy city avenue.",
+    exampleTranslation: "키 큰 건물들이 번화한 도시가를 따라 줄지어 서 있었다."
+  },
+  {
+    id: 1859, day: 55, word: "tame", phonetic: "/teɪm/", meaning: "a. 길들여진 / v. 길들이다",
+    example: "Wild animals are difficult to tame into domestic pets.",
+    exampleTranslation: "야생 동물들을 집에서 기르는 반려동물로 길들이기는 어렵다."
+  },
+  {
+    id: 1860, day: 55, word: "tank", phonetic: "/tæŋk/", meaning: "n. 탱크, 수조, 탱크(전차)",
+    example: "Fish swam around inside the large glass aquarium tank.",
+    exampleTranslation: "물고기들이 커다란 유리 수조 탱크 안에서 헤엄쳐 다녔다."
+  },
+  {
+    id: 1861, day: 55, word: "tap", phonetic: "/tæp/", meaning: "v. 톡톡 두드리다 / n. 수도꼭지, 가벼운 두드림",
+    example: "She tapped her fingers impatiently on the wooden desk.",
+    exampleTranslation: "그녀는 참을성 없게 나무 책상을 손가락으로 톡톡 두드렸다."
+  },
+  {
+    id: 1862, day: 55, word: "tape", phonetic: "/teɪp/", meaning: "n. 테이프 / v. 테이프로 붙이다",
+    example: "Seal the moving box securely with packaging tape.",
+    exampleTranslation: "포장용 테이프로 이사 상자를 단단히 밀봉하세요."
+  },
+  {
+    id: 1863, day: 55, word: "target", phonetic: "/ˈtɑːrɡɪt/", meaning: "n. 목표, 표적 / v. 겨냥하다",
+    example: "The company's main target is to double annual sales.",
+    exampleTranslation: "회사의 주된 목표는 연간 매출을 두 배로 늘리는 것이다."
+  },
+  {
+    id: 1864, day: 55, word: "task", phonetic: "/tæsk/", meaning: "n. 일, 과제, 임무",
+    example: "Completing the translation report is our urgent task today.",
+    exampleTranslation: "번역 보고서를 마치는 것이 우리의 오늘 긴급한 과제이다."
+  },
+  {
+    id: 1865, day: 55, word: "taste", phonetic: "/teɪst/", meaning: "n. 맛, 취향 / v. 맛이 나다, 맛보다",
+    example: "This homemade soup has a delicious savory taste.",
+    exampleTranslation: "이 홈메이드 수프는 맛있고 감칠맛 나는 맛을 낸다."
+  },
+  {
+    id: 1866, day: 55, word: "tax", phonetic: "/tæks/", meaning: "n. 세금 / v. 세금을 부과하다",
+    example: "Citizens are legally required to pay income tax.",
+    exampleTranslation: "시민들은 법적으로 소득세를 납부할 의무가 있다."
+  },
+  {
+    id: 1867, day: 55, word: "taxi", phonetic: "/ˈtæksi/", meaning: "n. 택시",
+    example: "They hailed a taxi to get to the airport on time.",
+    exampleTranslation: "그들은 제 시간에 공항에 도착하기 위해 택시를 잡았다."
+  },
+  {
+    id: 1868, day: 55, word: "tea", phonetic: "/tiː/", meaning: "n. 차(茶)",
+    example: "She prefers drinking warm green tea after meals.",
+    exampleTranslation: "그녀는 식후에 따뜻한 녹차를 마시는 것을 더 선호한다."
+  },
+  {
+    id: 1869, day: 55, word: "teach", phonetic: "/tiːtʃ/", meaning: "v. 가르치다",
+    example: "He teaches mathematics at a local high school.",
+    exampleTranslation: "그는 지역 고등학교에서 수학을 가르친다."
+  },
+  {
+    id: 1870, day: 55, word: "teacher", phonetic: "/ˈtiːtʃər/", meaning: "n. 선생님, 교사",
+    example: "The science teacher explained the experiment clearly.",
+    exampleTranslation: "과학 선생님이 실험을 알기 쉽게 설명해 주셨다."
+  },
+{
+    id: 1871, day: 56, word: "team", phonetic: "/tiːm/", meaning: "n. 팀, 조",
+    example: "Employees worked together as a team to finish the project.",
+    exampleTranslation: "직원들은 프로젝트를 끝마치기 위해 한 팀으로 함께 일했다."
+  },
+  {
+    id: 1872, day: 56, word: "tear", phonetic: "/tɪr/", meaning: "n. 눈물 / /ter/ v. 찢다, 찢어지다",
+    example: "A single tear rolled down her cheek during the sad movie.",
+    exampleTranslation: "슬픈 영화를 보는 동안 그녀의 뺨을 타고 눈물 한 방울이 흘러내렸다."
+  },
+  {
+    id: 1873, day: 56, word: "tease", phonetic: "/tiːz/", meaning: "v. 놀리다, 짓궂게 굴다",
+    example: "Older brothers sometimes like to tease their younger siblings.",
+    exampleTranslation: "형들은 가끔 어린 형제들을 놀리는 것을 좋아한다."
+  },
+  {
+    id: 1874, day: 56, word: "technical", phonetic: "/ˈteknɪkl/", meaning: "a. 기술적인, 전문적인",
+    example: "The software glitch was caused by a minor technical error.",
+    exampleTranslation: "그 소프트웨어 결함은 사소한 기술적 오류로 인해 발생했다."
+  },
+  {
+    id: 1875, day: 56, word: "technique", phonetic: "/tekˈniːk/", meaning: "n. 기술, 기법",
+    example: "She learned a new painting technique from a master artist.",
+    exampleTranslation: "그녀는 거장 예술가로부터 새로운 그림 기법을 배웠다."
+  },
+  {
+    id: 1876, day: 56, word: "technology", phonetic: "/tekˈnɑːlədʒi/", meaning: "n. 기술, 공학",
+    example: "Advances in modern technology have changed our daily lives.",
+    exampleTranslation: "현대 기술의 발전은 우리의 일상생활을 바꾸어 놓았다."
+  },
+  {
+    id: 1877, day: 56, word: "teenager", phonetic: "/ˈtiːneɪdʒər/", meaning: "n. 십대 청소년",
+    example: "Many teenagers enjoy listening to popular music and dancing.",
+    exampleTranslation: "많은 청소년들이 대중음악을 듣고 춤추는 것을 즐긴다."
+  },
+  {
+    id: 1878, day: 56, word: "telegram", phonetic: "/ˈtelɪɡræm/", meaning: "n. 전보",
+    example: "In the past, people sent urgent messages via telegram.",
+    exampleTranslation: "과거에 사람들은 전보를 통해 긴급한 메시지를 보냈다."
+  },
+  {
+    id: 1879, day: 56, word: "telephone", phonetic: "/ˈtelɪfoʊn/", meaning: "n. 전화기 / v. 전화하다",
+    example: "He picked up the telephone to call his office.",
+    exampleTranslation: "그는 사무실에 전화하기 위해 전화기를 집어 들었다."
+  },
+  {
+    id: 1880, day: 56, word: "telescope", phonetic: "/ˈtelɪskoʊp/", meaning: "n. 망원경",
+    example: "Astronomers observe distant stars using a powerful telescope.",
+    exampleTranslation: "천문학자들은 강력한 망원경을 이용해 먼 별들을 관측한다."
+  },
+  {
+    id: 1881, day: 56, word: "television", phonetic: "/ˈtelɪvɪʒn/", meaning: "n. 텔레비전, TV",
+    example: "The family sat in the living room watching television together.",
+    exampleTranslation: "가족들이 거실에 모여 앉아 함께 텔레비전을 시청했다."
+  },
+  {
+    id: 1882, day: 56, word: "tell", phonetic: "/tel/", meaning: "v. 말하다, 구별하다",
+    example: "Please tell me the truth about what happened yesterday.",
+    exampleTranslation: "어제 무슨 일이 있었는지 내게 진실을 말해 주세요."
+  },
+  {
+    id: 1883, day: 56, word: "temper", phonetic: "/ˈtempər/", meaning: "n. 성질, 기분, 화",
+    example: "Try to control your temper when arguments arise.",
+    exampleTranslation: "논쟁이 발생했을 때 화(성질)를 다스리도록 노력해라."
+  },
+  {
+    id: 1884, day: 56, word: "temperature", phonetic: "/ˈtemprətʃər/", meaning: "n. 온도, 기온",
+    example: "The outdoor temperature dropped below freezing point last night.",
+    exampleTranslation: "어젯밤 바깥 기온이 영하로 떨어졌다."
+  },
+  {
+    id: 1885, day: 56, word: "temple", phonetic: "/ˈtempl/", meaning: "n. 절, 사원, 관자놀이",
+    example: "Tourists visited the magnificent ancient Buddhist temple.",
+    exampleTranslation: "관광객들이 웅장한 고대 불교 사원을 방문했다."
+  },
+  {
+    id: 1886, day: 56, word: "temporary", phonetic: "/ˈtempəreri/", meaning: "a. 일시적인, 임시의",
+    example: "They set up a temporary shelter for flood victims.",
+    exampleTranslation: "그들은 홍수 이재민들을 위해 임시 보호소를 설치했다."
+  },
+  {
+    id: 1887, day: 56, word: "tempt", phonetic: "/tempt/", meaning: "v. 유혹하다, 부추기다",
+    example: "The sweet chocolate cake tempted him to break his diet.",
+    exampleTranslation: "달콤한 초콜릿 케이크가 그를 유혹해 다이어트를 깨게 만들었다."
+  },
+  {
+    id: 1888, day: 56, word: "tenant", phonetic: "/ˈtenənt/", meaning: "n. 세입자, 임차인",
+    example: "The landlord met with the new apartment tenant.",
+    exampleTranslation: "집주인이 새 아파트 세입자를 만났다."
+  },
+  {
+    id: 1889, day: 56, word: "tend", phonetic: "/tend/", meaning: "v. ~하는 경향이 있다, 돌보다",
+    example: "Prices tend to rise during the peak holiday season.",
+    exampleTranslation: "물가는 성수기 휴가철 동안 오르는 경향이 있다."
+  },
+  {
+    id: 1890, day: 56, word: "tendency", phonetic: "/ˈtendənsi/", meaning: "n. 경향, 성향",
+    example: "People have a tendency to buy more when items are on sale.",
+    exampleTranslation: "사람들은 물건이 할인 중일 때 더 많이 사는 경향이 있다."
+  },
+  {
+    id: 1891, day: 56, word: "tender", phonetic: "/ˈtendər/", meaning: "a. 부드러운, 다정한, 연한",
+    example: "The meat was cooked until it was tender and juicy.",
+    exampleTranslation: "고기는 부드럽고 육즙이 나올 때까지 조리되었다."
+  },
+  {
+    id: 1892, day: 56, word: "tennis", phonetic: "/ˈtenɪs/", meaning: "n. 테니스",
+    example: "She plays tennis with her friends every weekend.",
+    exampleTranslation: "그녀는 매주 주말마다 친구들과 테니스를 친다."
+  },
+  {
+    id: 1893, day: 56, word: "tense", phonetic: "/tens/", meaning: "a. 긴장한, 팽팽한 / n. 시제",
+    example: "An atmosphere of nervous tension filled the meeting room.",
+    exampleTranslation: "긴장된 분위기가 회의실을 가득 채웠다."
+  },
+  {
+    id: 1894, day: 56, word: "tent", phonetic: "/tent/", meaning: "n. 텐트, 천막",
+    example: "They pitched their camping tents under the starry night sky.",
+    exampleTranslation: "그들은 별이 빛나는 밤하늘 아래 캠핑 텐트를 쳤다."
+  },
+  {
+    id: 1895, day: 56, word: "term", phonetic: "/tɜːrm/", meaning: "n. 용어, 기간, 학기, 관점",
+    example: "The spring semester is the first term of the academic year.",
+    exampleTranslation: "봄 학기는 학년도의 첫 학기이다."
+  },
+  {
+    id: 1896, day: 56, word: "terminal", phonetic: "/ˈtɜːrmɪnl/", meaning: "n. 터미널, 단말기 / a. 말기의, 끝의",
+    example: "Passengers waited for their boarding call at the airport terminal.",
+    exampleTranslation: "승객들이 공항 터미널에서 탑승 안내를 기다렸다."
+  },
+  {
+    id: 1897, day: 56, word: "terrible", phonetic: "/ˈterəbl/", meaning: "a. 끔찍한, 심한",
+    example: "We had terrible weather during our entire vacation.",
+    exampleTranslation: "우리는 휴가 기간 내내 끔찍한 날씨를 겪었다."
+  },
+  {
+    id: 1898, day: 56, word: "territory", phonetic: "/ˈterətɔːri/", meaning: "n. 영토, 지역, 구역",
+    example: "Wolves patrol their designated hunting territory.",
+    exampleTranslation: "늑대들은 자신들의 지정된 사냥 영토를 순찰한다."
+  },
+  {
+    id: 1899, day: 56, word: "terror", phonetic: "/ˈterər/", meaning: "n. 공포, 두려움",
+    example: "The sudden loud explosion filled the citizens with terror.",
+    exampleTranslation: "갑작스러운 큰 폭발음이 시민들을 공포로 채웠다."
+  },
+  {
+    id: 1900, day: 56, word: "test", phonetic: "/test/", meaning: "n. 시험, 검사 / v. 테스트하다, 검사하다",
+    example: "Students studied hard for their upcoming math test.",
+    exampleTranslation: "학생들이 다가오는 수학 시험을 위해 열심히 공부했다."
+  },
+  {
+    id: 1901, day: 56, word: "text", phonetic: "/tekst/", meaning: "n. 본문, 글, 문자 메시지",
+    example: "Read the given text carefully before answering the questions.",
+    exampleTranslation: "질문에 답하기 전에 주어진 본문을 주의 깊게 읽으세요."
+  },
+  {
+    id: 1902, day: 56, word: "texture", phonetic: "/ˈtekstʃər/", meaning: "n. 감촉, 질감",
+    example: "The fabric has a smooth and luxurious texture.",
+    exampleTranslation: "그 직물은 부드럽고 고급스러운 질감을 가지고 있다."
+  },
+  {
+    id: 1903, day: 56, word: "than", phonetic: "/ðæn/", meaning: "prep. & conj. ~보다",
+    example: "Silver is less expensive than gold.",
+    exampleTranslation: "은은 금보다 덜 비싸다(싸다)."
+  },
+  {
+    id: 1904, day: 56, word: "thank", phonetic: "/θæŋk/", meaning: "v. 감사하다",
+    example: "I want to thank everyone who helped me with the project.",
+    exampleTranslation: "프로젝트를 도와준 모든 분께 감사드리고 싶다."
+  },
+{
+    id: 1905, day: 57, word: "that", phonetic: "/ðæt/", meaning: "pronoun & conj. 저, 저것, ~라는 것",
+    example: "I believe that hard work eventually brings good results.",
+    exampleTranslation: "나는 노력이 결국 좋은 결과를 가져온다고 믿는다."
+  },
+  {
+    id: 1906, day: 57, word: "theater", phonetic: "/ˈθiːətər/", meaning: "n. 극장, 영화관",
+    example: "We bought tickets to see a play at the local theater.",
+    exampleTranslation: "우리는 지역 극장에서 연극을 보기 위해 표를 샀다."
+  },
+  {
+    id: 1907, day: 57, word: "theme", phonetic: "/θiːm/", meaning: "n. 주제, 테마",
+    example: "The main theme of the novel is forgiveness and love.",
+    exampleTranslation: "그 소설의 주된 주제는 용서와 사랑이다."
+  },
+  {
+    id: 1908, day: 57, word: "then", phonetic: "/ðen/", meaning: "ad. 그때, 그리고 나서, 그라면",
+    example: "We had lunch first and then went for a walk in the park.",
+    exampleTranslation: "우리는 먼저 점심을 먹고 나서 공원으로 산책을 갔다."
+  },
+  {
+    id: 1909, day: 57, word: "theory", phonetic: "/ˈθɪəri/", meaning: "n. 이론",
+    example: "Einstein proposed his famous theory of relativity.",
+    exampleTranslation: "아인슈타인은 자신의 유명한 상대성 이론을 제안했다."
+  },
+  {
+    id: 1910, day: 57, word: "there", phonetic: "/ðer/", meaning: "ad. 거기에, 저기에",
+    example: "Please put the box over there on the shelf.",
+    exampleTranslation: "상자를 저기 선반 위에 놓아주세요."
+  },
+  {
+    id: 1911, day: 57, word: "therefore", phonetic: "/ˈðerfɔːr/", meaning: "ad. 그러므로, 따라서",
+    example: "It started to rain heavily; therefore, we postponed the trip.",
+    exampleTranslation: "비가 거세게 내리기 시작했다; 따라서 우리는 여행을 연기했다."
+  },
+  {
+    id: 1912, day: 57, word: "thermal", phonetic: "/ˈθɜːrml/", meaning: "a. 열의, 보온의, 온천의",
+    example: "Hikers wore thermal underwear to stay warm in the mountains.",
+    exampleTranslation: "하이커들은 산에서 체온을 유지하기 위해 내복(보온 내의)을 입었다."
+  },
+  {
+    id: 1913, day: 57, word: "these", phonetic: "/ðiːz/", meaning: "pronoun & a. 이것들 (this의 복수)",
+    example: "These flowers look fresh and smell wonderful.",
+    exampleTranslation: "이 꽃들은 신선해 보이고 향기가 아주 좋다."
+  },
+  {
+    id: 1914, day: 57, word: "they", phonetic: "/ðeɪ/", meaning: "pronoun. 그들, 그것들",
+    example: "They are planning to visit Korea next spring.",
+    exampleTranslation: "그들은 내년 봄에 한국을 방문할 계획이다."
+  },
+  {
+    id: 1915, day: 57, word: "thick", phonetic: "/θɪk/", meaning: "a. 두꺼운, 짙은",
+    example: "A thick layer of fog covered the early morning road.",
+    exampleTranslation: "짙은 안개층이 이른 아침 도로를 뒤덮었다."
+  },
+  {
+    id: 1916, day: 57, word: "ief", phonetic: "/θiːf/", meaning: "n. 도둑, 절도범",
+    example: "The quick-witted store clerk caught the shoplifter thief.",
+    exampleTranslation: "재치 있는 상점 점원이 좀동(상점 도둑)을 붙잡았다."
+  },
+  {
+    id: 1917, day: 57, word: "thin", phonetic: "/θɪn/", meaning: "a. 얇은, 마른",
+    example: "She wrapped herself in a thin cotton blanket.",
+    exampleTranslation: "그녀는 얇은 면 담요를 몸에 둘렀다."
+  },
+  {
+    id: 1918, day: 57, word: "thing", phonetic: "/θɪŋ/", meaning: "n. 것, 물건, 사물",
+    example: "Always keep your personal things organized and clean.",
+    exampleTranslation: "항상 개인 물건들을 정리 정돈되고 깨끗하게 유지해라."
+  },
+  {
+    id: 1919, day: 57, word: "think", phonetic: "/θɪŋk/", meaning: "v. 생각하다, 여기다",
+    example: "I think it is going to rain this afternoon.",
+    exampleTranslation: "나는 오늘 오후에 비가 올 것 같다고 생각한다."
+  },
+  {
+    id: 1920, day: 57, word: "third", phonetic: "/θɜːrd/", meaning: "a. & n. 세 번째의, 3분의 1",
+    example: "She finished in third place in the running race.",
+    exampleTranslation: "그녀는 달리기 경주에서 3등(세 번째 자리)으로 들어왔다."
+  },
+  {
+    id: 1921, day: 57, word: "thirsty", phonetic: "/ˈθɜːrsti/", meaning: "a. 목마른, 갈증 나는",
+    example: "Running under the hot sun made him very thirsty.",
+    exampleTranslation: "뜨거운 태양 아래서 달렸더니 그가 아주 목이 말라졌다."
+  },
+  {
+    id: 1922, day: 57, word: "this", phonetic: "/ðɪs/", meaning: "pronoun & a. 이것, 이",
+    example: "This new smartphone has an amazing camera system.",
+    exampleTranslation: "이 새 스마트폰은 놀라운 카메라 시스템을 가지고 있다."
+  },
+  {
+    id: 1923, day: 57, word: "thorough", phonetic: "/ˈθɜːroʊ/", meaning: "a. 철저한, 면밀한",
+    example: "The mechanic did a thorough check of the car engine.",
+    exampleTranslation: "정비사가 자동차 엔진을 면밀하게(철저히) 점검했다."
+  },
+  {
+    id: 1924, day: 57, word: "those", phonetic: "/ðoʊz/", meaning: "pronoun & a. 저것들, 저 (that의 복수)",
+    example: "Those mountains in the distance are covered with snow.",
+    exampleTranslation: "저 멀리 보이는 산들은 눈으로 뒤덮여 있다."
+  },
+  {
+    id: 1925, day: 57, word: "though", phonetic: "/ðoʊ/", meaning: "conj. 비록 ~이지만 / ad. 그렇지만",
+    example: "Though it was raining, they continued their hike.",
+    exampleTranslation: "비가 오고 있었지만, 그들은 하이킹을 계속했다."
+  },
+  {
+    id: 1926, day: 57, word: "thought", phonetic: "/θɔːt/", meaning: "n. 생각, 사고",
+    example: "Her brilliant thought changed the course of the project.",
+    exampleTranslation: "그녀의 기발한 생각이 프로젝트의 방향을 바꾸어 놓았다."
+  },
+  {
+    id: 1927, day: 57, word: "thousand", phonetic: "/ˈθaʊzənd/", meaning: "n. & a. 천(1,000)",
+    example: "Over a thousand fans gathered to see the singer.",
+    exampleTranslation: "천 명이 넘는 팬들이 그 가수를 보기 위해 모였다."
+  },
+  {
+    id: 1928, day: 57, word: "threat", phonetic: "/θret/", meaning: "n. 위협, 협박",
+    example: "Climate change poses a serious threat to global wildlife.",
+    exampleTranslation: "기후 변화는 전 세계 야생 동물들에게 심각한 위협을 제기한다."
+  },
+  {
+    id: 1929, day: 57, word: "threaten", phonetic: "/ˈθretn/", meaning: "v. 위협하다, 협박하다",
+    example: "Rising sea levels threaten coastal cities around the world.",
+    exampleTranslation: "상승하는 해수면이 전 세계의 해안 도시들을 위협하고 있다."
+  },
+  {
+    id: 1930, day: 57, word: "three", phonetic: "/θriː/", meaning: "n. & a. 셋, 3",
+    example: "She has three cats and two dogs living with her.",
+    exampleTranslation: "그녀는 자신과 함께 사는 고양이 세 마리와 개 두 마리가 있다."
+  },
+  {
+    id: 1931, day: 57, word: "throat", phonetic: "/θroʊt/", meaning: "n. 목, 목구멍",
+    example: "Drinking warm water helps soothe a sore throat.",
+    exampleTranslation: "따뜻한 물을 마시는 것은 아픈 목을 진정시키는 데 도움이 된다."
+  },
+  {
+    id: 1932, day: 57, word: "through", phonetic: "/θruː/", meaning: "prep. ~을 통하여, ~을 관통하여",
+    example: "Sunlight streamed through the large living room window.",
+    exampleTranslation: "햇살이 커다란 거실 창문을 통해 비쳐 들어왔다."
+  },
+  {
+    id: 1933, day: 57, word: "throughout", phonetic: "/θruːˈaʊt/", meaning: "prep. ~동안 내내, ~전역에 걸쳐",
+    example: "Cherry blossoms bloom throughout the country in spring.",
+    exampleTranslation: "봄에는 전국 전역에 걸쳐 벚꽃이 핀다."
+  },
+  {
+    id: 1934, day: 57, word: "throw", phonetic: "/θroʊ/", meaning: "v. 던지다",
+    example: "He threw the ball across the yard to his dog.",
+    exampleTranslation: "그는 마당을 가로질러 자신의 개에게 공을 던졌다."
+  },
+  {
+    id: 1935, day: 57, word: "thumb", phonetic: "/θʌm/", meaning: "n. 엄지손가락",
+    example: "He gave a thumb-up sign to show everything was fine.",
+    exampleTranslation: "그는 모든 것이 괜찮다는 것을 보여주기 위해 엄지척 사인을 보냈다."
+  },
+  {
+    id: 1936, day: 57, word: "thunder", phonetic: "/ˈθʌndər/", meaning: "n. 천둥 / v. 우르릉거리다",
+    example: "Loud flashes of lightning were followed by heavy thunder.",
+    exampleTranslation: "요란한 번개 번쩍임 뒤에 무거운 천둥소리가 이어졌다."
+  },
+  {
+    id: 1937, day: 57, word: "thus", phonetic: "/ðʌs/", meaning: "ad. 따라서, 그러므로, 이렇게",
+    example: "She practiced every day; thus, she won the competition.",
+    exampleTranslation: "그녀는 매일 연습했다; 따라서 그녀는 대회에서 우승했다."
+  },
+  {
+    id: 1938, day: 57, word: "ticket", phonetic: "/ˈtɪkɪt/", meaning: "n. 표, 티켓, 입장권",
+    example: "Please keep your boarding ticket ready for inspection.",
+    exampleTranslation: "검표를 위해 탑승권을 준비해 두세요."
+  },
+{
+    id: 1939, day: 58, word: "tide", phonetic: "/taɪd/", meaning: "n. 조수, 밀물과 썰물, 흐름",
+    example: "The rising tide quickly covered the sandy beach.",
+    exampleTranslation: "밀려오는 조수가 모래 해변을 빠르게 뒤덮었다."
+  },
+  {
+    id: 1940, day: 58, word: "tidy", phonetic: "/ˈtaɪdi/", meaning: "a. 깔끔한, 정돈된 / v. 정돈하다",
+    example: "She kept her bedroom neat and tidy all the time.",
+    exampleTranslation: "그녀는 언제나 자신의 침실을 깔끔하고 정돈되게 유지했다."
+  },
+  {
+    id: 1941, day: 58, word: "tie", phonetic: "/taɪ/", meaning: "v. 묶다, 매다 / n. 넥타이, 유대, 동점",
+    example: "He wore a crisp white shirt and a silk necktie.",
+    exampleTranslation: "그는 빳빳한 흰색 셔츠와 실크 넥타이를 착용했다."
+  },
+  {
+    id: 1942, day: 58, word: "tiger", phonetic: "/ˈtaɪɡər/", meaning: "n. 호랑이",
+    example: "Majestic tigers roam through the dense Asian forests.",
+    exampleTranslation: "위풍당당한 호랑이들이 빽빽한 아시아 숲속을 배회한다."
+  },
+  {
+    id: 1943, day: 58, word: "tight", phonetic: "/taɪt/", meaning: "a. 단단한, 꽉 조이는, 팽팽한",
+    example: "Make sure the ropes are tied secure and tight.",
+    exampleTranslation: "밧줄들이 안전하고 꽉 묶여 있는지 확인하세요."
+  },
+  {
+    id: 1944, day: 58, word: "tile", phonetic: "/taɪl/", meaning: "n. 타일, 기와",
+    example: "The bathroom floor is covered with white ceramic tiles.",
+    exampleTranslation: "욕실 바닥은 흰색 도자기 타일로 덮여 있다."
+  },
+  {
+    id: 1945, day: 58, word: "tilt", phonetic: "/tɪlt/", meaning: "v. 기울이다, 젖히다 / n. 기울기",
+    example: "He tilted his head slightly to listen more carefully.",
+    exampleTranslation: "그는 더 주의 깊게 들으려고 고개를 살짝 기울였다."
+  },
+  {
+    id: 1946, day: 58, word: "timber", phonetic: "/ˈtɪmbər/", meaning: "n. 재목, 목재",
+    example: "The old cabin was constructed entirely of heavy timber.",
+    exampleTranslation: "그 오래된 오두막은 전적으로 무거운 목재로 지어졌다."
+  },
+  {
+    id: 1947, day: 58, word: "time", phonetic: "/taɪm/", meaning: "n. 시간, 시대, 번",
+    example: "What time is it according to your wristwatch?",
+    exampleTranslation: "너의 손목시계로 지금 몇 시니?"
+  },
+  {
+    id: 1948, day: 58, word: "tiny", phonetic: "/ˈtaɪni/", meaning: "a. 아주 작은, 소형의",
+    example: "A tiny insect crawled across the wooden table.",
+    exampleTranslation: "아주 작은 곤충 한 마리가 나무 탁자 위를 기어갔다."
+  },
+  {
+    id: 1949, day: 58, word: "tip", phonetic: "/tɪp/", meaning: "n. 끝, 조언, 팁 / v. 기울어지다, 팁을 주다",
+    example: "Always sharpen the tip of your pencil before writing.",
+    exampleTranslation: "글을 쓰기 전에 항상 연필 끝을 뾰족하게 깎아라."
+  },
+  {
+    id: 1950, day: 58, word: "tire", phonetic: "/ˈtaɪər/", meaning: "v. 지치게 하다, 피로하게 하다 / n. 타이어",
+    example: "Running a marathon will easily tire anyone out.",
+    exampleTranslation: "마라톤을 뛰는 것은 누구나 쉽게 지치게 만들 것이다."
+  },
+  {
+    id: 1951, day: 58, word: "tissue", phonetic: "/ˈtɪʃuː/", meaning: "n. 조직, 화장지, 티슈",
+    example: "She wiped her tears softly with a soft paper tissue.",
+    exampleTranslation: "그녀는 부드러운 종이 티슈로 눈물을 부드럽게 닦아냈다."
+  },
+  {
+    id: 1952, day: 58, word: "title", phonetic: "/ˈtaɪtl/", meaning: "n. 제목, 표제, 직함",
+    example: "Write down your name and the book title on the paper.",
+    exampleTranslation: "종이에 이름과 책 제목을 적으세요."
+  },
+  {
+    id: 1953, day: 58, word: "to", phonetic: "/tuː/", meaning: "prep. ~로, ~에게",
+    example: "She walked directly to the library after class.",
+    exampleTranslation: "그녀는 수업이 끝나고 바로 도서관으로 걸어갔다."
+  },
+  {
+    id: 1954, day: 58, word: "toast", phonetic: "/toʊst/", meaning: "n. 토스트, 건배 / v. 굽다, 건배하다",
+    example: "He spread strawberry jam over a slice of warm toast.",
+    exampleTranslation: "그는 따뜻한 토스트 한 조각 위에 딸기잼을 발랐다."
+  },
+  {
+    id: 1955, day: 58, word: "tobacco", phonetic: "/təˈbækoʊ/", meaning: "n. 담배, 담배 잎",
+    example: "Laws strictly prohibit the sale of tobacco to minors.",
+    exampleTranslation: "법률은 미성년자에게 담배 판매를 엄격히 금지한다."
+  },
+  {
+    id: 1956, day: 58, word: "today", phonetic: "/təˈdeɪ/", meaning: "n. & ad. 오늘",
+    example: "Today is a wonderful day to start a new project.",
+    exampleTranslation: "오늘은 새로운 프로젝트를 시작하기에 아주 멋진 날이다."
+  },
+  {
+    id: 1957, day: 58, word: "toe", phonetic: "/toʊ/", meaning: "n. 발가락",
+    example: "He stubbed his toe against the heavy table leg.",
+    exampleTranslation: "그는 무거운 탁자 다리에 발가락을 찧었다."
+  },
+  {
+    id: 1958, day: 58, word: "together", phonetic: "/təˈɡeðər/", meaning: "ad. 함께, 같이",
+    example: "Friends worked together to clean up the neighborhood park.",
+    exampleTranslation: "친구들이 동네 공원을 청소하기 위해 함께 일했다."
+  },
+  {
+    id: 1959, day: 58, word: "toilet", phonetic: "/ˈtɔɪlət/", meaning: "n. 화장실",
+    example: "Excuse me, could you tell me where the nearest toilet is?",
+    exampleTranslation: "실례지만, 가장 가까운 화장실이 어디에 있는지 알려주실 수 있나요?"
+  },
+  {
+    id: 1960, day: 58, word: "token", phonetic: "/ˈtoʊkən/", meaning: "n. 표시, 증표, 토큰",
+    example: "They offered a small gift as a token of their deep gratitude.",
+    exampleTranslation: "그들은 깊은 감사의 표시로 작은 선물을 건넸다."
+  },
+  {
+    id: 1961, day: 58, word: "tolerate", phonetic: "/ˈtɑːləreɪt/", meaning: "v. 용인하다, 참다, 견디다",
+    example: "The school does not tolerate any form of bullying.",
+    exampleTranslation: "학교는 어떠한 형태의 따돌림도 용납(용인)하지 않는다."
+  },
+  {
+    id: 1962, day: 58, word: "tomato", phonetic: "/təˈmeɪtoʊ/", meaning: "n. 토마토",
+    example: "Fresh ripe red tomatoes are great for making salad.",
+    exampleTranslation: "신선하고 잘 익은 빨간 토마토는 샐러드를 만드는 데 아주 좋다."
+  },
+  {
+    id: 1963, day: 58, word: "tomorrow", phonetic: "/təˈmɑːroʊ/", meaning: "n. & ad. 내일",
+    example: "Tomorrow is going to be a busy day for all of us.",
+    exampleTranslation: "내일은 우리 모두에게 바쁜 하루가 될 것이다."
+  },
+  {
+    id: 1964, day: 58, word: "ton", phonetic: "/tʌn/", meaning: "n. 톤(중량 단위)",
+    example: "The large cargo ship carried hundreds of tons of steel.",
+    exampleTranslation: "그 대형 화물선은 수백 톤의 강철을 실어 나랐다."
+  },
+  {
+    id: 1965, day: 58, word: "tone", phonetic: "/toʊn/", meaning: "n. 어조, 말투, 음색",
+    example: "Her gentle tone of voice made everyone feel comfortable.",
+    exampleTranslation: "그녀의 부드러운 말투는 모든 사람이 편안함을 느끼게 했다."
+  },
+  {
+    id: 1966, day: 58, word: "tongue", phonetic: "/tʌŋ/", meaning: "n. 혀, 언어",
+    example: "English has become a major international tongue.",
+    exampleTranslation: "어느덧 영어가 주요 국제 언어가 되었다."
+  },
+  {
+    id: 1967, day: 58, word: "tonight", phonetic: "/təˈnaɪt/", meaning: "n. & ad. 오늘 밤",
+    example: "What are your plans for tonight after work?",
+    exampleTranslation: "퇴근 후 오늘 밤 계획이 어떻게 되시나요?"
+  },
+  {
+    id: 1968, day: 58, word: "too", phonetic: "/tuː/", meaning: "ad. 너무, 또한",
+    example: "The coffee was too hot to drink right away.",
+    exampleTranslation: "커피가 너무 뜨거워서 당장 마실 수 없었다."
+  },
+  {
+    id: 1969, day: 58, word: "tool", phonetic: "/tuːl/", meaning: "n. 도구, 연장",
+    example: "A hammer is an essential tool for carpentry work.",
+    exampleTranslation: "망치는 목공 작업에 필수적인 도구이다."
+  },
+  {
+    id: 1970, day: 58, word: "tooth", phonetic: "/tuːθ/", meaning: "n. 치아, 이",
+    example: "Brush your teeth carefully twice a day after meals.",
+    exampleTranslation: "식사 후 하루에 두 번 꼼꼼히 양치질을 하세요."
+  },
+  {
+    id: 1971, day: 58, word: "top", phonetic: "/tɑːp/", meaning: "n. 꼭대기, 맨 위 / a. 최고의",
+    example: "They reached the snowy top of the mountain after hours.",
+    exampleTranslation: "그들은 몇 시간 만에 눈 덮인 산꼭대기에 도달했다."
+  },
+  {
+    id: 1972, day: 58, word: "topic", phonetic: "/ˈtɑːpɪk/", meaning: "n. 주제, 화제",
+    example: "Climate change is a critical topic of global discussion.",
+    exampleTranslation: "기후 변화는 전 세계적 토론의 중대한 주제이다."
+  },
+{
+    id: 1973, day: 59, word: "total", phonetic: "/ˈtoʊtl/", meaning: "a. 총계의, 전체의 / n. 총계",
+    example: "The total cost of the shopping trip came to fifty dollars.",
+    exampleTranslation: "쇼핑 여행의 총비용은 50달러가 되었다."
+  },
+  {
+    id: 1974, day: 59, word: "touch", phonetic: "/tʌtʃ/", meaning: "v. 만지다, 감동시키다 / n. 촉감, 손길",
+    example: "Please do not touch the precious paintings in the museum.",
+    exampleTranslation: "박물관 안의 소중한 그림들을 만지지 마세요."
+  },
+  {
+    id: 1975, day: 59, word: "tough", phonetic: "/tʌf/", meaning: "a. 힘든, 질긴, 강인한",
+    example: "Running a marathon requires both physical and mental toughness.",
+    exampleTranslation: "마라톤을 뛰는 것은 신체적, 정신적 강인함 둘 다 요구한다."
+  },
+  {
+    id: 1976, day: 59, word: "tour", phonetic: /tʊr/, meaning: "n. 관광, 여행 / v. 여행하다",
+    example: "They went on a guided tour of historic European cities.",
+    exampleTranslation: "그들은 유럽의 역사적인 도시들을 도는 가이드 동반 관광을 갔다."
+  },
+  {
+    id: 1977, day: 59, word: "tourist", phonetic: "/ˈtʊrɪst/", meaning: "n. 관광객",
+    example: "Thousands of international tourists visit the palace every year.",
+    exampleTranslation: "매년 수천 명의 해외 관광객들이 그 궁궐을 방문한다."
+  },
+  {
+    id: 1978, day: 59, word: "toward", phonetic: "/təˈwɔːrd/", meaning: "prep. ~를 향하여",
+    example: "The ship sailed slowly toward the distant harbor.",
+    exampleTranslation: "배가 저 멀리 있는 항구를 향해 천천히 항해했다."
+  },
+  {
+    id: 1979, day: 59, word: "towel", phonetic: "/ˈtaʊəl/", meaning: "n. 수건, 타월",
+    example: "He dried his face and hands with a clean fluffy towel.",
+    exampleTranslation: "그는 깨끗하고 폭신한 수건으로 얼굴과 손을 닦았다."
+  },
+  {
+    id: 1980, day: 59, word: "tower", phonetic: "/ˈtaʊər/", meaning: "n. 탑, 고층 빌딩",
+    example: "A tall medieval clock tower stood in the town square.",
+    exampleTranslation: "마을 광장에 키 큰 중세 시대 시계탑이 서 있었다."
+  },
+  {
+    id: 1981, day: 59, word: "town", phonetic: "/taʊn/", meaning: "n. 도시, 읍",
+    example: "They moved from the bustling capital to a quiet country town.",
+    exampleTranslation: "그들은 번잡한 수도에서 조용한 시골 소도시로 이사했다."
+  },
+  {
+    id: 1982, day: 59, word: "trace", phonetic: "/treɪs/", meaning: "v. 추적하다, 자취를 찾다 / n. 자취, 흔적",
+    example: "Police tried to trace the source of the mysterious phone call.",
+    exampleTranslation: "경찰은 의문의 전화 통화 출처를 추적하려고 시도했다."
+  },
+  {
+    id: 1983, day: 59, word: "track", phonetic: "/træk/", meaning: "n. 트랙, 길, 자취 / v. 추적하다",
+    example: "Athletes ran around the red running track on the field.",
+    exampleTranslation: "선수들이 경기장의 빨간색 트랙을 따라 달렸다."
+  },
+  {
+    id: 1984, day: 59, word: "tractor", phonetic: "/ˈtræktər/", meaning: "n. 트랙터",
+    example: "The farmer used a large tractor to plow the field.",
+    exampleTranslation: "농부는 들판을 갈기 위해 큰 트랙터를 사용했다."
+  },
+  {
+    id: 1985, day: 59, word: "trade", phonetic: "/treɪd/", meaning: "n. 무역, 거래 / v. 거래하다, 교환하다",
+    example: "Many countries rely heavily on international maritime trade.",
+    exampleTranslation: "많은 국가가 국제 해상 무역에 크게 의존한다."
+  },
+  {
+    id: 1986, day: 59, word: "tradition", phonetic: "/trəˈdɪʃn/", meaning: "n. 전통",
+    example: "Lighting candles on birthdays is a long-standing family tradition.",
+    exampleTranslation: "생일에 촛불을 켜는 것은 오랜 전통의 가족 풍습이다."
+  },
+  {
+    id: 1987, day: 59, word: "traffic", phonetic: "/ˈtræfɪk/", meaning: "n. 교통, 교통량",
+    example: "Heavy morning traffic made him late for work.",
+    exampleTranslation: "아침 출근길 심한 교통 체증 때문에 그가 회사에 지각했다."
+  },
+  {
+    id: 1988, day: 59, word: "tragedy", phonetic: "/ˈtrædʒədi/", meaning: "n. 비극",
+    example: "The sudden natural disaster was an absolute tragedy.",
+    exampleTranslation: "그 갑작스러운 자연재해는 절대적인 비극이었다."
+  },
+  {
+    id: 1989, day: 59, word: "trail", phonetic: "/treɪl/", meaning: "n. 오솔길, 자취 / v. 질질 끌다, 뒤쫓다",
+    example: "Hikers followed the winding dirt trail up the mountain.",
+    exampleTranslation: "하이커들이 산 위로 구불구불한 흙길 오솔길을 따라 걸었다."
+  },
+  {
+    id: 1990, day: 59, word: "train", phonetic: "/treɪn/", meaning: "n. 기차, 열차 / v. 훈련하다",
+    example: "They took a fast express train to travel across the country.",
+    exampleTranslation: "그들은 전국을 여행하기 위해 고속 특급 열차를 탔다."
+  },
+  {
+    id: 1991, day: 59, word: "transfer", phonetic: "/trænsˈfɜːr/", meaning: "v. 이동하다, 전근하다, 환승하다 / n. 이동, 환승",
+    example: "You need to transfer to line two at the next station.",
+    exampleTranslation: "다음 역에서 2호선으로 환승해야 합니다."
+  },
+  {
+    id: 1992, day: 59, word: "transform", phonetic: "/trænsˈfɔːrm/", meaning: "v. 변형시키다, 바꾸다",
+    example: "Advanced technology has transformed the way we communicate.",
+    exampleTranslation: "고도화된 기술이 우리가 소통하는 방식을 바꾸어 놓았다."
+  },
+  {
+    id: 1993, day: 59, word: "transit", phonetic: "/ˈtrænzɪt/", meaning: "n. 대중교통, 통과, 운송",
+    example: "Public transit systems help reduce urban air pollution.",
+    exampleTranslation: "대중교통 시스템은 도시 대기 오염을 줄이는 데 도움을 준다."
+  },
+  {
+    id: 1994, day: 59, word: "translate", phonetic: "/trænzˈleɪt/", meaning: "v. 번역하다, 해석하다",
+    example: "She translated the English document into fluent Korean.",
+    exampleTranslation: "그녀는 영어 문서를 유창한 한국어로 번역했다."
+  },
+  {
+    id: 1995, day: 59, word: "transparent", phonetic: "/trænsˈpærənt/", meaning: "a. 투명한, 명백한",
+    example: "Clean glass windows are completely transparent.",
+    exampleTranslation: "깨끗한 유리창들은 완전히 투명하다."
+  },
+  {
+    id: 1996, day: 59, word: "transport", phonetic: "/ˈtrænspɔːrt/", meaning: "v. 운송하다, 수송하다 / n. 운송, 교통수단",
+    example: "Cargo planes are used to transport heavy equipment quickly.",
+    exampleTranslation: "화물기들은 무거운 장비를 신속하게 수송하는 데 사용된다."
+  },
+  {
+    id: 1997, day: 59, word: "trap", phonetic: "/træp/", meaning: "n. 덫, 함정 / v. 가두다, 덫으로 잡다",
+    example: "The adventurous mouse fell right into the hidden mouse trap.",
+    exampleTranslation: "모험심 많은 생쥐가 숨겨진 쥐덫에 딱 걸려들었다."
+  },
+  {
+    id: 1998, day: 59, word: "trash", phonetic: "/træʃ/", meaning: "n. 쓰레기",
+    example: "Please dispose of your empty plastic bottles in the trash bin.",
+    exampleTranslation: "빈 플라스틱 병들은 쓰레기통에 버려주세요."
+  },
+  {
+    id: 1999, day: 59, word: "travel", phonetic: "/ˈtrævl/", meaning: "v. 여행하다 / n. 여행",
+    example: "He loves to travel around the world discovering new cultures.",
+    exampleTranslation: "그는 새로운 문화를 발견하며 전 세계를 여행하는 것을 좋아한다."
+  },
+  {
+    id: 2000, day: 59, word: "treasure", phonetic: "/ˈtreʒər/", meaning: "n. 보물 / v. 소중히 여기다",
+    example: "Pirates buried their stolen gold treasure on a lonely island.",
+    exampleTranslation: "해적들이 훔친 금은보화를 외딴섬에 묻었다."
+  },
+  {
+    id: 2001, day: 59, word: "treat", phonetic: "/triːt/", meaning: "v. 대하다, 치료하다, 대접하다 / n. 한턱, 특별한 선물",
+    example: "The kind doctor successfully treated patients with flu.",
+    exampleTranslation: "친절한 의사가 독감 환자들을 성공적으로 치료했다."
+  },
+  {
+    id: 2002, day: 59, word: "tree", phonetic: "/triː/", meaning: "n. 나무",
+    example: "A massive old oak tree provided cool shade in summer.",
+    exampleTranslation: "거대하고 오래된 참나무가 여름철에 시원한 그늘을 제공했다."
+  },
+  {
+    id: 2003, day: 59, word: "tremble", phonetic: "/ˈtrembl/", meaning: "v. 떨다, 떨리다",
+    example: "Her hands began to tremble slightly with nervous excitement.",
+    exampleTranslation: "그녀의 손이 긴장된 설렘으로 살짝 떨리기 시작했다."
+  },
+  {
+    id: 2004, day: 59, word: "trend", phonetic: "/trend/", meaning: "n. 추세, 트렌드, 유행",
+    example: "Online shopping is a growing trend among modern consumers.",
+    exampleTranslation: "온라인 쇼핑은 현대 소비자들 사이에서 커져가는 트렌드이다."
+  },
+  {
+    id: 2005, day: 59, word: "trial", phonetic: "/ˈtraɪəl/", meaning: "n. 재판, 시도, 시험",
+    example: "The court case went to a full public jury trial.",
+    exampleTranslation: "그 법정 사건은 완전한 공개 배심원 재판으로 넘겨졌다."
+  },
+  {
+    id: 2006, day: 59, word: "trick", phonetic: "/trɪk/", meaning: "n. 속임수, 요령 / v. 속이다",
+    example: "Magicians use clever illusions and visual tricks in shows.",
+    exampleTranslation: "마술사들은 쇼에서 영리한 착시와 시각적 속임수를 사용한다."
+  },
+{
+    id: 2007, day: 60, word: "trip", phonetic: "/trɪp/", meaning: "n. 여행, 이동 / v. 발이 걸려 넘어지다",
+    example: "They planned a wonderful family trip to Jeju Island.",
+    exampleTranslation: "그들은 제주도로 향하는 멋진 가족 여행을 계획했다."
+  },
+  {
+    id: 2008, day: 60, word: "triumph", phonetic: "/ˈtraɪʌmf/", meaning: "n. 승리 / v. 승리하다",
+    example: "The team celebrated their hard-fought championship triumph.",
+    exampleTranslation: "팀은 힘들게 얻어낸 챔피언십 승리를 축하했다."
+  },
+  {
+    id: 2009, day: 60, word: "troop", phonetic: "/truːp/", meaning: "n. 군대, 병력, 무리",
+    example: "Military troops were deployed along the border line.",
+    exampleTranslation: "군 병력들이 국경선을 따라 배치되었다."
+  },
+  {
+    id: 2010, day: 60, word: "tropical", phonetic: "/ˈtrɑːpɪkl/", meaning: "a. 열대의",
+    example: "Many colorful exotic fruits grow in tropical rain forests.",
+    exampleTranslation: "열대 우림에서는 다채로운 이국적 과일들이 많이 자란다."
+  },
+  {
+    id: 2011, day: 60, word: "trouble", phonetic: "/ˈtrʌbl/", meaning: "n. 문제, 곤란, 고생 / v. 괴롭히다, 애먹이다",
+    example: "He always tries to help friends when they are in trouble.",
+    exampleTranslation: "그는 친구들이 곤란에 처했을 때 항상 도우려고 노력한다."
+  },
+  {
+    id: 2012, day: 60, word: "trousers", phonetic: "/ˈtraʊzərz/", meaning: "n. 바지",
+    example: "He paired his casual shirt with dark blue trousers.",
+    exampleTranslation: "그는 캐주얼 셔츠에 어두운 파란색 바지를 매치했다."
+  },
+  {
+    id: 2013, day: 60, word: "truck", phonetic: "/trʌk/", meaning: "n. 트럭, 화물자동차",
+    example: "Large transport trucks delivered boxes to the warehouse.",
+    exampleTranslation: "대형 운송 트럭들이 창고로 상자들을 배달했다."
+  },
+  {
+    id: 2014, day: 60, word: "true", phonetic: "/truː/", meaning: "a. 진실한, 진짜의, 참된",
+    example: "A true friend stands by you through difficult times.",
+    exampleTranslation: "진정한 친구는 힘든 시기에도 곁을 지켜준다."
+  },
+  {
+    id: 2015, day: 60, word: "truly", phonetic: "/ˈtruːli/", meaning: "ad. 진심으로, 정말로",
+    example: "I am truly grateful for your generous help and support.",
+    exampleTranslation: "당신의 너그러운 도움과 지원에 진심으로 감사드립니다."
+  },
+  {
+    id: 2016, day: 60, word: "trunk", phonetic: "/trʌŋk/", meaning: "n. 나무 줄기, 코끼리의 코, 트렁크",
+    example: "She placed her heavy luggage in the car trunk.",
+    exampleTranslation: "그녀는 무거운 짐을 자동차 트렁크에 실었다."
+  },
+  {
+    id: 2017, day: 60, word: "trust", phonetic: "/trʌst/", meaning: "v. 신뢰하다, 믿다 / n. 신뢰, 믿음",
+    example: "Trust and honesty are the foundation of a good relationship.",
+    exampleTranslation: "신뢰와 정직은 좋은 관계의 토대이다."
+  },
+  {
+    id: 2018, day: 60, word: "truth", phonetic: "/truːθ/", meaning: "n. 진실, 사실",
+    example: "It is always best to tell the absolute truth.",
+    exampleTranslation: "절대적인 진실을 말하는 것이 언제나 가장 좋다."
+  },
+  {
+    id: 2019, day: 60, word: "try", phonetic: "/traɪ/", meaning: "v. 애쓰다, 노력하다, 시도하다 / n. 시도",
+    example: "Always try your best, and never give up easily.",
+    exampleTranslation: "항상 최선을 다하고, 결코 쉽게 포기하지 마라."
+  },
+  {
+    id: 2020, day: 60, word: "tube", phonetic: "/tuːb/", meaning: "n. 관, 튜브",
+    example: "Squeeze the toothpaste gently from the bottom of the tube.",
+    exampleTranslation: "튜브 아래쪽에서 치약을 부드럽게 짜내세요."
+  },
+  {
+    id: 2021, day: 60, word: "tue", phonetic: "/tuːzdeɪ/", meaning: "n. 화요일 (Tuesday의 약형 또는 표기)",
+    example: "The next business meeting is scheduled for Tuesday.",
+    exampleTranslation: "다음 업무 회의는 화요일로 예정되어 있다."
+  },
+  {
+    id: 2022, day: 60, word: "tune", phonetic: "/tuːn/", meaning: "n. 곡조, 선율 / v. 조율하다",
+    example: "The musician carefully tuned his acoustic guitar before playing.",
+    exampleTranslation: "연주자가 연주하기 전에 어쿠스틱 기타를 신중하게 조율했다."
+  },
+  {
+    id: 2023, day: 60, word: "tunnel", phonetic: "/ˈtʌnl/", meaning: "n. 터널, 굴",
+    example: "The train passed through a long dark mountain tunnel.",
+    exampleTranslation: "열차가 길고 어두운 산악 터널을 통과해 지나갔다."
+  },
+  {
+    id: 2024, day: 60, word: "turbulent", phonetic: "/ˈtɜːrbjələnt/", meaning: "a. 격동하는, 사나운, 혼란스러운",
+    example: "The airplane encountered turbulent weather during the flight.",
+    exampleTranslation: "비행기는 비행 중에 격동하는(난기류의) 날씨를 마주쳤다."
+  },
+  {
+    id: 2025, day: 60, word: "turkey", phonetic: "/ˈtɜːrki/", meaning: "n. 칠면조",
+    example: "They served roasted turkey for the Thanksgiving family dinner.",
+    exampleTranslation: "그들은 추수감사절 가족 만찬을 위해 구운 칠면조 요리를 냈다."
+  },
+  {
+    id: 2026, day: 60, word: "turn", phonetic: "/tɜːrn/", meaning: "v. 돌다, 돌리다, 변하다 / n. 차례, 돌기",
+    example: "Turn left at the next traffic light intersection.",
+    exampleTranslation: "다음 신호등 교차로에서 왼쪽으로 돌세요."
+  },
+  {
+    id: 2027, day: 60, word: "tutor", phonetic: "/ˈtuːtər/", meaning: "n. 개인 지도 교사, 강사 / v. 지도하다",
+    example: "She works part-time as a math tutor for high school students.",
+    exampleTranslation: "그녀는 고등학생들을 위한 수학 개인 지도 교사로 아르바이트를 한다."
+  },
+  {
+    id: 2028, day: 60, word: "twice", phonetic: "/twaɪs/", meaning: "ad. 두 번, 두 배로",
+    example: "Brush your teeth at least twice a day after meals.",
+    exampleTranslation: "식사 후 하루에 최소 두 번 양치질을 하세요."
+  },
+  {
+    id: 2029, day: 60, word: "twin", phonetic: "/twɪn/", meaning: "n. 쌍둥이 중 한 명 / a. 쌍둥이의",
+    example: "The twin brothers look so similar that people confuse them.",
+    exampleTranslation: "그 쌍둥이 형제는 너무 닮아서 사람들이 헷갈려 한다."
+  },
+  {
+    id: 2030, day: 60, word: "twist", phonetic: "/twɪst/", meaning: "v. 비틀다, 구부리다 / n. 비틀기, 반전",
+    example: "He twisted his ankle while playing basketball on the court.",
+    exampleTranslation: "그는 코트에서 농구를 하다가 발목을 삐었다(비틀었다)."
+  },
+  {
+    id: 2031, day: 60, word: "type", phonetic: "/taɪp/", meaning: "n. 유형, 종류 / v. 타이핑하다, 글을 치다",
+    example: "What type of music do you enjoy listening to most?",
+    exampleTranslation: "너는 어떤 종류의 음악을 가장 듣는 것을 즐기니?"
+  },
+  {
+    id: 2032, day: 60, word: "typical", phonetic: "/ˈtɪpɪkl/", meaning: "a. 전형적인, 대표적인",
+    example: "This dish is a typical example of traditional local cuisine.",
+    exampleTranslation: "이 요리는 전통적인 지역 요리의 전형적인 예이다."
+  },
+  {
+    id: 2033, day: 60, word: "ugly", phonetic: "/ˈʌɡli/", meaning: "a. 추한, 못생긴, 불쾌한",
+    example: "An ugly argument broke out in the middle of the street.",
+    exampleTranslation: "거리 한복판에서 험악한(불쾌한) 말다툼이 벌어졌다."
+  },
+  {
+    id: 2034, day: 60, word: "ultimate", phonetic: "/ˈʌltɪmət/", meaning: "a. 궁극적인, 최종의",
+    example: "Our ultimate goal is to achieve customer satisfaction.",
+    exampleTranslation: "우리의 궁극적인 목표는 고객 만족을 달성하는 것이다."
+  },
+  {
+    id: 2035, day: 60, word: "umbrella", phonetic: "/ʌmˈbrelə/", meaning: "n. 우산",
+    example: "Don't forget to take an umbrella; it looks like rain.",
+    exampleTranslation: "우산 챙기는 것을 잊지 마세요; 비가 올 것 같아요."
+  },
+  {
+    id: 2036, day: 60, word: "unable", phonetic: "/ʌnˈeɪbl/", meaning: "a. ~할 수 없는",
+    example: "He was unable to attend the meeting due to sudden illness.",
+    exampleTranslation: "그는 갑작스러운 질병으로 인해 회의에 참석할 수 없었다."
+  },
+  {
+    id: 2037, day: 60, word: "unconscious", phonetic: "/ʌnˈkɑːnʃəs/", meaning: "a. 의식을 잃은, 무의식의",
+    example: "The patient was found unconscious on the living room floor.",
+    exampleTranslation: "환자가 거실 바닥에서 의식을 잃은 채 발견되었다."
+  },
+  {
+    id: 2038, day: 60, word: "under", phonetic: "/ˈʌndər/", meaning: "prep. & ad. ~ 아래에",
+    example: "The cat fell asleep peacefully under the warm desk.",
+    exampleTranslation: "고양이가 따뜻한 책상 아래서 평화롭게 잠들었다."
+  },
+  {
+    id: 2039, day: 60, word: "undergo", phonetic: "/ˌʌndərˈɡoʊ/", meaning: "v. 겪다, 치르다",
+    example: "The historic building is currently undergoing major repairs.",
+    exampleTranslation: "그 역사적인 건물은 현재 대수선 공사를 겪고(거치고) 있다."
+  },
+  {
+    id: 2040, day: 60, word: "undergraduate", phonetic: "/ˌʌndərˈɡrædʒuət/", meaning: "n. 대학생, 학부생",
+    example: "She is an undergraduate student majoring in computer science.",
+    exampleTranslation: "그녀는 컴퓨터과학을 전공하는 학부생이다."
+  }
 ];
