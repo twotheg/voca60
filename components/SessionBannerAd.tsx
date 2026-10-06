@@ -1,13 +1,27 @@
-import React from 'react';
+"use client";
+
+import React, { useEffect } from 'react';
 
 export default function SessionBannerAd() {
+  useEffect(() => {
+    // 광고 단위가 렌더링될 때 adsbygoogle 객체를 통해 광고를 밀어넣습니다(push)
+    try {
+      // @ts-ignore
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (err) {
+      console.error("AdSense error:", err);
+    }
+  }, []);
+
   return (
     <div style={adStyles.container}>
-      {/* 구글 애드센스 배너가 들어갈 자리입니다. */}
-      {/* 추후 애드센스 승인 후 발급받는 <ins> 태그와 스크립트를 여기에 넣게 됩니다. */}
-      <div style={adStyles.placeholder}>
-        <span style={adStyles.text}>AD (광고 영역)</span>
-      </div>
+      {/* 구글 애드센스 디스플레이/배너 광고 태그 */}
+      <ins 
+        className="adsbygoogle"
+        style={{ display: 'inline-block', width: '320px', height: '50px' }}
+        data-ad-client="ca-pub-4424569297437395" 
+        data-ad-slot="여기에_새로_만든_광고단위_번호_입력" 
+      />
     </div>
   );
 }
@@ -19,24 +33,11 @@ const adStyles = {
     left: 0,
     width: '100%',
     height: '50px',
-    backgroundColor: '#f1f1f1',
+    backgroundColor: '#030712', 
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
     zIndex: 9999,
-    borderTop: '1px solid #ddd',
-  },
-  placeholder: {
-    width: '100%',
-    height: '100%',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#e9ecef',
-  },
-  text: {
-    fontSize: '12px',
-    color: '#888',
-    fontWeight: 'bold' as const,
-  },
+    borderTop: '1px solid #1e293b',
+  }
 };
