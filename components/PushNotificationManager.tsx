@@ -34,9 +34,9 @@ export default function PushNotificationManager() {
       }
 
       const subscription = await registration.pushManager.subscribe({
-        userVisibleOnly: true,
-        applicationServerKey: urlBase64ToUint8Array(vapidPublicKey),
-      });
+  userVisibleOnly: true,
+  applicationServerKey: urlBase64ToUint8Array(vapidPublicKey) as any,
+});
 
       const res = await fetch("/api/push/subscribe", {
         method: "POST",
