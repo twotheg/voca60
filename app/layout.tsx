@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -28,7 +29,16 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <head>
-        <link rel="apple-touch-icon" href="/icon.svg" />
+        {/* 기존 svg에서 변경된 png 파일로 애플 아이콘 경로 수정 */}
+        <link rel="apple-touch-icon" href="/icon-192.png" />
+        
+        {/* 구글 애드센스 기본 스크립트 추가 */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4424569297437395"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
       </head>
       <body>{children}</body>
     </html>
