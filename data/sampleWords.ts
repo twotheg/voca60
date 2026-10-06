@@ -6521,5 +6521,1025 @@ export const INITIAL_WORDS: WordItem[] = [
     example: "The park is open to the general public free of charge.",
     exampleTranslation: "그 공인은 일반 대중에게 무료로 개방되어 있다."
   },
-  
+  {
+    id: 1293, day: 39, word: "publish", phonetic: "/ˈpʌblɪʃ/", meaning: "v. 출판하다, 발행하다, 발표하다",
+    example: "The author published her first novel last year.",
+    exampleTranslation: "그 작가는 작년에 첫 소설을 출판했다."
+  },
+  {
+    id: 1294, day: 39, word: "pull", phonetic: "/pʊl/", meaning: "v. 당기다, 끌다 / n. 끌기",
+    example: "Push the heavy door instead of pulling it.",
+    exampleTranslation: "문지방을 당기지 말고 무거운 문을 밀어라."
+  },
+  {
+    id: 1295, day: 39, word: "pulse", phonetic: "/pʌls/", meaning: "n. 맥박, 맥 / v. 맥박이 뛰다",
+    example: "The doctor checked the patient's pulse rate.",
+    exampleTranslation: "의사가 환자의 맥박 속도를 확인했다."
+  },
+  {
+    id: 1296, day: 39, word: "pump", phonetic: "/pʌmp/", meaning: "n. 펌프 / v. 펌프로 퍼 올리다",
+    example: "He used a hand pump to inflate the bicycle tires.",
+    exampleTranslation: "그는 자전거 타이어에 바람을 넣기 위해 수동 펌프를 사용했다."
+  },
+  {
+    id: 1297, day: 39, word: "punctual", phonetic: "/ˈpʌŋktʃuəl/", meaning: "a. 시간 엄수하는, 기일 지키는",
+    example: "She is always punctual for her morning classes.",
+    exampleTranslation: "그녀는 아침 수업에 항상 시간을 잘 지킨다."
+  },
+  {
+    id: 1298, day: 39, word: "punish", phonetic: "/ˈpʌnɪʃ/", meaning: "v. 처벌하다, 벌주다",
+    example: "Teachers should never physically punish students.",
+    exampleTranslation: "교사들은 학생을 신체적으로 처벌해서는 절대 안 된다."
+  },
+  {
+    id: 1299, day: 39, word: "pupil", phonetic: "/ˈpjuːpl/", meaning: "n. 학생, 눈동자의 동공",
+    example: "The elementary school has over five hundred pupils.",
+    exampleTranslation: "그 초등학교에는 5명이 넘는 학생이 있다."
+  },
+  {
+    id: 1300, day: 39, word: "purchase", phonetic: "/ˈpɜːrtʃəs/", meaning: "v. 구매하다 / n. 구매, 구입품",
+    example: "You can purchase your train tickets online in advance.",
+    exampleTranslation: "기차표를 온라인으로 사전에 구매할 수 있다."
+  },
+  {
+    id: 1301, day: 39, word: "pure", phonetic: "/pjʊr/", meaning: "a. 순수한, 깨끗한",
+    example: "The mountain spring water is completely pure and fresh.",
+    exampleTranslation: "그 산에서 나오는 샘물은 완전히 순수하고 신선하다."
+  },
+  {
+    id: 1302, day: 39, word: "purple", phonetic: "/ˈpɜːrpl/", meaning: "n. 보라색 / a. 보라색의",
+    example: "She wore a beautiful purple dress to the party.",
+    exampleTranslation: "그녀는 파티에 아름다운 보라색 드레스를 입고 갔다."
+  },
+  {
+    id: 1303, day: 39, word: "purpose", phonetic: "/ˈpɜːrpəs/", meaning: "n. 목적, 의도",
+    example: "What is the main purpose of your visit today?",
+    exampleTranslation: "오늘 방문하신 주된 목적이 무엇인가요?"
+  },
+  {
+    id: 1304, day: 39, word: "pursue", phonetic: "/pərˈsuː/", meaning: "v. 추구하다, 뒤쫓다",
+    example: "She decided to pursue a career in graphic design.",
+    exampleTranslation: "그녀는 시각 디자인 분야의 커리어를 추구하기로 결정했다."
+  },
+  {
+    id: 1305, day: 39, word: "push", phonetic: "/pʊʃ/", meaning: "v. 밀다, 누르다 / n. 밀기",
+    example: "Push the button to open the automatic sliding door.",
+    exampleTranslation: "자동 미닫이문을 열려면 버튼을 누르세요."
+  },
+  {
+    id: 1306, day: 39, word: "puzzle", phonetic: "/ˈpʌzl/", meaning: "n. 퍼즐, 수수께끼 / v. 당혹스럽게 하다",
+    example: "Solving jigsaw puzzles is her favorite hobby.",
+    exampleTranslation: "직소 퍼즐을 맞추는 것은 그녀의 가장 좋아하는 취미이다."
+  },
+  {
+    id: 1307, day: 39, word: "pyramid", phonetic: "/ˈpɪrəmɪd/", meaning: "n. 피라미드",
+    example: "Ancient Egyptians built magnificent stone pyramids.",
+    exampleTranslation: "고대 이집트인들은 웅장한 돌 피라미드를 건설했다."
+  },
+  {
+    id: 1308, day: 39, word: "quake", phonetic: "/kweɪk/", meaning: "v. 흔들리다, 떨리다 / n. 지진",
+    example: "The ground quaked violently during the major tremor.",
+    exampleTranslation: "큰 진동이 있는 동안 땅이 격렬하게 흔들렸다."
+  },
+  {
+    id: 1309, day: 39, word: "qualification", phonetic: "/ˌkwɑːlɪfɪˈkeɪʃn/", meaning: "n. 자격증, 자격 요건",
+    example: "A university degree is a basic qualification for the job.",
+    exampleTranslation: "대학 학위는 그 직업의 기본 자격 요건이다."
+  },
+  {
+    id: 1310, day: 39, word: "qualify", phonetic: "/ˈkwɑːlɪfaɪ/", meaning: "v. 자격을 얻다, 자격을 주다",
+    example: "She successfully qualified as a certified accountant.",
+    exampleTranslation: "그녀는 공인회계사 자격을 성공적으로 취득했다."
+  },
+  {
+    id: 1311, day: 39, word: "quality", phonetic: "/ˈkwɑːləti/", meaning: "n. 품질, 특성, 우수함",
+    example: "The store is known for selling high quality leather goods.",
+    exampleTranslation: "그 가게는 고품질의 가죽 제품을 판매하는 것으로 유명하다."
+  },
+  {
+    id: 1312, day: 39, word: "quantity", phonetic: "/ˈkwɑːntəti/", meaning: "n. 양, 수량",
+    example: "We need to check both the quality and quantity of goods.",
+    exampleTranslation: "우리는 상품의 품질과 수량 둘 다 점검해야 한다."
+  },
+  {
+    id: 1313, day: 39, word: "quantum", phonetic: "/ˈkwɑːntəm/", meaning: "n. 양자 / a. 양자의",
+    example: "Quantum physics explores the behavior of matter at atomic scales.",
+    exampleTranslation: "양자역학은 원자 규모에서의 물질의 행동을 탐구한다."
+  },
+  {
+    id: 1314, day: 39, word: "quarrel", phonetic: "/ˈkwɔːrəl/", meaning: "n. 말다툼, 불화 / v. 다투다",
+    example: "They had a minor quarrel over who should wash the dishes.",
+    exampleTranslation: "그들은 누가 설거지를 할지를 두고 사소한 말다툼을 벌였다."
+  },
+  {
+    id: 1315, day: 39, word: "quarter", phonetic: "/ˈkwɔːrtər/", meaning: "n. 4분의 1, 1사분기, 15분",
+    example: "Sales increased significantly during the third quarter.",
+    exampleTranslation: "3사분기 동안 매출이 크게 증가했다."
+  },
+  {
+    id: 1316, day: 39, word: "queen", phonetic: "/kwiːn/", meaning: "n. 여왕, 왕비",
+    example: "The queen greeted guests at the royal banquet.",
+    exampleTranslation: "여왕이 왕실 연회에서 손님들을 맞이했다."
+  },
+  {
+    id: 1317, day: 39, word: "quest", phonetic: "/kwest/", meaning: "n. 탐색, 탐구, 추구",
+    example: "The hero went on a dangerous quest to find the treasure.",
+    exampleTranslation: "영웅은 보물을 찾기 위한 위험한 탐색(여정)에 나섰다."
+  },
+  {
+    id: 1318, day: 39, word: "question", phonetic: "/ˈkwestʃən/", meaning: "n. 질문, 의문 / v. 질문하다",
+    example: "If you have any questions, please raise your hand.",
+    exampleTranslation: "질문이 있으시면 손을 들어 주세요."
+  },
+  {
+    id: 1319, day: 39, word: "quick", phonetic: "/kwɪk/", meaning: "a. 빠른, 신속한",
+    example: "She gave a quick response to the email.",
+    exampleTranslation: "그녀는 이메일에 신속한 답변을 주었다."
+  },
+  {
+    id: 1320, day: 39, word: "quiet", phonetic: "/ˈkwaɪət/", meaning: "a. 조용한, 평온한 / n. 조용함",
+    example: "Please be quiet in the library study room.",
+    exampleTranslation: "도서관 열람실에서는 조용히 해 주세요."
+  },
+  {
+    id: 1321, day: 39, word: "quit", phonetic: "/kwɪt/", meaning: "v. 그만두다, 그만두고 나가다",
+    example: "He decided to quit his job and start his own business.",
+    exampleTranslation: "그는 직장을 그만두고 자신의 사업을 시작하기로 결심했다."
+  },
+  {
+    id: 1322, day: 39, word: "quite", phonetic: "/kwaɪt/", meaning: "ad. 꽤, 완전히",
+    example: "The movie was quite interesting from start to finish.",
+    exampleTranslation: "그 영화는 처음부터 끝까지 꽤 흥미로웠다."
+  },
+  {
+    id: 1323, day: 39, word: "quote", phonetic: "/kwoʊt/", meaning: "v. 인용하다 / n. 인용구",
+    example: "He began his speech with a famous quote from Shakespeare.",
+    exampleTranslation: "그는 셰익스피어의 유명한 인용구로 연설을 시작했다."
+  },
+  {
+    id: 1324, day: 39, word: "rachel", phonetic: "/ˈreɪtʃəl/", meaning: "n. 레이첼 (인명)",
+    example: "Rachel is working as a graphic designer in New York.",
+    exampleTranslation: "레이첼은 뉴욕에서 그래픽 디자이너로 일하고 있다."
+  },
+  {
+    id: 1325, day: 39, word: "radar", phonetic: "/ˈreɪdɑːr/", meaning: "n. 레이더",
+    example: "Air traffic controllers track planes using radar systems.",
+    exampleTranslation: "항공 교통 관제사들은 레이더 시스템을 이용해 비행기를 추적한다."
+  },
+  {
+    id: 1326, day: 39, word: "radiant", phonetic: "/ˈreɪdiənt/", meaning: "a. 빛나는, 환하게 빛나는",
+    example: "The bride looked radiant in her white wedding dress.",
+    exampleTranslation: "신부는 하얀 웨딩드레스를 입고 환하게 빛나(아름다워) 보였다."
+  },
+{
+    id: 1327, day: 40, word: "radiation", phonetic: "/ˌreɪdiˈeɪʃn/", meaning: "n. 방사선, 복사열",
+    example: "Workers wore special gear to protect themselves from radiation.",
+    exampleTranslation: "작업자들은 방사선으로부터 자신을 보호하기 위해 특수 장비를 착용했다."
+  },
+  {
+    id: 1328, day: 40, word: "radical", phonetic: "/ˈrædɪkl/", meaning: "a. 급진적인, 과격한, 근본적인",
+    example: "The company announced radical changes to its business model.",
+    exampleTranslation: "그 회사는 비즈니스 모델에 대한 급진적인 변화를 발표했다."
+  },
+  {
+    id: 1329, day: 40, word: "radio", phonetic: "/ˈreɪdioʊ/", meaning: "n. 라디오, 무선전신기",
+    example: "They listened to the weather forecast on the car radio.",
+    exampleTranslation: "그들은 자동차 라디오로 일기 예보를 들었다."
+  },
+  {
+    id: 1330, day: 40, word: "rag", phonetic: "/ræɡ/", meaning: "n. 해진 천, 헝겊 조각",
+    example: "He wiped the dust off the table with a clean damp rag.",
+    exampleTranslation: "그는 깨끗하고 물기가 있는 헝겊 조각으로 탁자의 먼지를 닦아냈다."
+  },
+  {
+    id: 1331, day: 40, word: "rage", phonetic: "/reɪdʒ/", meaning: "n. 분노, 격노 / v. 맹위하다",
+    example: "He flew into a rage when he discovered his car was scratched.",
+    exampleTranslation: "그는 차가 긁힌 것을 발견하고 격노했다."
+  },
+  {
+    id: 1332, day: 40, word: "rail", phonetic: "/reɪl/", meaning: "n. 철도, 난간",
+    example: "Passengers stood waiting behind the safety rail at the station.",
+    exampleTranslation: "승객들이 역의 안전난간 뒤에서 서서 기다렸다."
+  },
+  {
+    id: 1333, day: 40, word: "rain", phonetic: "/reɪn/", meaning: "n. 비 / v. 비가 오다",
+    example: "Heavy rain caused temporary flooding in the low-lying areas.",
+    exampleTranslation: "폭우로 인해 저지대에 일시적인 침수가 발생했다."
+  },
+  {
+    id: 1334, day: 40, word: "raise", phonetic: "/reɪz/", meaning: "v. 올리다, 기르다, 모금하다 / n. 임금 인상",
+    example: "She raised her hand to ask a question in class.",
+    exampleTranslation: "그녀는 수업 중에 질문하기 위해 손을 들었다."
+  },
+  {
+    id: 1335, day: 40, word: "random", phonetic: "/ˈrændəm/", meaning: "a. 무작위의, 임의의",
+    example: "Participants were selected through a random drawing.",
+    exampleTranslation: "참가자들은 무작위 추첨을 통해 선정되었다."
+  },
+  {
+    id: 1336, day: 40, word: "range", phonetic: "/reɪndʒ/", meaning: "n. 범위, 산맥 / v. 다양하다",
+    example: "The prices of the menu items range from 5 to 20 dollars.",
+    exampleTranslation: "메뉴 아이템들의 가격은 5달러에서 20달러까지 다양하다."
+  },
+  {
+    id: 1337, day: 40, word: "rank", phonetic: "/ræŋk/", meaning: "n. 계급, 지위 / v. 자리를 차지하다",
+    example: "He achieved the rank of captain in the army.",
+    exampleTranslation: "그는 군대에서 대위 계급을 달성했다."
+  },
+  {
+    id: 1338, day: 40, word: "rapid", phonetic: "/ˈræpɪd/", meaning: "a. 빠른, 신속한",
+    example: "The city has experienced rapid economic growth over the decade.",
+    exampleTranslation: "그 도시는 지난 10년 동안 급속한 경제 성장을 겪었다."
+  },
+  {
+    id: 1339, day: 40, word: "rare", phonetic: "/rer/", meaning: "a. 희귀한, 드문",
+    example: "This species of bird is extremely rare in the wild.",
+    exampleTranslation: "이 새의 종은 야생에서 극도로 희귀하다."
+  },
+  {
+    id: 1340, day: 40, word: "rate", phonetic: "/reɪt/", meaning: "n. 비율, 속도, 요금 / v. 평가하다",
+    example: "The interest rate on savings accounts has decreased.",
+    exampleTranslation: "예금 계좌의 이자율(금리)이 하락했다."
+  },
+  {
+    id: 1341, day: 40, word: "rather", phonetic: "/ˈræðər/", meaning: "ad. 꽤, 오히려",
+    example: "The weather today is rather chilly compared to yesterday.",
+    exampleTranslation: "오늘 날씨는 어제에 비해 꽤 쌀쌀하다."
+  },
+  {
+    id: 1342, day: 40, word: "ratio", phonetic: "/ˈreɪʃioʊ/", meaning: "n. 비, 비율",
+    example: "The student-to-teacher ratio in this school is very low.",
+    exampleTranslation: "이 학교의 학생 대 교사 비율은 매우 낮다."
+  },
+  {
+    id: 1343, day: 40, word: "rational", phonetic: "/ˈræʃnl/", meaning: "a. 합리적인, 이성적인",
+    example: "We need to make a calm and rational decision.",
+    exampleTranslation: "우리는 차분하고 합리적인 결정을 내려야 한다."
+  },
+  {
+    id: 1344, day: 40, word: "raw", phonetic: "/rɔː/", meaning: "a. 날것의, 가공하지 않은",
+    example: "Sushi is made with raw fish and seasoned rice.",
+    exampleTranslation: "초밥은 날생선과 양념된 밥으로 만들어진다."
+  },
+  {
+    id: 1345, day: 40, word: "ray", phonetic: "/reɪ/", meaning: "n. 광선, 빛살",
+    example: "Warm rays of morning sunlight shone through the window.",
+    exampleTranslation: "아침 햇살의 따뜻한 광선이 창문을 통해 비쳐 들었다."
+  },
+  {
+    id: 1346, day: 40, word: "reach", phonetic: "/riːtʃ/", meaning: "v. 도달하다, 손을 뻗다 / n. 팔을 뻗는 범위",
+    example: "We finally reached the summit after a long climb.",
+    exampleTranslation: "우리는 긴 등반 끝에 마침내 정상에 도달했다."
+  },
+  {
+    id: 1347, day: 40, word: "react", phonetic: "/riˈækt/", meaning: "v. 반응하다",
+    example: "How did she react when you gave her the news?",
+    exampleTranslation: "네가 그 소식을 전했을 때 그녀가 어떻게 반응했니?"
+  },
+  {
+    id: 1348, day: 40, word: "read", phonetic: "/riːd/", meaning: "v. 읽다, 독서하다",
+    example: "He loves to read science fiction novels in his spare time.",
+    exampleTranslation: "그는 여가 시간에 공상 과학 소설을 읽는 것을 좋아한다."
+  },
+  {
+    id: 1349, day: 40, word: "ready", phonetic: "/ˈredi/", meaning: "a. 준비된",
+    example: "Are you ready to order your food now?",
+    exampleTranslation: "지금 음식 주문하실 준비가 되셨나요?"
+  },
+  {
+    id: 1350, day: 40, word: "real", phonetic: "/riːəl/", meaning: "a. 진짜의, 현실의",
+    example: "Is this diamond ring real or fake?",
+    exampleTranslation: "이 다이아몬드 반지는 진짜인가요, 가짜인가요?"
+  },
+  {
+    id: 1351, day: 40, word: "realize", phonetic: "/ˈriːəlaɪz/", meaning: "v. 깨닫다, 실현하다",
+    example: "He didn't realize how late it was until he checked his watch.",
+    exampleTranslation: "그는 시계를 확인할 때까지 시간이 얼마나 늦었는지 깨닫지 못했다."
+  },
+  {
+    id: 1352, day: 40, word: "really", phonetic: "/ˈriːəli/", meaning: "ad. 정말로, 실제로",
+    example: "I am really sorry for making you wait so long.",
+    exampleTranslation: "이렇게 오랫동안 기다리게 해서 정말로 미안합니다."
+  },
+  {
+    id: 1353, day: 40, word: "rear", phonetic: "/rɪr/", meaning: "n. 뒤쪽, 후방 / v. 기르다, 양육하다",
+    example: "Park your car in the parking space at the rear of the building.",
+    exampleTranslation: "건물 뒤쪽의 주차 공간에 차를 주차하세요."
+  },
+  {
+    id: 1354, day: 40, word: "reason", phonetic: "/ˈriːzn/", meaning: "n. 이유, 이성 / v. 추론하다",
+    example: "Can you explain the main reason for your decision?",
+    exampleTranslation: "당신의 결정에 대한 주된 이유를 설명해 주실 수 있나요?"
+  },
+  {
+    id: 1355, day: 40, word: "rebel", phonetic: "/ˈrebl/", meaning: "n. 반란군, 반역자 / /rɪˈbel/ v. 저항하다",
+    example: "The citizens rebelled against the unfair heavy taxes.",
+    exampleTranslation: "시민들은 불공정한 과도한 세금에 저항하여 봉기했다."
+  },
+  {
+    id: 1356, day: 40, word: "recall", phonetic: "/rɪˈkɔːl/", meaning: "v. 기억해내다, 회수하다 / n. 회상, 리콜",
+    example: "I cannot recall where I left my car keys.",
+    exampleTranslation: "자동차 열쇠를 어디에 두고 왔는지 기억해낼 수가 없다."
+  },
+  {
+    id: 1357, day: 40, word: "receipt", phonetic: "/rɪˈsiːt/", meaning: "n. 영수증, 수령",
+    example: "Please keep your receipt in case you need to return the item.",
+    exampleTranslation: "물품을 반품해야 할 경우를 대비해 영수증을 보관해 주세요."
+  },
+  {
+    id: 1358, day: 40, word: "receive", phonetic: "/rɪˈsiːv/", meaning: "v. 받다, 수신하다",
+    example: "She received a lovely birthday gift from her best friend.",
+    exampleTranslation: "그녀는 절친으로부터 사랑스러운 생일 선물을 받았다."
+  },
+  {
+    id: 1359, day: 40, word: "recent", phonetic: "/ˈriːsnt/", meaning: "a. 최근의",
+    example: "There have been several recent developments in technology.",
+    exampleTranslation: "기술 분야에서 최근에 몇 가지 발전이 있었다."
+  },
+  {
+    id: 1360, day: 40, word: "recipe", phonetic: "/ˈresəpi/", meaning: "n. 조리법, 레시피",
+    example: "She followed a traditional family recipe to bake the cake.",
+    exampleTranslation: "그녀는 케이크를 굽기 위해 전통적인 집안 레시피를 따랐다."
+  },
+{
+    id: 1361, day: 41, word: "recognize", phonetic: "/ˈrekəɡnaɪz/", meaning: "v. 알아보다, 인정하다",
+    example: "I didn't recognize him because he was wearing a mask.",
+    exampleTranslation: "그가 마스크를 쓰고 있어서 나는 그를 알아보지 못했다."
+  },
+  {
+    id: 1362, day: 41, word: "recommend", phonetic: "/ˌrekəˈmend/", meaning: "v. 추천하다",
+    example: "Can you recommend a good restaurant near here?",
+    exampleTranslation: "이 근처에 괜찮은 식당 하나 추천해 주시겠어요?"
+  },
+  {
+    id: 1363, day: 41, word: "reconcile", phonetic: "/ˈrekənsaɪl/", meaning: "v. 화해시키다, 조화시키다",
+    example: "They managed to reconcile after years of misunderstanding.",
+    exampleTranslation: "그들은 수년간의 오해 끝에 간신히 화해했다."
+  },
+  {
+    id: 1364, day: 41, word: "record", phonetic: "/ˈrekərd/", meaning: "n. 기록, 음반 / /rɪˈkɔːrd/ v. 기록하다",
+    example: "She broke the world record in the 100-meter sprint.",
+    exampleTranslation: "그녀는 100배 단거리 종목에서 세계 기록을 경신했다."
+  },
+  {
+    id: 1365, day: 41, word: "recover", phonetic: "/rɪˈkʌvər/", meaning: "v. 회복하다, 되찾다",
+    example: "He is slowly recovering from a severe flu.",
+    exampleTranslation: "그는 심한 독감으로부터 천천히 회복하고 있다."
+  },
+  {
+    id: 1366, day: 41, word: "recreation", phonetic: "/ˌrekriˈeɪʃn/", meaning: "n. 레크리에이션, 오락",
+    example: "Hiking and camping are popular weekend recreation activities.",
+    exampleTranslation: "하이킹과 캠핑은 인기 있는 주말 레크리에이션 활동이다."
+  },
+  {
+    id: 1367, day: 41, word: "recruit", phonetic: "/rɪˈkruːt/", meaning: "v. 모집하다, 뽑다 / n. 신입사원, 신병",
+    example: "The company is looking to recruit talented engineers.",
+    exampleTranslation: "그 회사는 유능한 엔지니어들을 채용(모집)하고자 한다."
+  },
+  {
+    id: 1368, day: 41, word: "recycle", phonetic: "/ˌriːˈsaɪkl/", meaning: "v. 재활용하다",
+    example: "Please separate plastic bottles and paper for recycling.",
+    exampleTranslation: "재활용을 위해 플라스틱 병과 종이를 분리해 주세요."
+  },
+  {
+    id: 1369, day: 41, word: "reduce", phonetic: "/rɪˈduːs/", meaning: "v. 줄이다, 감소시키다",
+    example: "We must take steps to reduce carbon emissions.",
+    exampleTranslation: "우리는 탄소 배출량을 줄이기 위한 조치를 취해야 한다."
+  },
+  {
+    id: 1370, day: 41, word: "refer", phonetic: "/rɪˈfɜːr/", meaning: "v. 언급하다, 참고하다, 참조하다",
+    example: "He referred to his notes during the presentation.",
+    exampleTranslation: "그는 발표 중에 자신의 노트를 참고했다."
+  },
+  {
+    id: 1371, day: 41, word: "refine", phonetic: "/rɪˈfaɪn/", meaning: "v. 정제하다, 개선하다, 다듬다",
+    example: "Crude oil is heated and refined into gasoline.",
+    exampleTranslation: "원유는 가열되어 휘발유로 정제된다."
+  },
+  {
+    id: 1372, day: 41, word: "reflect", phonetic: "/rɪˈflekt/", meaning: "v. 반사하다, 반영하다, 숙고하다",
+    example: " Calm water reflects the blue sky like a mirror.",
+    exampleTranslation: "잔잔한 물은 거울처럼 파란 하늘을 반사한다."
+  },
+  {
+    id: 1373, day: 41, word: "reform", phonetic: "/rɪˈfɔːrm/", meaning: "n. 개혁 / v. 개혁하다",
+    example: "The government proposed a major tax reform bill.",
+    exampleTranslation: "정부는 주요 세제 개혁 법안을 발의했다."
+  },
+  {
+    id: 1374, day: 41, word: "refresh", phonetic: "/rɪˈfreʃ/", meaning: "v. 상쾌하게 하다, 새롭게 하다",
+    example: "A cold glass of water refreshed him on a hot day.",
+    exampleTranslation: "시원한 물 한 잔이 더운 날 그의 기운을 북돋아 주었다(상쾌하게 했다)."
+  },
+  {
+    id: 1375, day: 41, word: "refrigerator", phonetic: "/rɪˈfrɪdʒəreɪtər/", meaning: "n. 냉장고",
+    example: "Keep perishable food stored safely in the refrigerator.",
+    exampleTranslation: "상하기 쉬운 음식은 냉장고에 안전하게 보관하세요."
+  },
+  {
+    id: 1376, day: 41, word: "refuge", phonetic: "/ˈrefjuːdʒ/", meaning: "n. 피난, 피난처, 은신처",
+    example: "The travelers sought refuge from the sudden storm.",
+    exampleTranslation: "여행객들은 갑작스러운 폭풍을 피해 피난처를 찾았다."
+  },
+  {
+    id: 1377, day: 41, word: "refuse", phonetic: "/rɪˈfjuːz/", meaning: "v. 거절하다, 거부하다",
+    example: "She refused to accept his apology.",
+    exampleTranslation: "그녀는 그의 사과를 받아들이기를 거부했다."
+  },
+  {
+    id: 1378, day: 41, word: "regard", phonetic: "/rɪˈɡɑːrd/", meaning: "v. 여기다, 간주하다 / n. 존경, 관심",
+    example: "He is widely regarded as one of the best poets of his time.",
+    exampleTranslation: "그는 당대 최고의 시인 중 한 명으로 널리 간주된다."
+  },
+  {
+    id: 1379, day: 41, word: "region", phonetic: "/ˈriːdʒən/", meaning: "n. 지역, 지방",
+    example: "This mountainous region is famous for its beautiful scenery.",
+    exampleTranslation: "이 산악 지역은 아름다운 경치로 유명하다."
+  },
+  {
+    id: 1380, day: 41, word: "register", phonetic: "/ˈredʒɪstər/", meaning: "v. 등록하다, 기록하다 / n. 장부, 등록부",
+    example: "You need to register online before attending the workshop.",
+    exampleTranslation: "워크숍에 참석하기 전에 온라인으로 등록해야 합니다."
+  },
+  {
+    id: 1381, day: 41, word: "regret", phonetic: "/rɪˈɡret/", meaning: "v. 후회하다 / n. 후회, 유감",
+    example: "I deeply regret missing such a wonderful opportunity.",
+    exampleTranslation: "나는 그렇게 멋진 기회를 놓친 것을 깊이 후회한다."
+  },
+  {
+    id: 1382, day: 41, word: "regular", phonetic: "/ˈreɡjələr/", meaning: "a. 규칙적인, 정기적인",
+    example: "Eating meals at regular times is good for digestion.",
+    exampleTranslation: "정기적인 시간에 식사하는 것은 소화에 좋다."
+  },
+  {
+    id: 1383, day: 41, word: "regulate", phonetic: "/ˈreɡjuleɪt/", meaning: "v. 규제하다, 조절하다",
+    example: "Laws are established to regulate business practices.",
+    exampleTranslation: "법은 기업의 관행을 규제하기 위해 제정된다."
+  },
+  {
+    id: 1384, day: 41, word: "reign", phonetic: "/reɪn/", meaning: "n. 통치기간, 군림 / v. 군림하다, 통치하다",
+    example: "The queen had a long and peaceful reign of fifty years.",
+    exampleTranslation: "여왕은 50년 동안 길고 평화로운 통치 기간을 가졌다."
+  },
+  {
+    id: 1385, day: 41, word: "reinforce", phonetic: "/ˌriːɪnˈfɔːrs/", meaning: "v. 강화하다, 보강하다",
+    example: "Steel bars were used to reinforce the concrete structure.",
+    exampleTranslation: "콘크리트 구조물을 보강하기 위해 철근이 사용되었다."
+  },
+  {
+    id: 1386, day: 41, word: "reject", phonetic: "/rɪˈdʒekt/", meaning: "v. 거절하다, 거부하다",
+    example: "The committee decided to reject the proposal.",
+    exampleTranslation: "위원회는 그 제안을 거절하기로 결정했다."
+  },
+  {
+    id: 1387, day: 41, word: "relate", phonetic: "/rɪˈleɪt/", meaning: "v. 관련시키다, 이야기하다",
+    example: "It is hard to relate economic theory to everyday life.",
+    exampleTranslation: "경제 이론을 일상생활과 관련시키기는 어렵다."
+  },
+  {
+    id: 1388, day: 41, word: "relation", phonetic: "/rɪˈleɪʃn/", meaning: "n. 관계, 관련",
+    example: "Good communication is essential in human relations.",
+    exampleTranslation: "원활한 소통은 인간관계에서 필수적이다."
+  },
+  {
+    id: 1389, day: 41, word: "relative", phonetic: "/ˈrelətɪv/", meaning: "a. 상대적인 / n. 친척",
+    example: "Comfort is relative, depending on individual preferences.",
+    exampleTranslation: "편안함은 개인의 선호에 따라 상대적이다."
+  },
+  {
+    id: 1390, day: 41, word: "relax", phonetic: "/rɪˈlæks/", meaning: "v. 긴장을 풀다, 휴식을 취하다",
+    example: "Listen to soft music to relax after a hard day.",
+    exampleTranslation: "힘든 하루를 보낸 후 긴장을 풀기 위해 부드러운 음악을 들어라."
+  },
+  {
+    id: 1391, day: 41, word: "release", phonetic: "/rɪˈliːs/", meaning: "v. 석방하다, 출시하다, 개봉하다 / n. 출시, 석방",
+    example: "The movie is scheduled for theatrical release next month.",
+    exampleTranslation: "그 영화는 다음 달에 극장 개봉(출시)될 예정이다."
+  },
+  {
+    id: 1392, day: 41, word: "relevant", phonetic: "/ˈreləvənt/", meaning: "a. 관련된, 적절한",
+    example: "Please provide all relevant documents for your application.",
+    exampleTranslation: "지원서와 관련된 모든 서류를 제출해 주세요."
+  },
+  {
+    id: 1393, day: 41, word: "reliable", phonetic: "/rɪˈlaɪəbl/", meaning: "a. 믿을 수 있는, 신뢰할 수 있는",
+    example: "We need a reliable source of information for our research.",
+    exampleTranslation: "우리는 연구를 위해 신뢰할 수 있는 정보 출처가 필요하다."
+  },
+  {
+    id: 1394, day: 41, word: "relief", phonetic: "/rɪˈliːf/", meaning: "n. 안도, 완화, 구호물자",
+    example: "She breathed a sigh of relief when she heard the good news.",
+    exampleTranslation: "그녀는 좋은 소식을 듣고 안도의 한숨을 쉬었다."
+  },
+{
+    id: 1395, day: 42, word: "relieve", phonetic: "/rɪˈliːv/", meaning: "v. 완화하다, 안도하게 하다",
+    example: "Taking a hot bath can help relieve muscle tension.",
+    exampleTranslation: "따뜻한 목욕은 근육 긴장을 완화하는 데 도움이 될 수 있다."
+  },
+  {
+    id: 1396, day: 42, word: "religion", phonetic: "/rɪˈlɪdʒən/", meaning: "n. 종교",
+    example: "People of various faiths and religions live peacefully together.",
+    exampleTranslation: "다양한 신앙과 종교를 가진 사람들이 평화롭게 함께 살아간다."
+  },
+  {
+    id: 1397, day: 42, word: "reluctant", phonetic: "/rɪˈlʌktənt/", meaning: "a. 마지못해 하는, 꺼리는",
+    example: "He was reluctant to admit his mistake at first.",
+    exampleTranslation: "그는 처음에는 자신의 실수를 인정하기를 꺼렸다(마지못해 했다)."
+  },
+  {
+    id: 1398, day: 42, word: "rely", phonetic: "/rɪˈlaɪ/", meaning: "v. 의존하다, 믿다",
+    example: "Small businesses rely heavily on local customers.",
+    exampleTranslation: "소규모 기업들은 지역 고객들에게 크게 의존한다."
+  },
+  {
+    id: 1399, day: 42, word: "remain", phonetic: "/rɪˈmeɪn/", meaning: "v. 남아 있다, 여전히 ~이다",
+    example: "Much work remains to be done before the deadline.",
+    exampleTranslation: "마감일까지 해야 할 일이 많이 남아 있다."
+  },
+  {
+    id: 1400, day: 42, word: "remark", phonetic: "/rɪˈmɑːrk/", meaning: "v. 발언하다, 말하다 / n. 발언, 논평",
+    example: "She made a favorable remark about his presentation.",
+    exampleTranslation: "그녀는 그의 발표에 대해 호의적인 논평을 했다."
+  },
+  {
+    id: 1401, day: 42, word: "remedy", phonetic: "/ˈremədi/", meaning: "n. 치료제, 해결책 / v. 바로잡다",
+    example: "Herbal tea is a traditional home remedy for colds.",
+    exampleTranslation: "허브차는 감기를 위한 전통적인 가정 요법(치료제)이다."
+  },
+  {
+    id: 1402, day: 42, word: "remember", phonetic: "/rɪˈmembər/", meaning: "v. 기억하다",
+    example: "Do you remember where we parked our car?",
+    exampleTranslation: "우리가 차를 어디에 주차했는지 기억하니?"
+  },
+  {
+    id: 1403, day: 42, word: "remote", phonetic: "/rɪˈmoʊt/", meaning: "a. 원격의, 멀리 떨어진",
+    example: "They live in a remote village far away from the city.",
+    exampleTranslation: "그들은 도시에서 멀리 떨어진 오지 마을에 산다."
+  },
+  {
+    id: 1404, day: 42, word: "remove", phonetic: "/rɪˈmuːv/", meaning: "v. 제거하다, 치우다",
+    example: "Please remove your shoes before entering the room.",
+    exampleTranslation: "방에 들어가기 전에 신발을 벗어(제거해) 주세요."
+  },
+  {
+    id: 1405, day: 42, word: "Renaissance", phonetic: "/ˈrenəsɑːns/", meaning: "n. 르네상스, 문예 부흥",
+    example: "The Renaissance was a cultural movement that began in Italy.",
+    exampleTranslation: "르네상스는 이탈리아에서 시작된 문화적 운동이었다."
+  },
+  {
+    id: 1406, day: 42, word: "render", phonetic: "/ˈrendər/", meaning: "v. 만들다, 제공하다, 주다",
+    example: "New technology can render old machines obsolete.",
+    exampleTranslation: "신기술은 구형 기계들을 쓸모없게 만들 수 있다."
+  },
+  {
+    id: 1407, day: 42, word: "renew", phonetic: "/rɪˈnuː/", meaning: "v. 갱신하다, 새롭게 하다",
+    example: "You need to renew your passport before traveling abroad.",
+    exampleTranslation: "해외여행을 가기 전에 여권을 갱신해야 한다."
+  },
+  {
+    id: 1408, day: 42, word: "rent", phonetic: "/rent/", meaning: "n. 집세, 임대료 / v. 임대하다, 빌리다",
+    example: "They pay a monthly rent for their apartment.",
+    exampleTranslation: "그들은 아파트에 대한 월세를 매달 지불한다."
+  },
+  {
+    id: 1409, day: 42, word: "repair", phonetic: "/rɪˈper/", meaning: "v. 수리하다, 고치다 / n. 수리",
+    example: "He tried to repair the broken bicycle chain.",
+    exampleTranslation: "그는 고장난 자전거 체인을 수리하려고 시도했다."
+  },
+  {
+    id: 1410, day: 42, word: "repeat", phonetic: "/rɪˈpiːt/", meaning: "v. 반복하다 / n. 반복",
+    example: "Could you please repeat what you just said?",
+    exampleTranslation: "방금 하신 말씀을 다시 한번 반복해 주시겠어요?"
+  },
+  {
+    id: 1411, day: 42, word: "replace", phonetic: "/rɪˈpleɪs/", meaning: "v. 대체하다, 대신하다",
+    example: "We need to replace the old battery with a new one.",
+    exampleTranslation: "우리는 낡은 배터리를 새것으로 교체해야 한다."
+  },
+  {
+    id: 1412, day: 42, word: "reply", phonetic: "/rɪˈplaɪ/", meaning: "v. 대답하다, 응답하다 / n. 대답",
+    example: "She quickly replied to my email with helpful information.",
+    exampleTranslation: "그녀는 유용한 정보와 함께 내 이메일에 신속하게 답변했다."
+  },
+  {
+    id: 1413, day: 42, word: "report", phonetic: "/rɪˈpɔːrt/", meaning: "n. 보고서, 보도 / v. 보도하다, 보고하다",
+    example: "The journalist submitted her investigative news report.",
+    exampleTranslation: "기자는 자신의 탐사 보도 보고서를 제출했다."
+  },
+  {
+    id: 1414, day: 42, word: "represent", phonetic: "/ˌreprɪˈzent/", meaning: "v. 대표하다, 나타내다",
+    example: "The lawyer represents the client in court.",
+    exampleTranslation: "변호사는 법정에서 의뢰인을 대변한다."
+  },
+  {
+    id: 1415, day: 42, word: "reproduce", phonetic: "/ˌriːprəˈduːs/", meaning: "v. 번식하다, 복제하다, 재생하다",
+    example: "Some bacteria can reproduce very quickly.",
+    exampleTranslation: "어떤 박테리아들은 매우 빠르게 번식할 수 있다."
+  },
+  {
+    id: 1416, day: 42, word: "reputation", phonetic: "/ˌrepjuˈteɪʃn/", meaning: "n. 평판, 명성",
+    example: "The restaurant has a good reputation for fresh seafood.",
+    exampleTranslation: "그 식당은 신선한 해산물로 좋은 평판을 가지고 있다."
+  },
+  {
+    id: 1417, day: 42, word: "request", phonetic: "/rɪˈkwest/", meaning: "n. 요청 / v. 요청하다",
+    example: "Guests made a special request for extra towels.",
+    exampleTranslation: "투숙객들이 여분의 수건을 특별히 요청했다."
+  },
+  {
+    id: 1418, day: 42, word: "require", phonetic: "/rɪˈkwaɪər/", meaning: "v. 요구하다, 필요로 하다",
+    example: "This job requires good communication skills.",
+    exampleTranslation: "이 직업은 훌륭한 소통 기술을 요구한다."
+  },
+  {
+    id: 1419, day: 42, word: "rescue", phonetic: "/ˈreskjuː/", meaning: "v. 구조하다, 구출하다 / n. 구조",
+    example: "Lifeguards rescued the swimmers from the strong currents.",
+    exampleTranslation: "구조대원들이 거센 물살로부터 수영하는 사람들을 구출했다."
+  },
+  {
+    id: 1420, day: 42, word: "research", phonetic: "/ˈriːsɜːrtʃ/", meaning: "n. 연구, 조사 / v. 연구하다",
+    example: "She conducts scientific research on renewable energy sources.",
+    exampleTranslation: "그녀는 신재생 에너지원에 관한 과학적 연구를 수행한다."
+  },
+  {
+    id: 1421, day: 42, word: "resemble", phonetic: "/rɪˈzembl/", meaning: "v. 닮다",
+    example: "The boy strongly resembles his father in appearance.",
+    exampleTranslation: "그 소년은 외모가 아버지를 쏙 빼닮았다."
+  },
+  {
+    id: 1422, day: 42, word: "reservation", phonetic: "/ˌrezərˈveɪʃn/", meaning: "n. 예약, 보호구역",
+    example: "I made a table reservation for four people at the restaurant.",
+    exampleTranslation: "나는 식당에 4인용 테이블 예약을 했다."
+  },
+  {
+    id: 1423, day: 42, word: "reserve", phonetic: "/rɪˈzɜːrv/", meaning: "v. 예약하다, 따로 남겨두다 / n. 비축, 보호구역",
+    example: "We reserved tickets for the musical in advance.",
+    exampleTranslation: "우리는 뮤지컬 표를 미리 예매했다."
+  },
+  {
+    id: 1424, day: 42, word: "reside", phonetic: "/rɪˈzaɪd/", meaning: "v. 거주하다, 살다",
+    example: "Many foreign diplomats reside in the capital city.",
+    exampleTranslation: "많은 외국 외교관들이 수도에 거주한다."
+  },
+  {
+    id: 1425, day: 42, word: "resign", phonetic: "/rɪˈzaɪn/", meaning: "v. 사직하다, 사임하다",
+    example: "He decided to resign from his position as director.",
+    exampleTranslation: "그는 이사직에서 사임하기로 결정했다."
+  },
+  {
+    id: 1426, day: 42, word: "resist", phonetic: "/rɪˈzɪst/", meaning: "v. 저항하다, 견디다",
+    example: "It is hard to resist eating delicious chocolate cookies.",
+    exampleTranslation: "맛있는 초콜릿 쿠키 먹는 것을 참기(견디기)는 어렵다."
+  },
+  {
+    id: 1427, day: 42, word: "resolute", phonetic: "/ˈrezəluːt/", meaning: "a. 단호한, 결연한",
+    example: "She remained resolute in her decision despite criticism.",
+    exampleTranslation: "그녀는 비판에도 불구하고 자신의 결정에 대해 단호한 태도를 유지했다."
+  },
+  {
+    id: 1428, day: 42, word: "resolve", phonetic: "/rɪˈzɑːlv/", meaning: "v. 해결하다, 결심하다 / n. 결의",
+    example: "The two countries managed to resolve their border dispute.",
+    exampleTranslation: "두 국가는 국경 분쟁을 간신히 해결했다."
+  },
+{
+    id: 1429, day: 43, word: "resort", phonetic: "/rɪˈzɔːrt/", meaning: "n. 휴양지, 의지 / v. 의존하다",
+    example: "They spent their summer vacation at a beach resort.",
+    exampleTranslation: "그들은 해변 휴양지에서 여름휴가를 보냈다."
+  },
+  {
+    id: 1430, day: 43, word: "resource", phonetic: "/ˈriːsɔːrs/", meaning: "n. 자원, 재원",
+    example: "Water and forests are vital natural resources.",
+    exampleTranslation: "물과 삼림은 필수적인 천연자원이다."
+  },
+  {
+    id: 1431, day: 43, word: "respect", phonetic: "/rɪˈspekt/", meaning: "n. 존경, 측면 / v. 존경하다",
+    example: "We should show respect for older people.",
+    exampleTranslation: "우리는 연세 드신 분들에 대해 존경심을 보여야 한다."
+  },
+  {
+    id: 1432, day: 43, word: "respond", phonetic: "/rɪˈspɑːnd/", meaning: "v. 대답하다, 반응하다",
+    example: "He did not respond to my text message.",
+    exampleTranslation: "그는 내 문자 메시지에 반응(답장)하지 않았다."
+  },
+  {
+    id: 1433, day: 43, word: "response", phonetic: "/rɪˈspɑːns/", meaning: "n. 응답, 반응",
+    example: "The company received an enthusiastic response to its new product.",
+    exampleTranslation: "그 회사는 신제품에 대해 열광적인 반응을 얻었다."
+  },
+  {
+    id: 1434, day: 43, word: "responsible", phonetic: "/rɪˈspɑːnsəbl/", meaning: "a. 책임이 있는",
+    example: "Parents are responsible for raising their children.",
+    exampleTranslation: "부모는 자녀를 양육할 책임이 있다."
+  },
+  {
+    id: 1435, day: 43, word: "rest", phonetic: "/rest/", meaning: "n. 휴식, 나머지 / v. 쉬다",
+    example: "Take a good rest after working hard all day.",
+    exampleTranslation: "하루 종일 열심히 일한 후에 푹 쉬어라."
+  },
+  {
+    id: 1436, day: 43, word: "restaurant", phonetic: "/ˈrestərɑːnt/", meaning: "n. 식당, 레스토랑",
+    example: "We booked a table at a famous Italian restaurant.",
+    exampleTranslation: "우리는 유명한 이탈리아 식당에 테이블을 예약했다."
+  },
+  {
+    id: 1437, day: 43, word: "restore", phonetic: "/rɪˈstɔːr/", meaning: "v. 회복시키다, 복원하다",
+    example: "Workers are trying to restore the ancient temple.",
+    exampleTranslation: "인부들이 고대 사원을 복원하려고 노력하고 있다."
+  },
+  {
+    id: 1438, day: 43, word: "restrict", phonetic: "/rɪˈstrɪkt/", meaning: "v. 제한하다, 한정하다",
+    example: "The new law restricts cars from entering the city center.",
+    exampleTranslation: "새 법안은 자동차들이 도심으로 진입하는 것을 제한한다."
+  },
+  {
+    id: 1439, day: 43, word: "result", phonetic: "/rɪˈzʌlt/", meaning: "n. 결과 / v. 기인하다, 결과가 되다",
+    example: "Hard work usually leads to positive results.",
+    exampleTranslation: "근면은 대개 긍정적인 결과로 이어진다."
+  },
+  {
+    id: 1440, day: 43, word: "retain", phonetic: "/rɪˈteɪn/", meaning: "v. 유지하다, 보유하다, 간직하다",
+    example: "Older people may find it harder to retain new information.",
+    exampleTranslation: "나이가 든 사람들은 새로운 정보를 기억(보유)하는 것이 더 어렵다고 느낄 수 있다."
+  },
+  {
+    id: 1441, day: 43, word: "retire", phonetic: "/rɪˈtaɪər/", meaning: "v. 은퇴하다, 퇴직하다",
+    example: "He plans to retire from the company at the age of sixty-five.",
+    exampleTranslation: "그는 65세의 나이에 회사에서 은퇴할 계획이다."
+  },
+  {
+    id: 1442, day: 43, word: "return", phonetic: "/rɪˈtɜːrn/", meaning: "v. 돌아오다, 반환하다 / n. 반환, 귀환",
+    example: "She plans to return to her hometown next week.",
+    exampleTranslation: "그녀는 다음 주에 고향으로 돌아갈 계획이다."
+  },
+  {
+    id: 1443, day: 43, word: "reveal", phonetic: "/rɪˈviːl/", meaning: "v. 드러내다, 밝히다",
+    example: "The investigation revealed hidden flaws in the design.",
+    exampleTranslation: "조사 결과 디자인의 숨겨진 결함이 드러났다."
+  },
+  {
+    id: 1444, day: 43, word: "reverse", phonetic: "/rɪˈvɜːrs/", meaning: "v. 뒤집다, 역전시키다 / n. 반대 / a. 반대의",
+    example: "You can reverse the order of items by clicking this button.",
+    exampleTranslation: "이 버튼을 클릭하면 아이템들의 순서를 뒤집을(역으로 바꿀) 수 있다."
+  },
+  {
+    id: 1445, day: 43, word: "review", phonetic: "/rɪˈvjuː/", meaning: "n. 검토, 논평, 복습 / v. 검토하다, 복습하다",
+    example: "Please review your notes before taking the final exam.",
+    exampleTranslation: "기말고사를 치르기 전에 노트를 복습하세요."
+  },
+  {
+    id: 1446, day: 43, word: "revive", phonetic: "/rɪˈvaɪv/", meaning: "v. 부활시키다, 소생시키다",
+    example: "The local government tried to revive the dying traditional market.",
+    exampleTranslation: "지방 정부는 죽어가는 전통시장을 부활시키려고 노력했다."
+  },
+  {
+    id: 1447, day: 43, word: "revolution", phonetic: "/ˌrevəˈluːʃn/", meaning: "n. 혁명, 회전",
+    example: "The Industrial Revolution brought massive changes to society.",
+    exampleTranslation: "산업혁명은 사회에 거대한 변화를 가져왔다."
+  },
+  {
+    id: 1448, day: 43, word: "reward", phonetic: "/rɪˈwɔːrd/", meaning: "n. 보상 / v. 보상하다",
+    example: "The company offered a cash reward for finding the lost dog.",
+    exampleTranslation: "회사는 잃어버린 강아지를 찾는 사람에게 현금 보상을 내걸었다."
+  },
+  {
+    id: 1449, day: 43, word: "rhythm", phonetic: "/ˈrɪðəm/", meaning: "n. 리듬, 율동",
+    example: "She tapped her fingers to the rhythm of the music.",
+    exampleTranslation: "그녀는 음악의 리듬에 맞춰 손가락을 톡톡 두드렸다."
+  },
+  {
+    id: 1450, day: 43, word: "ribbon", phonetic: "/ˈrɪbən/", meaning: "n. 리본, 끈",
+    example: "She tied a red ribbon around the gift box.",
+    exampleTranslation: "그녀는 선물 상자 주위에 빨간색 리본을 묶었다."
+  },
+  {
+    id: 1451, day: 43, word: "rice", phonetic: "/raɪs/", meaning: "n. 쌀, 밥",
+    example: "Steamed white rice is a staple food in many Asian countries.",
+    exampleTranslation: "찐 흰 쌀밥은 많은 아시아 국가들의 주식이다."
+  },
+  {
+    id: 1452, day: 43, word: "rich", phonetic: "/rɪtʃ/", meaning: "a. 부유한, 풍부한",
+    example: "Carrots are rich in vitamin A and antioxidants.",
+    exampleTranslation: "당근은 비타민 A와 항산화제가 풍부하다."
+  },
+  {
+    id: 1453, day: 43, word: "rid", phonetic: "/rɪd/", meaning: "v. 없애다, 제거하다",
+    example: "He tried to get rid of his old furniture.",
+    exampleTranslation: "그는 헌 가구들을 처분(없애)하려고 했다."
+  },
+  {
+    id: 1454, day: 43, word: "ride", phonetic: "/raɪd/", meaning: "v. 타다 / n. 타기, 탈것",
+    example: "Children love to ride bicycles in the park.",
+    exampleTranslation: "아이들은 공원에서 자전거 타는 것을 좋아한다."
+  },
+  {
+    id: 1455, day: 43, word: "ridiculous", phonetic: "/rɪˈdɪkjələs/", meaning: "a. 터무니없는, 우스꽝스러운",
+    example: "Paying such a high price for a simple t-shirt is ridiculous.",
+    example Translation: "단순한 티셔츠 하나에 그렇게 비싼 값을 지불하는 것은 터무니없다."
+  },
+  {
+    id: 1456, day: 43, word: "right", phonetic: "/raɪd/", meaning: "a. 옳은, 오른쪽의 / n. 권리, 오른쪽",
+    example: "You made the right choice in this situation.",
+    exampleTranslation: "너는 이번 상황에서 올바른 선택을 했다."
+  },
+  {
+    id: 1457, day: 43, word: "rigid", phonetic: "/ˈrɪdʒɪd/", meaning: "a. 엄격한, 융통성 없는, 굳은",
+    example: "The school has a rigid dress code for all students.",
+    exampleTranslation: "그 학교는 모든 학생들에게 엄격한 복장 규정이 있다."
+  },
+  {
+    id: 1458, day: 43, word: "ripe", phonetic: "/raɪp/", meaning: "a. 익은, 숙성한",
+    example: "The sweet red apples are finally ripe and ready to pick.",
+    exampleTranslation: "달콤한 빨간 사과들이 드디어 익어서 따기에 알맞다."
+  },
+  {
+    id: 1459, day: 43, word: "rise", phonetic: "/raɪz/", meaning: "v. 오르다, 일어나다 / n. 상승",
+    example: "Prices of housing tend to rise in spring.",
+    exampleTranslation: "주택 가격은 봄철에 오르는 경향이 있다."
+  },
+  {
+    id: 1460, day: 43, word: "rival", phonetic: "/ˈraɪvl/", meaning: "n. 경쟁자, 라이벌 / a. 경쟁하는",
+    example: "The two tech companies are fierce market rivals.",
+    exampleTranslation: "그 두 기술 기업은 치열한 시장 경쟁자이다."
+  },
+  {
+    id: 1461, day: 43, word: "river", phonetic: "/ˈrɪvər/", meaning: "n. 강",
+    example: "A wide river flows smoothly through the valley.",
+    exampleTranslation: "넓은 강이 계곡을 따라 부드럽게 흘러간다."
+  },
+  {
+    id: 1462, day: 43, word: "road", phonetic: "/roʊd/", meaning: "n. 도로, 길",
+    example: "The road leading to the village was narrow and winding.",
+    exampleTranslation: "마을로 이어지는 도로는 좁고 구불구불했다."
+  },
+{
+    id: 1463, day: 44, word: "roar", phonetic: "/rɔːr/", meaning: "v. 으르렁거리다, 포효하다 / n. 포효, 함성",
+    example: "The lion let out a fierce roar in the jungle.",
+    exampleTranslation: "사자가 정글에서 사나운 포효를 내질렀다."
+  },
+  {
+    id: 1464, day: 44, word: "roast", phonetic: "/roʊst/", meaning: "v. 굽다 / n. 구운 고기",
+    example: "She roasted the chicken in the oven with herbs and garlic.",
+    exampleTranslation: "그녀는 허브와 마늘을 곁들여 오븐에 닭을 구웠다."
+  },
+  {
+    id: 1465, day: 44, word: "rob", phonetic: "/rɑːb/", meaning: "v. 강탈하다, 도둑질하다",
+    example: "The masked man tried to rob the local convenience store.",
+    exampleTranslation: "복면을 한 남자가 동네 편의점을 털려고(강탈하려) 시도했다."
+  },
+  {
+    id: 1466, day: 44, word: "robot", phonetic: "/ˈroʊbɑːt/", meaning: "n. 로봇",
+    example: "Industrial robots are widely used in modern car manufacturing.",
+    exampleTranslation: "산업용 로봇들은 현대 자동차 제조에서 널리 사용된다."
+  },
+  {
+    id: 1467, day: 44, word: "rock", phonetic: "/rɑːk/", meaning: "n. 바위, 록 음악 / v. 흔들다",
+    example: "The ship was tossed violently by the hidden underwater rocks.",
+    exampleTranslation: "배는 수중에 숨겨진 바위들에 의해 격렬하게 흔들렸다."
+  },
+  {
+    id: 1468, day: 44, word: "rocket", phonetic: "/ˈrɑːkɪt/", meaning: "n. 로켓",
+    example: "The space agency successfully launched a heavy-lift rocket.",
+    exampleTranslation: "우주 항공국은 대형 운반 로켓을 성공적으로 발사했다."
+  },
+  {
+    id: 1469, day: 44, word: "role", phonetic: "/roʊl/", meaning: "n. 역할, 임무",
+    example: "Teachers play a vital role in shaping young minds.",
+    exampleTranslation: "교사들은 어린 학생들의 마음을 형성하는 데 중대한 역할을 한다."
+  },
+  {
+    id: 1470, day: 44, word: "roll", phonetic: "/roʊl/", meaning: "v. 구르다, 말다 / n. 두루마리, 롤",
+    example: "The ball rolled down the grassy hill into the river.",
+    exampleTranslation: "공이 잔디가 난 언덕 아래로 굴러서 강으로 떨어졌다."
+  },
+  {
+    id: 1471, day: 44, word: "romance", phonetic: "/ˈroʊmæns/", meaning: "n. 로맨스, 연애 사건, 로맨틱한 분위기",
+    example: "Their love story began like a classic Hollywood romance.",
+    exampleTranslation: "그들의 사랑 이야기는 고전적인 할리우드 로맨스처럼 시작되었다."
+  },
+  {
+    id: 1472, day: 44, word: "roof", phonetic: "/ruːf/", meaning: "n. 지붕, 윗면",
+    example: "Heavy snow accumulated on the roof of the cabin.",
+    exampleTranslation: "오두막 지붕 위에 폭설이 쌓였다."
+  },
+  {
+    id: 1473, day: 44, word: "room", phonetic: "/ruːm/", meaning: "n. 방, 공간, 여지",
+    example: "Please make some room for other people to pass.",
+    exampleTranslation: "다른 사람들이 지나갈 수 있도록 공간(자리)을 좀 만들어 주세요."
+  },
+  {
+    id: 1474, day: 44, word: "root", phonetic: "/ruːt/", meaning: "n. 뿌리, 근원 / v. 뿌리를 내리다",
+    example: "Deep roots help trees absorb water from deep underground.",
+    exampleTranslation: "깊은 뿌리는 나무가 지하 깊은 곳에서 물을 흡수하는 데 도움을 준다."
+  },
+  {
+    id: 1475, day: 44, word: "rope", phonetic: "/roʊp/", meaning: "n. 밧줄, 끈",
+    example: "He tied the heavy boxes securely with a thick rope.",
+    exampleTranslation: "그는 두꺼운 밧줄로 무거운 상자들을 단단히 묶었다."
+  },
+  {
+    id: 1476, day: 44, word: "rose", phonetic: "/roʊz/", meaning: "n. 장미",
+    example: "He gave her a bouquet of red roses on Valentine's Day.",
+    exampleTranslation: "그는 밸런타인데이에 그녀에게 빨간 장미 다발을 선물했다."
+  },
+  {
+    id: 1477, day: 44, word: "rot", phonetic: "/rɑːt/", meaning: "v. 썩다, 부패하다 / n. 부패",
+    example: "Fallen leaves rot and turn into rich soil over time.",
+    exampleTranslation: "떨어진 나뭇잎들은 썩어서 시간이 지나면 비옥한 흙으로 변한다."
+  },
+  {
+    id: 1478, day: 44, word: "rotate", phonetic: "/ˈroʊteɪt/", meaning: "v. 회전하다, 교대하다",
+    example: "The Earth rotates on its axis once every 24 hours.",
+    exampleTranslation: "지구는 24시간마다 한 번씩 자전축을 중심으로 회전한다."
+  },
+  {
+    id: 1479, day: 44, word: "rough", phonetic: "/rʌf/", meaning: "a. 거친, 대략적인",
+    example: "The surface of the unfinished wooden board was rough.",
+    exampleTranslation: "마감되지 않은 나사 판자의 표면은 거칠었다."
+  },
+  {
+    id: 1480, day: 44, word: "round", phonetic: "/raʊnd/", meaning: "a. 둥근 / n. 둥근 모양, (경기의) 회차",
+    example: "The children sat in a circle around the campfire.",
+    exampleTranslation: "아이들이 모닥불 주위로 둥글게 둘러앉았다."
+  },
+  {
+    id: 1481, day: 44, word: "route", phonetic: "/ruːt/", meaning: "n. 길, 경로, 노선",
+    example: "We planned the fastest driving route to our destination.",
+    exampleTranslation: "우리는 목적지까지 가는 가장 빠른 운전 경로를 계획했다."
+  },
+  {
+    id: 1482, day: 44, word: "routine", phonetic: "/ruːˈtiːn/", meaning: "n. 일과, 루틴 / a. 일상적인",
+    example: "Morning exercise is an essential part of his daily routine.",
+    exampleTranslation: "아침 운동은 그의 일상적인 일과의 필수적인 부분이다."
+  },
+  {
+    id: 1483, day: 44, word: "row", phonetic: "/roʊ/", meaning: "n. 열, 줄 / /raʊ/ v. 노를 젓다",
+    example: "We sat in the front row of the theater to watch the play.",
+    exampleTranslation: "우리는 연극을 보기 위해 극장 맨 앞줄에 앉았다."
+  },
+  {
+    id: 1484, day: 44, word: "royal", phonetic: "/ˈrɔɪəl/", meaning: "a. 왕의, 왕실의",
+    example: "The royal family attended the grand national ceremony.",
+    exampleTranslation: "왕실 가족들이 성대한 국가 행사에 참석했다."
+  },
+  {
+    id: 1485, day: 44, word: "rub", phonetic: "/rʌb/", meaning: "v. 문지르다, 비비다",
+    example: "She rubbed her tired eyes with the back of her hand.",
+    exampleTranslation: "그녀는 손등으로 피곤한 눈을 문질렀다."
+  },
+  {
+    id: 1486, day: 44, word: "rubber", phonetic: "/ˈrʌbər/", meaning: "n. 고무, 지우개",
+    example: "Tires are primarily made of vulcanized rubber.",
+    exampleTranslation: "타이어는 주로 가황 고무로 만들어진다."
+  },
+  {
+    id: 1487, day: 44, word: "rude", phonetic: "/ruːd/", meaning: "a. 무례한, 버릇없는",
+    example: "It is considered rude to interrupt someone while they are speaking.",
+    exampleTranslation: "누가 말하고 있을 때 끼어드는 것은 무례한 것으로 여겨진다."
+  },
+  {
+    id: 1488, day: 44, word: "ruin", phonetic: "/ˈruːɪn/", meaning: "v. 망치다, 파괴하다 / n. 폐허, 파멸",
+    example: "The heavy storm ruined our plans for a weekend picnic.",
+    exampleTranslation: "폭우가 주말 소풍 계획을 망쳐놓았다."
+  },
+  {
+    id: 1489, day: 44, word: "rule", phonetic: "/ruːl/", meaning: "n. 규칙, 통치 / v. 지배하다, 통치하다",
+    example: "Every organization has its own internal rules and regulations.",
+    exampleTranslation: "모든 조직에는 저마다의 내부 규칙과 규정이 있다."
+  },
+  {
+    id: 1490, day: 44, word: "rumor", phonetic: "/ˈruːmər/", meaning: "n. 소문, 풍문",
+    example: "There is a false rumor going around about the company merger.",
+    exampleTranslation: "회사 합병에 대해 떠도는 거짓 소문이 하나 있다."
+  },
+  {
+    id: 1491, day: 44, word: "rural", phonetic: "/ˈrʊrəl/", meaning: "a. 시골의, 지방의",
+    example: "He prefers the quiet and peaceful life of a rural village.",
+    exampleTranslation: "그는 시골 마을의 조용하고 평화로운 삶을 더 선호한다."
+  },
+  {
+    id: 1492, day: 44, word: "rush", phonetic: "/rʌʃ/", meaning: "v. 서두르다, 몰려들다 / n. 서둠, 분주함",
+    example: "There is no need to rush; we have plenty of time.",
+    exampleTranslation: "서둘 필요는 전혀 없습니다; 시간이 아주 많습니다."
+  },
+  {
+    id: 1493, day: 44, word: "sacred", phonetic: "/ˈseɪkrɪd/", meaning: "a. 신성한, 종교적인",
+    example: "The ancient temple is regarded as a sacred place.",
+    exampleTranslation: "그 고대 사원은 신성한 장소로 여겨진다."
+  },
+  {
+    id: 1494, day: 44, word: "sacrifice", phonetic: "/ˈsækrɪfaɪs/", meaning: "v. 희생하다 / n. 희생",
+    example: "Parents make many sacrifices for the happiness of their children.",
+    exampleTranslation: "부모는 자식들의 행복을 위해 많은 희생을 치른다."
+  },
+  {
+    id: 1495, day: 44, word: "sad", phonetic: "/sæd/", meaning: "a. 슬픈",
+    example: "She felt sad after hearing the disappointing news.",
+    exampleTranslation: "그녀는 실망스러운 소식을 들은 후 슬픔을 느꼈다."
+  },
+  {
+    id: 1496, day: 44, word: "safe", phonetic: "/seɪf/", meaning: "a. 안전한 / n. 금고",
+    example: "Always wear a helmet to keep yourself safe while cycling.",
+    exampleTranslation: "자전거를 탈 때 자신을 안전하게 지키기 위해 항상 헬멧을 착용하세요."
+  },
+
 ];
