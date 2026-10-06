@@ -11,6 +11,8 @@ export interface WordItem {
   pos?: string;
   meaningPrimary?: string;
   meaningSecondary?: string;
+  exampleEn?: string;
+  exampleKo?: string;
 }
 
 export const INITIAL_WORDS: WordItem[] = [
