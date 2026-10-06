@@ -1,5 +1,6 @@
 "use client";
 
+import SessionBannerAd from "@/components/SessionBannerAd";
 import React, { useState, useEffect } from "react";
 import { INITIAL_WORDS, WordItem } from "@/data/sampleWords";
 
@@ -142,7 +143,8 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen bg-slate-950 text-slate-100 flex flex-col items-center p-4 sm:p-6">
+    // 하단 고정 광고 영역(약 50~60px)에 단어 내용이 가리지 않도록 paddingBottom을 추가했습니다.
+    <main className="min-h-screen bg-slate-950 text-slate-100 flex flex-col items-center p-4 sm:p-6 pb-20">
       {/* 상단 타이틀 및 네비게이션 */}
       <header className="w-full max-w-md flex items-center justify-between mb-6 pt-2">
         <div>
@@ -318,7 +320,6 @@ export default function Home() {
           {/* 탭 2: 테스트 세션 */}
           {activeTab === "test" && (
             <div className="space-y-4">
-              {/* 테스트 모드가 아직 선택되지 않았다면: 모드 선택 화면 표시 */}
               {testMode === null ? (
                 <div className="bg-slate-900 border border-slate-800 rounded-3xl p-6 shadow-2xl space-y-4 text-center">
                   <div className="py-2">
@@ -374,7 +375,6 @@ export default function Home() {
                   </div>
                 </div>
               ) : (
-                /* 테스트 모드가 선택된 경우: 실제 주관식 퀴즈 화면 */
                 <div className="space-y-4">
                   <div className="flex items-center justify-between text-xs text-slate-400 px-1">
                     <div className="flex items-center gap-2">
@@ -550,6 +550,9 @@ export default function Home() {
           )}
         </div>
       )}
+
+      {/* 화면 하단 고정 배너 광고 컴포넌트 */}
+      <SessionBannerAd />
     </main>
   );
 }
