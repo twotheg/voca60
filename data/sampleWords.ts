@@ -5161,5 +5161,1365 @@ export const INITIAL_WORDS: WordItem[] = [
     example: "High-speed internet forms the backbone of the modern network.",
     exampleTranslation: "고속 인터넷은 현대 네트워크의 뼈대를 이룬다."
   },
-
+  {
+    id: 1021, day: 31, word: "neutral", phonetic: "/ˈnuːtrəl/", meaning: "a. 중립의, 중성의",
+    example: "Switzerland remained neutral during the war.",
+    exampleTranslation: "스위스는 전쟁 동안 중립을 지켰다."
+  },
+  {
+    id: 1022, day: 31, word: "neutron", phonetic: "/ˈnuːtrɑːn/", meaning: "n. 중성자",
+    example: "An atomic nucleus consists of protons and neutrons.",
+    exampleTranslation: "원자핵은 양성자와 중성자로 구성되어 있다."
+  },
+  {
+    id: 1023, day: 31, word: "nevertheless", phonetic: "/ˌnevərðəˈles/", meaning: "ad.그렇지만도,럼에도 불구하고",
+    example: "It was raining heavily; nevertheless, they went out for a walk.",
+    exampleTranslation: "비가 거세게 내렸지만, 그럼에도 불구하고 그들은 산책을 나갔다."
+  },
+  {
+    id: 1024, day: 31, word: "nickel", phonetic: "/ˈnɪkl/", meaning: "n. 니켈, 5센트 동전",
+    example: "Nickel is widely used in making various metal alloys.",
+    exampleTranslation: "니켈은 다양한 금속 합금을 만드는 데 널리 사용된다."
+  },
+  {
+    id: 1025, day: 31, word: "noble", phonetic: "/ˈnoʊbl/", meaning: "a. 고결한, 고귀한 / n. 귀족",
+    example: "He dedicated his life to a noble cause.",
+    exampleTranslation: "그는 고귀한 대의를 위해 자신의 삶을 바쳤다."
+  },
+  {
+    id: 1026, day: 31, word: "nod", phonetic: "/nɑːd/", meaning: "v. 끄덕이다 / n. 끄덕임",
+    example: "She nodded in agreement with what he said.",
+    exampleTranslation: "그녀는 그가 한 말에 동의하며 고개를 끄덕였다."
+  },
+  {
+    id: 1027, day: 31, word: "noise", phonetic: "/nɔɪz/", meaning: "n. 소음, 시끄러운 소리",
+    example: "The loud noise from the street kept me awake.",
+    exampleTranslation: "거리에서 들려오는 큰 소음 때문에 잠을 잘 수 없었다."
+  },
+  {
+    id: 1028, day: 31, word: "nominate", phonetic: "/ˈnɑːmɪneɪt/", meaning: "v. 지명하다, 추천하다",
+    example: "She was nominated for best actress of the year.",
+    exampleTranslation: "그녀는 올해의 여우주연상 후보로 지명되었다."
+  },
+  {
+    id: 1029, day: 31, word: "norm", phonetic: "/nɔːrm/", meaning: "n. 규범, 표준",
+    example: "Working from home has become the new norm.",
+    exampleTranslation: "재택근무가 새로운 표준(일반적인 것)이 되었다."
+  },
+  {
+    id: 1030, day: 31, word: "notable", phonetic: "/ˈnoʊtəbl/", meaning: "a. 주목할 만한, 유명한",
+    example: "There was a notable increase in sales this month.",
+    exampleTranslation: "이번 달에 매출의 주목할 만한 증가가 있었다."
+  },
+  {
+    id: 1031, day: 31, word: "notice", phonetic: "/ˈnoʊtɪs/", meaning: "v. 알아차리다 / n. 통지, 주목",
+    example: "Did you notice anything unusual about his behavior?",
+    exampleTranslation: "그의 행동에서 뭔가 이상한 점을 눈치채셨나요?"
+  },
+  {
+    id: 1032, day: 31, word: "notify", phonetic: "/ˈnoʊtɪfaɪ/", meaning: "v. 통지하다, 알리다",
+    example: "Please notify the office if your address changes.",
+    exampleTranslation: "주소가 바뀌면 사무실에 통지해 주세요."
+  },
+  {
+    id: 1033, day: 31, word: "notion", phonetic: "/ˈnoʊʃn/", meaning: "n. 개념, 관념, 생각",
+    example: "He has a strange notion that cats can speak.",
+    exampleTranslation: "그는 고양이가 말을 할 수 있다는 이상한 생각을 가지고 있다."
+  },
+  {
+    id: 1034, day: 31, word: "novel", phonetic: "/ˈnɑːvl/", meaning: "n. 소설 / a. 새로운, 신기한",
+    example: "She is writing a detective novel set in London.",
+    exampleTranslation: "그녀는 런던을 배경으로 한 탐정 소설을 쓰고 있다."
+  },
+  {
+    id: 1035, day: 31, word: "nuclear", phonetic: "/ˈnuːkliər/", meaning: "a. 원자력의, 핵의",
+    example: "The country generates a large portion of its electricity from nuclear power.",
+    exampleTranslation: "그 국가는 전력의 상당 부분을 원자력 발전으로 생산한다."
+  },
+  {
+    id: 1036, day: 31, word: "nucleus", phonetic: "/ˈnuːkliəs/", meaning: "n. (원자·세포의) 핵",
+    example: "Every living cell in our body contains a nucleus.",
+    exampleTranslation: "우리 몸의 모든 살아있는 세포는 핵을 포함하고 있다."
+  },
+  {
+    id: 1037, day: 31, word: "nuance", phonetic: "/ˈnuːɑːns/", meaning: "n. 미세한 차이, 뉘앙스",
+    example: "She understands the subtle nuances of the English language.",
+    exampleTranslation: "그녀는 영어의 미묘한 뉘앙스를 이해하고 있다."
+  },
+  {
+    id: 1038, day: 31, word: "nursery", phonetic: "/ˈnɜːrsəri/", meaning: "n. 탁아소, 유아실, 묘목장",
+    example: "Both parents work, so their child goes to a nursery.",
+    exampleTranslation: "맞벌이를 하기 때문에 아이가 탁아소에 다닌다."
+  },
+  {
+    id: 1039, day: 31, word: "nutrient", phonetic: "/ˈnuːtriənt/", meaning: "n. 영양소, 영양분",
+    example: "Plants absorb water and essential nutrients from the soil.",
+    exampleTranslation: "식물은 토양으로부터 물과 필수 영양분을 흡수한다."
+  },
+  {
+    id: 1040, day: 31, word: "nutrition", phonetic: "/nuˈtrɪʃn/", meaning: "n. 영양, 영양학",
+    example: "Good nutrition is crucial for children's physical growth.",
+    exampleTranslation: "좋은 영양 섭취는 아이들의 신체 성장에 매우 중요하다."
+  },
+  {
+    id: 1041, day: 31, word: "oath", phonetic: "/oʊθ/", meaning: "n. 맹세, 서약",
+    example: "Witnesses in court must take an oath to tell the truth.",
+    exampleTranslation: "법정의 증인들은 진실을 말할 것을 서약해야 한다."
+  },
+  {
+    id: 1042, day: 31, word: "obey", phonetic: "/oʊˈbeɪ/", meaning: "v. 복종하다, 따르다",
+    example: "Drivers must obey traffic signs and speed limits.",
+    exampleTranslation: "운전자들은 교통표지판과 속도 제한을 준수해야 한다."
+  },
+  {
+    id: 1043, day: 31, word: "object", phonetic: "/ˈɑːbdʒekt/", meaning: "n. 물체, 목적 / /əbˈdʒekt/ v. 반대하다",
+    example: "A mysterious flying object was spotted in the sky.",
+    exampleTranslation: "하늘에서 의문의 비행물체가 목격되었다."
+  },
+  {
+    id: 1044, day: 31, word: "objective", phonetic: "/əbˈdʒektɪv/", meaning: "a. 객관적인 / n. 목적, 목표",
+    example: "Scientists must remain objective during their research.",
+    exampleTranslation: "과학자들은 연구하는 동안 객관적 태도를 유지해야 한다."
+  },
+  {
+    id: 1045, day: 31, word: "obligation", phonetic: "/ˌɑːblɪˈɡeɪʃn/", meaning: "n. 의무, 책임",
+    example: "Parents have a legal obligation to feed and educate their children.",
+    exampleTranslation: "부모는 자녀를 먹이고 교육할 법적 의무가 있다."
+  },
+  {
+    id: 1046, day: 31, word: "oblige", phonetic: "/əˈblaɪdʒ/", meaning: "v. 의무지우다, 강요하다, 돕다",
+    example: "Circumstances obliged him to resign from his position.",
+    exampleTranslation: "상황이 그로 하여금 직위에서 사임하도록 강제했다."
+  },
+  {
+    id: 1047, day: 31, word: "observation", phonetic: "/ˌɑːbzərˈveɪʃn/", meaning: "n. 관찰, 관측",
+    example: "Scientific discovery often begins with careful observation.",
+    exampleTranslation: "과학적 발견은 대개 세심한 관찰에서 시작된다."
+  },
+  {
+    id: 1048, day: 31, word: "observe", phonetic: "/əbˈzɜːrv/", meaning: "v. 관찰하다, 준수하다",
+    example: "Astronomers use telescopes to observe distant stars.",
+    exampleTranslation: "천문학자들은 먼 별들을 관찰하기 위해 망원경을 사용한다."
+  },
+  {
+    id: 1049, day: 31, word: "obsess", phonetic: "/əbˈses/", meaning: "v. 사로잡다, 집착하게 하다",
+    example: "He tends to obsess over minor details.",
+    exampleTranslation: "그는 사소한 세부 사항에 집착하는 경향이 있다."
+  },
+  {
+    id: 1050, day: 31, word: "obstacle", phonetic: "/ˈɑːbstəkl/", meaning: "n. 장애물, 방해",
+    example: "Lack of funding is the main obstacle to the project.",
+    exampleTranslation: "자금 부족이 그 프로젝트의 주요 장애물이다."
+  },
+  {
+    id: 1051, day: 31, word: "obtain", phonetic: "/əbˈteɪn/", meaning: "v. 얻다, 구하다",
+    example: "You need to obtain permission before entering the lab.",
+    exampleTranslation: "연구실에 들어가기 전에 허가를 얻어야 한다."
+  },
+  {
+    id: 1052, day: 31, word: "obvious", phonetic: "/ˈɑːbviəs/", meaning: "a. 명백한, 뻔한",
+    example: "It was obvious that she had not studied for the test.",
+    exampleTranslation: "그녀가 시험 공부를 하지 않은 것은 명백했다."
+  },
+  {
+    id: 1053, day: 31, word: "occasion", phonetic: "/əˈkeɪʒn/", meaning: "n. 경우, 특별한 행사",
+    example: "We dressed up for the special family occasion.",
+    exampleTranslation: "우리는 특별한 가족 행사를 위해 차려입었다."
+  },
+  {
+    id: 1054, day: 31, word: "occupy", phonetic: "/ˈɑːkjupaɪ/", meaning: "v. 차지하다, 점유하다, 몰두하게 하다",
+    example: "Computers and books occupy most of his desk.",
+    exampleTranslation: "컴퓨터와 책들이 그의 책상 대부분을 차지하고 있다."
+  },
+{
+    id: 1055, day: 32, word: "occur", phonetic: "/əˈkɜːr/", meaning: "v. 발생하다, 일어나다",
+    example: "The earthquake occurred in the middle of the night.",
+    exampleTranslation: "그 지진은 한밤중에 발생했다."
+  },
+  {
+    id: 1056, day: 32, word: "ocean", phonetic: "/ˈoʊʃn/", meaning: "n. 대양, 바다",
+    example: "Whales and dolphins live in the vast ocean.",
+    exampleTranslation: "고래와 돌고래들은 광활한 대양에 산다."
+  },
+  {
+    id: 1057, day: 32, word: "odd", phonetic: "/ɑːd/", meaning: "a. 홀수의, 이상한, 기이한",
+    example: "Five is an odd number, while four is an even number.",
+    exampleTranslation: "5는 홀수이고, 4는 짝수이다."
+  },
+  {
+    id: 1058, day: 32, word: "offend", phonetic: "/əˈfend/", meaning: "v. 기분 상하게 하다, 위반하다",
+    example: "I did not mean to offend anyone with my joke.",
+    exampleTranslation: "내 농담으로 누구의 기분도 상하게 할 의도는 없었다."
+  },
+  {
+    id: 1059, day: 32, word: "offer", phonetic: "/ˈɔːfər/", meaning: "v. 제공하다, 제안하다 / n. 제안",
+    example: "The company offered him a job with a high salary.",
+    exampleTranslation: "회사는 그에게 높은 급여의 일자리를 제안했다."
+  },
+  {
+    id: 1060, day: 32, word: "office", phonetic: "/ˈɔːfɪs/", meaning: "n. 사무실, 공직",
+    example: "He arrives at his office every morning at nine o'clock.",
+    exampleTranslation: "그는 매일 아침 9시에 사무실에 도착한다."
+  },
+  {
+    id: 1061, day: 32, word: "official", phonetic: "/əˈfɪʃl/", meaning: "a. 공식적인 / n. 공무원, 관리",
+    example: "The government made an official announcement today.",
+    exampleTranslation: "정부는 오늘 공식적인 발표를 했다."
+  },
+  {
+    id: 1062, day: 32, word: "often", phonetic: "/ˈɔːfn/", meaning: "ad. 자주, 종종",
+    example: "We often go for a walk in the park after dinner.",
+    exampleTranslation: "우리는 저녁 식사 후에 종종 공원으로 산책을 간다."
+  },
+  {
+    id: 1063, day: 32, word: "oil", phonetic: "/ɔɪl/", meaning: "n. 기름, 석유",
+    example: "Crude oil prices fluctuated sharply on the market.",
+    exampleTranslation: "원유 가격이 시장에서 급격하게 변동했다."
+  },
+  {
+    id: 1064, day: 32, word: "omit", phonetic: "/oʊˈmɪt/", meaning: "v. 생략하다, 빠뜨리다",
+    example: "You can omit unnecessary details from your report.",
+    exampleTranslation: "보고서에서 불필요한 세부 사항은 생략해도 됩니다."
+  },
+  {
+    id: 1065, day: 32, word: "onset", phonetic: "/ˈɑːnset/", meaning: "n. (불쾌한 것의) 시작, 발병",
+    example: "Early diagnosis can delay the onset of the disease.",
+    exampleTranslation: "조기 진단은 그 질병의 시작(발병)을 지연시킬 수 있다."
+  },
+  {
+    id: 1066, day: 32, word: "open", phonetic: "/ˈoʊpən/", meaning: "a. 열린, 탁 트인 / v. 열다",
+    example: "Please keep the windows open for fresh air.",
+    exampleTranslation: "신선한 공기를 위해 창문을 열어 두세요."
+  },
+  {
+    id: 1067, day: 32, word: "operate", phonetic: "/ˈɑːpəreɪt/", meaning: "v. 작동하다, 운영하다, 수술하다",
+    example: "He knows how to operate heavy machinery safely.",
+    exampleTranslation: "그는 무거운 기계를 안전하게 조작(작동)하는 법을 안다."
+  },
+  {
+    id: 1068, day: 32, word: "opinion", phonetic: "/əˈpɪnjən/", meaning: "n. 의견, 견해",
+    example: "Everyone is entitled to express their own opinion.",
+    exampleTranslation: "모든 사람은 자신의 의견을 표현할 권리가 있다."
+  },
+  {
+    id: 1069, day: 32, word: "opponent", phonetic: "/əˈpoʊnənt/", meaning: "n. 상대방, 반대자",
+    example: "She respected her opponent in the tennis match.",
+    exampleTranslation: "그녀는 테니스 경기에서 자신의 상대를 존중했다."
+  },
+  {
+    id: 1070, day: 32, word: "opportunity", phonetic: "/ˌɑːpərˈtuːnəti/", meaning: "n. 기회",
+    example: "Studying abroad gave him a great opportunity to learn culture.",
+    exampleTranslation: "유학은 그에게 문화를 배울 수 있는 훌륭한 기회를 주었다."
+  },
+  {
+    id: 1071, day: 32, word: "oppose", phonetic: "/əˈpoʊz/", meaning: "v. 반대하다",
+    example: "Many residents strongly opposed the new building plan.",
+    exampleTranslation: "많은 주민들이 새 건물 계획을 강력하게 반대했다."
+  },
+  {
+    id: 1072, day: 32, word: "optimistic", phonetic: "/ˌɑːptɪˈmɪstɪk/", meaning: "a. 낙관적인, 낙천적인",
+    example: "She remains optimistic about the future of the company.",
+    exampleTranslation: "그녀는 회사의 미래에 대해 낙관적인 태도를 유지하고 있다."
+  },
+  {
+    id: 1073, day: 32, word: "option", phonetic: "/ˈɑːpʃn/", meaning: "n. 선택권, 선택사항",
+    example: "We have several options for solving this problem.",
+    exampleTranslation: "우에게는 이 문제를 해결할 몇 가지 선택사항이 있다."
+  },
+  {
+    id: 1074, day: 32, word: "oral", phonetic: "/ˈɔːrəl/", meaning: "a. 구두의, 입의",
+    example: "Students must pass both written and oral exams.",
+    exampleTranslation: "학생들은 필기시험과 구두 시험 모두에 통과해야 한다."
+  },
+  {
+    id: 1075, day: 32, word: "orbit", phonetic: "/ˈɔːrbɪt/", meaning: "n. 궤도 / v. 궤도를 돌다",
+    example: "The artificial satellite orbits the Earth once every 90 minutes.",
+    exampleTranslation: "인공위성은 90분마다 한 번씩 지구 궤도를 돈다."
+  },
+  {
+    id: 1076, day: 32, word: "order", phonetic: "/ˈɔːrdər/", meaning: "n. 순서, 명령, 주문 / v. 주문하다, 명령하다",
+    example: "Please list the names in alphabetical order.",
+    exampleTranslation: "이름들을 알파벳 순서대로 나열해 주세요."
+  },
+  {
+    id: 1077, day: 32, word: "ordinary", phonetic: "/ˈɔːrdneri/", meaning: "a. 보통의, 평범한",
+    example: "He lived an ordinary life in a quiet suburban town.",
+    exampleTranslation: "그는 조용한 교외 마을에서 평범한 삶을 살았다."
+  },
+  {
+    id: 1078, day: 32, word: "organ", phonetic: "/ˈɔːrɡən/", meaning: "n. 장기, 기관, 오르간",
+    example: "The liver is a vital organ in the human body.",
+    exampleTranslation: "간은 인체에서 필수적인 장기이다."
+  },
+  {
+    id: 1079, day: 32, word: "organic", phonetic: "/ɔːrˈɡænɪk/", meaning: "a. 유기농의, 유기체의",
+    example: "She prefers buying organic vegetables at the market.",
+    exampleTranslation: "그녀는 시장에서 유기농 채소를 사는 것을 더 좋아한다."
+  },
+  {
+    id: 1080, day: 32, word: "organization", phonetic: "/ˌɔːrɡənəˈzeɪʃn/", meaning: "n. 조직, 단체",
+    example: "He works for a non-profit organization helping refugees.",
+    exampleTranslation: "그는 난민을 돕는 비영리 단체에서 일한다."
+  },
+  {
+    id: 1081, day: 32, word: "organize", phonetic: "/ˈɔːrɡənaɪz/", meaning: "v. 조직하다, 준비하다, 정리하다",
+    example: "She helped organize the annual school festival.",
+    exampleTranslation: "그녀는 연례 학교 축제를 조직하는 것을 도왔다."
+  },
+  {
+    id: 1082, day: 32, word: "orient", phonetic: "/ˈɔːrient/", meaning: "v. 지향하게 하다, 향하다 / n. 동양",
+    example: "The course is oriented towards practical business skills.",
+    exampleTranslation: "그 과정은 실무적인 비즈니스 기술을 향하도록(지향하도록) 되어 있다."
+  },
+  {
+    id: 1083, day: 32, word: "origin", phonetic: "/ˈɔːrɪdʒɪn/", meaning: "n. 기원, 출신",
+    example: "Scientists are still investigating the origin of the universe.",
+    exampleTranslation: "과학자들은 여전히 우주의 기원을 조사하고 있다."
+  },
+  {
+    id: 1084, day: 32, word: "other", phonetic: "/ˈʌðər/", meaning: "a. 다른 / pronoun. 다른 것",
+    example: "Some students like science, while other students prefer arts.",
+    exampleTranslation: "어떤 학생들은 과학을 좋아하고, 다른 학생들은 예술을 더 좋아한다."
+  },
+  {
+    id: 1085, day: 32, word: "otherwise", phonetic: "/ˈʌðərwaɪz/", meaning: "ad. 그렇지 않으면",
+    example: "You must finish your homework; otherwise, you cannot go out.",
+    exampleTranslation: "숙제를 끝내야 한다; 그렇지 않으면 나갈 수 없다."
+  },
+  {
+    id: 1086, day: 32, word: "ought", phonetic: "/ɔːt/", meaning: "auxiliary v. ~해야 한다",
+    example: "You ought to apologize for your rude behavior.",
+    exampleTranslation: "너는 무례한 행동에 대해 사과해야 한다."
+  },
+  {
+    id: 1087, day: 32, word: "outcome", phonetic: "/ˈaʊtkʌm/", meaning: "n. 결과, 성과",
+    example: "We are waiting for the final outcome of the election.",
+    exampleTranslation: "우리는 선거의 최종 결과를 기다리고 있다."
+  },
+  {
+    id: 1088, day: 32, word: "outer", phonetic: "/ˈaʊtər/", meaning: "a. 바깥쪽의, 외부의",
+    example: "They wore heavy coats to brave the outer cold.",
+    exampleTranslation: "그들은 바깥의 추위에 맞서기 위해 두꺼운 코트를 입었다."
+  },
+{
+    id: 1089, day: 33, word: "outfit", phonetic: "/ˈaʊtfɪt/", meaning: "n. 옷, 복장, 장비",
+    example: "She wore a stylish outfit to the party.",
+    exampleTranslation: "그녀는 파티에 세련된 옷차림을 하고 갔다."
+  },
+  {
+    id: 1090, day: 33, word: "outline", phonetic: "/ˈaʊtlaɪn/", meaning: "n. 개요, 윤곽 / v. 개요를 그리다",
+    example: "The manager outlined the new project plan during the meeting.",
+    exampleTranslation: "매니저는 회의 중에 새 프로젝트 계획의 개요를 설명했다."
+  },
+  {
+    id: 1091, day: 33, word: "output", phonetic: "/ˈaʊtpʊt/", meaning: "n. 산출량, 생산량, 출력",
+    example: "The factory increased its manufacturing output by 20 percent.",
+    exampleTranslation: "그 공장은 제조 생산량을 20퍼센트 늘렸다."
+  },
+  {
+    id: 1092, day: 33, word: "outstanding", phonetic: "/aʊtˈstændɪŋ/", meaning: "a. 뛰어난, 두드러진",
+    example: "She received an award for her outstanding contribution to science.",
+    exampleTranslation: "그녀는 과학에 대한 뛰어난 공헌으로 상을 받았다."
+  },
+  {
+    id: 1093, day: 33, word: "overcome", phonetic: "/ˌoʊvərˈkʌm/", meaning: "v. 극복하다",
+    example: "With strong determination, he managed to overcome his fear.",
+    exampleTranslation: "강한 결단력으로 그는 두려움을 극복해냈다."
+  },
+  {
+    id: 1094, day: 33, word: "overflow", phonetic: "/ˌoʊvərˈfloʊ/", meaning: "v. 넘쳐흐르다 / n. 범람",
+    example: "The sink overflowed because the water was left running.",
+    exampleTranslation: "물을 틀어놓은 채 방치해서 싱크대 물이 넘쳐흘렀다."
+  },
+  {
+    id: 1095, day: 33, word: "overlap", phonetic: "/ˌoʊvərˈlæp/", meaning: "v. 겹치다, 중복되다 / n. 겹침",
+    example: "Our schedules overlap, so we cannot attend at the same time.",
+    exampleTranslation: "우리 일정이 겹쳐서 동시에 참석할 수 없다."
+  },
+  {
+    id: 1096, day: 33, word: "overseas", phonetic: "/ˌoʊvərˈsiːz/", meaning: "ad. 해외로, 해외에 / a. 해외의",
+    example: "He plans to travel overseas during his summer vacation.",
+    exampleTranslation: "그는 여름휴가 동안 해외로 여행할 계획이다."
+  },
+  {
+    id: 1097, day: 33, word: "overwhelm", phonetic: "/ˌoʊvərˈwelm/", meaning: "v. 압도하다, 휩싸다",
+    example: "She was overwhelmed by the amount of work to do.",
+    exampleTranslation: "그녀는 해야 할 일의 양에 압도당했다."
+  },
+  {
+    id: 1098, day: 33, word: "owe", phonetic: "/oʊ/", meaning: "v. 빚지고 있다, ~의 덕분이다",
+    example: "I owe you a big favor for helping me out.",
+    exampleTranslation: "내게 도움을 준 것에 대해 당신에게 큰 신세를 졌다."
+  },
+  {
+    id: 1099, day: 33, word: "owner", phonetic: "/ˈoʊnər/", meaning: "n. 소유자, 주인",
+    example: "Who is the owner of this parked car?",
+    exampleTranslation: "이 주차된 차량의 소유주는 누구인가요?"
+  },
+  {
+    id: 1100, day: 33, word: "oxygen", phonetic: "/ˈɑːksɪdʒən/", meaning: "n. 산소",
+    example: "Humans and animals need oxygen to survive.",
+    exampleTranslation: "인간과 동물은 생존하기 위해 산소가 필요하다."
+  },
+  {
+    id: 1101, day: 33, word: "pace", phonetic: "/peɪs/", meaning: "n. 속도, 걸음걸이 / v. 서성거리다",
+    example: "She walked at a steady pace along the riverbank.",
+    exampleTranslation: "그녀는 강변을 따라 일정한 속도로 걸었다."
+  },
+  {
+    id: 1102, day: 33, word: "pack", phonetic: "/pæk/", meaning: "v. 싸다, 포장하다 / n. 짐, 무리",
+    example: "He packed his suitcase the night before the trip.",
+    exampleTranslation: "그는 여행 전날 밤에 여행 짐을 쌌다."
+  },
+  {
+    id: 1103, day: 33, word: "packet", phonetic: "/ˈpækɪt/", meaning: "n. 작은 꾸러미, 소포",
+    example: "She opened a small packet of sugar for her coffee.",
+    exampleTranslation: "그녀는 커피에 넣을 작은 설탕 포장을 뜯었다."
+  },
+  {
+    id: 1104, day: 33, word: "pad", phonetic: "/pæd/", meaning: "n. 패드, 메모장 / v. 채워 넣다",
+    example: "Write down your phone number on this memo pad.",
+    exampleTranslation: "이 메모장에 전화번호를 적어주세요."
+  },
+  {
+    id: 1105, day: 33, word: "pain", phonetic: "/peɪn/", meaning: "n. 통증, 아픔",
+    example: "He felt a sharp pain in his lower back.",
+    exampleTranslation: "그는 허리 아래쪽에서 날카로운 통증을 느꼈다."
+  },
+  {
+    id: 1106, day: 33, word: "paint", phonetic: "/peɪnt/", meaning: "n. 페인트 / v. 색칠하다, 그리다",
+    example: "They painted the wooden fence white.",
+    exampleTranslation: "그들은 나무 울타리를 흰색으로 칠했다."
+  },
+  {
+    id: 1107, day: 33, word: "pair", phonetic: /per/, meaning: "n. 한 쌍, 켤레",
+    example: "I need to buy a new pair of running shoes.",
+    exampleTranslation: "나는 새 러닝화 한 켤레를 사야 한다."
+  },
+  {
+    id: 1108, day: 33, word: "palace", phonetic: "/ˈpæləs/", meaning: "n. 궁전, 궁궐",
+    example: "Tourists gathered in front of the royal palace.",
+    exampleTranslation: "관광객들이 왕실 궁전 앞에 모였다."
+  },
+  {
+    id: 1109, day: 33, word: "pale", phonetic: "/peɪl/", meaning: "a. 창백한, 엷은",
+    example: "His face looked pale because he was feeling sick.",
+    exampleTranslation: "그는 몸이 안 좋아서 얼굴이 창백해 보였다."
+  },
+  {
+    id: 1110, day: 33, word: "palm", phonetic: "/pɑːm/", meaning: "n. 손바닥, 야자나무",
+    example: "She held the small bird gently in the palm of her hand.",
+    exampleTranslation: "그녀는 손바닥 위에 작은 새를 부드럽게 쥐었다."
+  },
+  {
+    id: 1111, day: 33, word: "panic", phonetic: "/ˈpænɪk/", meaning: "n. 극심한 공포, 공황 / v. 당황하다",
+    example: "There is no need to panic during an emergency.",
+    exampleTranslation: "비상사태 시 당황할(공황에 빠질) 필요가 없다."
+  },
+  {
+    id: 1112, day: 33, word: "parade", phonetic: "/pəˈreɪd/", meaning: "n. 퍼레이드, 행렬 / v. 행진하다",
+    example: "Colorful floats moved slowly down the street in the parade.",
+    exampleTranslation: "퍼레이드에서 화려한 장식 차량들이 거리를 천천히 이동했다."
+  },
+  {
+    id: 1113, day: 33, word: "paradox", phonetic: "/ˈpærədɑːks/", meaning: "n. 역설, 모순",
+    example: "It is a paradox that working less can sometimes increase productivity.",
+    exampleTranslation: "일을 적게 하는 것이 때로는 생산성을 높일 수 있다는 것은 역설이다."
+  },
+  {
+    id: 1114, day: 33, word: "parallel", phonetic: "/ˈpærəlel/", meaning: "a. 평행한, 유사한 / n. 평행선",
+    example: "The two railway tracks run parallel to each other.",
+    exampleTranslation: "두 개의 철도 선로는 서로 평행하게 이어진다."
+  },
+  {
+    id: 1115, day: 33, word: "parameter", phonetic: "/pəˈræmɪtər/", meaning: "n. 매개변수, 한계, 통제요소",
+    example: "We must complete the task within the given parameters.",
+    exampleTranslation: "우리는 주어진 통제 조건(매개변수) 내에서 과제를 완수해야 한다."
+  },
+  {
+    id: 1116, day: 33, word: "parasite", phonetic: "/ˈpærəsaɪt/", meaning: "n. 기생충",
+    example: "Some internal parasites can cause serious health problems.",
+    exampleTranslation: "일부 내부 기생충은 심각한 건강 문제를 일으킬 수 있다."
+  },
+  {
+    id: 1117, day: 33, word: "parent", phonetic: "/ˈperənt/", meaning: "n. 아버지, 어머니, 부모",
+    example: "Parents attended the school conference to discuss student progress.",
+    exampleTranslation: "부모들이 학생들의 진도를 논의하기 위해 학교 회의에 참석했다."
+  },
+  {
+    id: 1118, day: 33, word: "park", phonetic: "/pɑːrk/", meaning: "n. 공원 / v. 주차하다",
+    example: "He parked his car in the underground garage.",
+    exampleTranslation: "그는 지하 주차장에 차를 주차했다."
+  },
+  {
+    id: 1119, day: 33, word: "parliament", phonetic: "/ˈpɑːrləmənt/", meaning: "n. 의회, 국회",
+    example: "The parliament passed a new environmental protection bill.",
+    exampleTranslation: "의회는 새로운 환경보호법안을 통과시켰다."
+  },
+  {
+    id: 1120, day: 33, word: "partial", phonetic: "/ˈpɑːrʃl/", meaning: "a. 부분적인, 편애하는",
+    example: "The solar eclipse was only partial in this region.",
+    exampleTranslation: "이 지역에서는 일식이 부분적으로만 관측되었다."
+  },
+  {
+    id: 1121, day: 33, word: "participant", phonetic: "/pɑːrˈtɪsɪpənt/", meaning: "n. 참가자",
+    example: "All seminar participants received a certificate of completion.",
+    exampleTranslation: "모든 세미나 참가자들이 수료증을 받았다."
+  },
+  {
+    id: 1122, day: 33, word: "participate", phonetic: "/pɑːrˈtɪsɪpeɪt/", meaning: "v. 참여하다, 참가하다",
+    example: "Students are encouraged to participate in class discussions.",
+    exampleTranslation: "학생들은 수업 토론에 적극 참여할 것이 권장된다."
+  },
+{
+    id: 1123, day: 34, word: "pass", phonetic: "/pæs/", meaning: "v. 지나가다, 합격하다, 전달하다 / n. 통행증",
+    example: "He studied hard and managed to pass the final exam.",
+    exampleTranslation: "그는 열심히 공부해서 기말고사 통과에 성공했다."
+  },
+  {
+    id: 1124, day: 34, word: "passage", phonetic: "/ˈpæsɪdʒ/", meaning: "n. 통로, (글의) 구절, 이동",
+    example: "The narrow passage led directly to a secret garden.",
+    exampleTranslation: "그 좁은 통로는 비밀 정원으로 곧바로 이어졌다."
+  },
+  {
+    id: 1125, day: 34, word: "passenger", phonetic: "/ˈpæsɪndʒər/", meaning: "n. 승객",
+    example: "All passengers are kindly requested to fasten their seatbelts.",
+    exampleTranslation: "모든 승객분들께서는 안전벨트를 매어 주시기 바랍니다."
+  },
+  {
+    id: 1126, day: 34, word: "passion", phonetic: "/ˈpæʃn/", meaning: "n. 열정",
+    example: "She pursued her career in music with great passion.",
+    exampleTranslation: "그녀는 엄청난 열정으로 음악 분야의 커리어를 추구했다."
+  },
+  {
+    id: 1127, day: 34, word: "patent", phonetic: "/ˈpætnt/", meaning: "n. 특허 / v. 특허를 받다",
+    example: "The inventor filed a patent for his new device.",
+    exampleTranslation: "발명가는 자신의 새 장치에 대해 특허를 신청했다."
+  },
+  {
+    id: 1128, day: 34, word: "path", phonetic: "/pæθ/", meaning: "n. 길, 진로, 경로",
+    example: "They followed a winding dirt path through the forest.",
+    exampleTranslation: "그들은 숲을 통과하는 구불구불한 흙길을 따라갔다."
+  },
+  {
+    id: 1129, day: 34, word: "patient", phonetic: "/ˈpeɪʃnt/", meaning: "n. 환자 / a. 인내심 있는",
+    example: "Doctors and nurses took good care of the sick patients.",
+    exampleTranslation: "의사와 간호사들이 아픈 환자들을 잘 돌보았다."
+  },
+  {
+    id: 1130, day: 34, word: "patron", phonetic: "/ˈpeɪtrən/", meaning: "n. 후원자, 고객",
+    example: "The art gallery relies heavily on wealthy patrons.",
+    exampleTranslation: "그 미술관은 부유한 후원자들에게 크게 의존한다."
+  },
+  {
+    id: 1131, day: 34, word: "pattern", phonetic: "/ˈpætərn/", meaning: "n. 양상, 무늬, 패턴",
+    example: "Meteorologists study weather patterns to forecast storms.",
+    exampleTranslation: "기상학자들은 폭풍을 예보하기 위해 기상 패턴을 연구한다."
+  },
+  {
+    id: 1132, day: 34, word: "pause", phonetic: "/pɔːz/", meaning: "v. 멈추다, 잠시 멈추다 / n. 잠시 멈춤",
+    example: "She paused for a moment to gather her thoughts.",
+    exampleTranslation: "그녀는 생각을 정리하기 위해 잠시 말을 멈추었다."
+  },
+  {
+    id: 1133, day: 34, word: "pave", phonetic: "/peɪv/", meaning: "v. (길을) 포장하다",
+    example: "Workers are paving the muddy road with asphalt.",
+    exampleTranslation: "인부들이 진흙탕 도로를 아스팔트로 포장하고 있다."
+  },
+  {
+    id: 1134, day: 34, word: "pay", phonetic: "/peɪ/", meaning: "v. 지불하다, 보답하다 / n. 급여, 임금",
+    example: "How would you like to pay, by cash or credit card?",
+    exampleTranslation: "현금과 신용카드 중 어떤 것으로 지불하시겠습니까?"
+  },
+  {
+    id: 1135, day: 34, word: "peace", phonetic: "/piːs/", meaning: "n. 평화, 평온",
+    example: "Citizens around the world long for lasting peace.",
+    exampleTranslation: "전 세계 시민들은 지속적인 평화를 갈망한다."
+  },
+  {
+    id: 1136, day: 34, word: "peak", phonetic: "/piːk/", meaning: "n. 꼭대기, 정점 / a. 최고의",
+    example: "Climbers reached the snowy peak of the mountain at noon.",
+    exampleTranslation: "등반가들은 정오에 눈 덮인 산봉우리(정점)에 도달했다."
+  },
+  {
+    id: 1137, day: 34, word: "peculiar", phonetic: "/pɪˈkjuːliər/", meaning: "a. 이상한, 독특한",
+    example: "I noticed a peculiar smell coming from the basement.",
+    exampleTranslation: "나는 지하실에서 나는 이상한 냄새를 알아차렸다."
+  },
+  {
+    id: 1138, day: 34, word: "pedestrian", phonetic: "/pəˈdestriən/", meaning: "n. 보행자 / a. 보행자의",
+    example: "The street is reserved for pedestrians only.",
+    exampleTranslation: "그 거리는 보행자 전용으로 지정되어 있다."
+  },
+  {
+    id: 1139, day: 34, word: "peer", phonetic: "/pɪr/", meaning: "n. 동료, 또래 / v. 응시하다",
+    example: "Teenagers are often influenced by their peers.",
+    exampleTranslation: "십대들은 종종 또래들의 영향을 받는다."
+  },
+  {
+    id: 1140, day: 34, word: "penalize", phonetic: "/ˈpiːnəlaɪz/", meaning: "v. 벌하다, 처벌하다",
+    example: "Rules penalize players who break the code of conduct.",
+    exampleTranslation: "규칙은 행동 규범을 위반하는 선수들을 처벌한다."
+  },
+  {
+    id: 1141, day: 34, word: "pendulum", phonetic: "/ˈpendʒələm/", meaning: "n. 추, (시계의) 진자",
+    example: "The heavy pendulum swung steadily back and forth.",
+    exampleTranslation: "무거운 진자가 꾸준히 앞뒤로 흔들렸다."
+  },
+  {
+    id: 1142, day: 34, word: "penetrate", phonetic: "/ˈpenətreɪt/", meaning: "v. 관통하다, 스며들다, 침투하다",
+    example: "Sunlight penetrated the thick canopy of the forest.",
+    exampleTranslation: "햇빛이 숲의 빽빽한 나뭇가지 사이를 뚫고 들어왔다."
+  },
+  {
+    id: 1143, day: 34, word: "pension", phonetic: "/ˈpenʃn/", meaning: "n. 연금",
+    example: "Retirees depend on their monthly pension for living expenses.",
+    exampleTranslation: "은퇴자들은 생활비를 매달 나오는 연금에 의존한다."
+  },
+  {
+    id: 1144, day: 34, word: "people", phonetic: "/ˈpiːpl/", meaning: "n. 사람들, 민족",
+    example: "A lot of people gathered in the town square.",
+    exampleTranslation: "많은 사람들이 마을 광장에 모였다."
+  },
+  {
+    id: 1145, day: 34, word: "perceive", phonetic: "/pərˈsiːv/", meaning: "v. 감지하다, 인지하다",
+    example: "Animals can often perceive danger before humans do.",
+    exampleTranslation: "동물들은 종종 인간보다 먼저 위험을 감지할 수 있다."
+  },
+  {
+    id: 1146, day: 34, word: "percent", phonetic: "/pərˈsent/", meaning: "n. 퍼센트, 백분율",
+    example: "Over ninety percent of students passed the exam.",
+    exampleTranslation: "학생의 90퍼센트 이상이 시험에 합격했다."
+  },
+  {
+    id: 1147, day: 34, word: "perfect", phonetic: "/ˈpɜːrfɪkt/", meaning: "a. 완벽한 / v. 완벽하게 하다",
+    example: "Practice is essential to achieve a perfect performance.",
+    exampleTranslation: "완벽한 공연을 달성하기 위해서는 연습이 필수적이다."
+  },
+  {
+    id: 1148, day: 34, word: "perform", phonetic: "/pərˈfɔːrm/", meaning: "v. 수행하다, 공연하다, 작동하다",
+    example: "The surgeon performed a complex operation successfully.",
+    exampleTranslation: "외과의사는 복잡한 수술을 성공적으로 수행했다."
+  },
+  {
+    id: 1149, day: 34, word: "perfume", phonetic: "/ˈpɜːrfjuːm/", meaning: "n. 향수",
+    example: "She sprayed a little bit of her favorite perfume.",
+    exampleTranslation: "그녀는 좋아하는 향수를 약간 뿌렸다."
+  },
+  {
+    id: 1150, day: 34, word: "period", phonetic: "/ˈpɪriəd/", meaning: "n. 기간, 시대, 시기",
+    example: "The Renaissance was a period of great cultural awakening.",
+    exampleTranslation: "르네상스는 위대한 문화적 각성의 시대였다."
+  },
+  {
+    id: 1151, day: 34, word: "perish", phonetic: "/ˈperɪʃ/", meaning: "v. 죽다, 소멸하다",
+    example: "Many plants perished during the severe drought.",
+    exampleTranslation: "심한 가뭄 동안 많은 식물들이 말라 죽었다."
+  },
+  {
+    id: 1152, day: 34, word: "permanent", phonetic: "/ˈpɜːrmənənt/", meaning: "a. 영구적인, 상설의",
+    example: "He is looking for a permanent job rather than temporary work.",
+    exampleTranslation: "그는 임시직보다는 영구적인 직장을 찾고 있다."
+  },
+  {
+    id: 1153, day: 34, word: "permeate", phonetic: "/ˈpɜːrmieɪt/", meaning: "v. 스며들다, 퍼지다",
+    example: "The sweet smell of baking bread permeated the kitchen.",
+    exampleTranslation: "빵이 구워지는 달콤한 냄새가 부엌에 스며들었다."
+  },
+  {
+    id: 1154, day: 34, word: "permit", phonetic: "/pərˈmɪt/", meaning: "v. 허락하다, 허용하다 / n. 허가증",
+    example: "Smoking is not permitted inside the building.",
+    exampleTranslation: "건물 내부에서는 흡연이 허용되지 않는다."
+  },
+  {
+    id: 1155, day: 34, word: "perpetual", phonetic: "/pərˈpetʃuəl/", meaning: "a. 영구적인, 끊임없는",
+    example: "The region suffers from perpetual water shortages.",
+    exampleTranslation: "그 지역은 끊임없는 물 부족에 시달리고 있다."
+  },
+  {
+    id: 1156, day: 34, word: "persist", phonetic: "/pərˈsɪst/", meaning: "v. 지속하다, 고집하다",
+    example: "If the symptoms persist, you should consult a doctor.",
+    exampleTranslation: "증상이 지속되면 의사와 상담해야 합니다."
+  },
+{
+    id: 1157, day: 35, word: "person", phonetic: "/ˈpɜːrsn/", meaning: "n. 사람, 개인",
+    example: "She is a very kind and helpful person.",
+    exampleTranslation: "그녀는 매우 친절하고 도움이 되는 사람이다."
+  },
+  {
+    id: 1158, day: 35, word: "perspective", phonetic: "/pərˈspektɪv/", meaning: "n. 관점, 시각, 원근법",
+    example: "Traveling abroad gives you a fresh perspective on life.",
+    exampleTranslation: "해외여행은 삶에 대한 신선한 관점을 제공해 준다."
+  },
+  {
+    id: 1159, day: 35, word: "persuade", phonetic: "/pərˈsweɪd/", meaning: "v. 설득하다",
+    example: "He tried to persuade his parents to buy a puppy.",
+    exampleTranslation: "그는 부모님을 설득하여 강아지를 사 달라고 하려 했다."
+  },
+  {
+    id: 1160, day: 35, word: "phase", phonetic: "/feɪz/", meaning: "n. 단계, 국면",
+    example: "The construction project is now in its final phase.",
+    exampleTranslation: "그 건설 프로젝트는 현재 마지막 단계에 있다."
+  },
+  {
+    id: 1161, day: 35, word: "phenomenon", phonetic: "/fəˈnɑːmɪnən/", meaning: "n. 현상 (복수형 phenomena)",
+    example: "Aurora is a breathtaking natural phenomenon.",
+    exampleTranslation: "오로라는 숨이 멎을 듯한 자연현상이다."
+  },
+  {
+    id: 1162, day: 35, word: "philosophy", phonetic: "/fəˈlɑːsəfi/", meaning: "n. 철학",
+    example: "Ancient Greek philosophy laid the foundation of Western thought.",
+    exampleTranslation: "고대 그리스 철학은 서양 사상의 기초를 놓았다."
+  },
+  {
+    id: 1163, day: 35, word: "phrase", phonetic: "/freɪz/", meaning: "n. 구, 관용구, 표현 / v. 표현하다",
+    example: "Learn useful English phrases for daily conversation.",
+    exampleTranslation: "일상 대화에 유용한 영어 표현(구)들을 배우세요."
+  },
+  {
+    id: 1164, day: 35, word: "physical", phonetic: "/ˈfɪzɪkl/", meaning: "a. 신체의, 물리적인",
+    example: "Regular exercise improves both physical and mental health.",
+    exampleTranslation: "규칙적인 운동은 신체 건강과 정신 건강을 모두 향상시킨다."
+  },
+  {
+    id: 1165, day: 35, word: "physics", phonetic: "/ˈfɪzɪks/", meaning: "n. 물리학",
+    example: "He is majoring in physics at the university.",
+    exampleTranslation: "그는 대학에서 물리학을 전공하고 있다."
+  },
+  {
+    id: 1166, day: 35, word: "physiological", phonetic: "/ˌfɪziəˈlɑːdʒɪkl/", meaning: "a. 생리학의, 생리적인",
+    example: "Stress causes various physiological changes in the body.",
+    exampleTranslation: "스트레스는 신체에 다양한 생리적 변화를 일으킨다."
+  },
+  {
+    id: 1167, day: 35, word: "pile", phonetic: "/paɪl/", meaning: "n. 더위, 더미 / v. 쌓다",
+    example: "He left a large pile of books on his desk.",
+    exampleTranslation: "그는 책상 위에 커다란 책 무더기를 남겨두었다."
+  },
+  {
+    id: 1168, day: 35, word: "pilot", phonetic: "/ˈpaɪlət/", meaning: "n. 조종사, 파일럿 / v. 조종하다",
+    example: "The airline pilot safely landed the airplane in the storm.",
+    exampleTranslation: "항공기 조종사는 폭풍 속에서 비행기를 안전하게 착륙시켰다."
+  },
+  {
+    id: 1169, day: 35, word: "pine", phonetic: "/paɪn/", meaning: "n. 소나무",
+    example: "Tall pine trees lined both sides of the country road.",
+    exampleTranslation: "키 큰 소나무들이 시골 길 양옆으로 늘어서 있었다."
+  },
+  {
+    id: 1170, day: 35, word: "ioneer", phonetic: "/ˌpaɪəˈnɪr/", meaning: "n. 개척자 / v. 개척하다",
+    example: "She was a true pioneer in the field of computer science.",
+    exampleTranslation: "그녀는 컴퓨터 과학 분야의 진정한 개척자였다."
+  },
+  {
+    id: 1171, day: 35, word: "pitch", phonetic: "/pɪtʃ/", meaning: "v. 던지다, (음의) 높낮이를 맞추다 / n. 경기장, 음의 높이",
+    example: "The pitcher threw a fast ball across the home plate.",
+    exampleTranslation: "투수가 홈플레이트를 가로질러 빠른 공을 던졌다."
+  },
+  {
+    id: 1172, day: 35, word: "pity", phonetic: "/ˈpɪti/", meaning: "n. 연민, 유감",
+    example: "It is a great pity that you missed the wonderful concert.",
+    exampleTranslation: "네가 그 멋진 콘서트를 놓치다니 정말 유감이다."
+  },
+  {
+    id: 1173, day: 35, word: "place", phonetic: "/pleɪs/", meaning: "n. 장소, 곳 / v. 놓다",
+    example: "This park is a peaceful place to relax on weekends.",
+    exampleTranslation: "이 공원은 주말에 휴식하기에 평화로운 장소이다."
+  },
+  {
+    id: 1174, day: 35, word: "plain", phonetic: "/pleɪn/", meaning: "a. 명백한, 꾸밈없는, 평범한 / n. 평원",
+    example: "The instructions written on the manual were plain and simple.",
+    exampleTranslation: "설명서에 적힌 지침은 명백하고 간단했다."
+  },
+  {
+    id: 1175, day: 35, word: "planet", phonetic: "/ˈplænɪt/", meaning: "n. 행성",
+    example: "Earth is the third planet from the sun in our solar system.",
+    exampleTranslation: "지구는 우리 태양계에서 태양으로부터 세 번째 행성이다."
+  },
+  {
+    id: 1176, day: 35, word: "plant", phonetic: "/plænt/", meaning: "n. 식물, 공장 / v. 심다",
+    example: "They planted flowers in the front garden.",
+    exampleTranslation: "그들은 앞마당에 꽃을 심었다."
+  },
+  {
+    id: 1177, day: 35, word: "plastic", phonetic: "/ˈplæstɪk/", meaning: "n. 플라스틱 / a. 플라스틱의, 가소성의",
+    example: "Try to reduce your use of single-use plastic bags.",
+    exampleTranslation: "일회용 비닐봉지의 사용을 줄이도록 노력하세요."
+  },
+  {
+    id: 1178, day: 35, word: "plate", phonetic: "/pleɪt/", meaning: "n. 접시, 판",
+    example: "She served the warm food on a clean white plate.",
+    exampleTranslation: "그녀는 깨끗한 하얀 접시에 따뜻한 음식을 담아냈다."
+  },
+  {
+    id: 1179, day: 35, word: "platform", phonetic: "/ˈplætfɔːrm/", meaning: "n. 플랫폼, 연단, 승강장",
+    example: "Passengers waited on the platform for the incoming train.",
+    exampleTranslation: "승객들이 들어오는 열차를 기다리기 위해 승강장에 서 있었다."
+  },
+  {
+    id: 1180, day: 35, word: "play", phonetic: "/pleɪ/", meaning: "v. 놀다, 연주하다, 경기하다 / n. 연극, 놀이",
+    example: "Children love to play games outside in the playground.",
+    exampleTranslation: "아이들은 놀이터에서 밖에서 게임하며 노는 것을 좋아한다."
+  },
+  {
+    id: 1181, day: 35, word: "pleasant", phonetic: "/ˈpleznt/", meaning: "a. 유쾌한, 즐거운",
+    example: "We had a pleasant chat over a cup of coffee.",
+    exampleTranslation: "우리는 커피 한 잔을 마시며 유쾌한 대화를 나누었다."
+  },
+  {
+    id: 1182, day: 35, word: "pleasure", phonetic: "/ˈpleʒər/", meaning: "n. 기쁨, 즐거움",
+    example: "It was a great pleasure to meet you in person.",
+    exampleTranslation: "직접 뵙게 되어 정말 큰 기쁨이었습니다."
+  },
+  {
+    id: 1183, day: 35, word: "plentiful", phonetic: "/ˈplentɪfl/", meaning: "a. 풍부한",
+    example: "Rainfall was plentiful during the spring season.",
+    exampleTranslation: "봄 시즌 동안 강우량이 풍부했다."
+  },
+  {
+    id: 1184, day: 35, word: "plot", phonetic: "/plɑːt/", meaning: "n. 줄거리, 음모 / v. 음모를 꾸미다",
+    example: "The movie has an unpredictable and thrilling plot.",
+    exampleTranslation: "그 영화는 예측할 수 없고 스릴 넘치는 줄거리를 가지고 있다."
+  },
+  {
+    id: 1185, day: 35, word: "plug", phonetic: "/plʌɡ/", meaning: "n. 플러그, 콘센트 마개 / v. 플러그를 꽂다",
+    example: "Remember to plug in the charger before going to sleep.",
+    exampleTranslation: "잠들기 전에 충전기 플러그를 꽂는 것을 기억하세요."
+  },
+  {
+    id: 1186, day: 35, word: "plus", phonetic: "/plʌs/", meaning: "prep. 더하기 / a. 플러스의, 유리한",
+    example: "Two plus three equals five.",
+    exampleTranslation: "2 더하기 3은 5이다."
+  },
+  {
+    id: 1187, day: 35, word: "poem", phonetic: "/ˈpoʊəm/", meaning: "n. 시",
+    example: "She memorized a beautiful poem written by a famous writer.",
+    exampleTranslation: "그녀는 유명한 작가가 쓴 아름다운 시 한 편을 외웠다."
+  },
+  {
+    id: 1188, day: 35, word: "poet", phonetic: "/ˈpoʊɪt/", meaning: "n. 시인",
+    example: "The romantic poet wrote inspiring verses about nature.",
+    exampleTranslation: "그 낭만주의 시인은 자연에 관한 영감을 주는 운문을 썼다."
+  },
+  {
+    id: 1189, day: 35, word: "point", phonetic: /pɔɪnt/, meaning: "n. 요점, 점수, 끝 / v. 가리키다",
+    example: "He pointed at the map to show us the route.",
+    exampleTranslation: "그는 우리에게 경로를 보여주기 위해 지도를 손가락으로 가리켰다."
+  },
+  {
+    id: 1190, day: 35, word: "poison", phonetic: "/ˈpɔɪzn/", meaning: "n. 독, 독극물 / v. 독살하다, 오염시키다",
+    example: "Some wild mushrooms contain deadly poison.",
+    exampleTranslation: "어떤 야생 버섯들은 치명적인 독을 품고 있다."
+  },
+{
+    id: 1191, day: 36, word: "polar", phonetic: "/ˈpoʊlər/", meaning: "a. 극지의, 양극의",
+    example: "Polar bears live on the ice and snow in the Arctic.",
+    exampleTranslation: "북극곰들은 북극의 얼음과 눈 위에서 산다."
+  },
+  {
+    id: 1192, day: 36, word: "pole", phonetic: "/poʊl/", meaning: "n. 극, 막대기, 기둥",
+    example: "Explorers planted a flag at the South Pole.",
+    exampleTranslation: "탐험가들이 남극점에 깃발을 꽂았다."
+  },
+  {
+    id: 1193, day: 36, word: "police", phonetic: "/pəˈliːs/", meaning: "n. 경찰, 경찰관들",
+    example: "The police arrived at the scene of the accident within minutes.",
+    exampleTranslation: "경찰이 몇 분 안에 사고 현장에 도착했다."
+  },
+  {
+    id: 1194, day: 36, word: "policy", phonetic: "/ˈpɑːləsi/", meaning: "n. 정책, 방침",
+    example: "The company has a strict policy against workplace harassment.",
+    exampleTranslation: "그 회사는 직장 내 괴롭힘에 대한 엄격한 정책을 가지고 있다."
+  },
+  {
+    id: 1195, day: 36, word: "polish", phonetic: "/ˈpɑːlɪʃ/", meaning: "v. 닦다, 광내다 / n. 광택제",
+    example: "He spent hours polishing his leather shoes until they shone.",
+    exampleTranslation: "그는 가죽 신발이 반짝일 때까지 몇 시간 동안 광을 냈다."
+  },
+  {
+    id: 1196, day: 36, word: "polite", phonetic: "/pəˈlaɪt/", meaning: "a. 예의 바른, 정중한",
+    example: "It is polite to say thank you when someone helps you.",
+    exampleTranslation: "누군가 도와줄 때 고맙다고 말하는 것은 예의 바른 행동이다."
+  },
+  {
+    id: 1197, day: 36, word: "political", phonetic: "/pəˈlɪtɪkl/", meaning: "a. 정치의, 정치적인",
+    example: "The candidates debated fiercely on various political issues.",
+    exampleTranslation: "후보들은 다양한 정치적 쟁점을 두고 치열하게 토론했다."
+  },
+  {
+    id: 1198, day: 36, word: "politics", phonetic: "/ˈpɑːlətɪks/", meaning: "n. 정치, 정치학",
+    example: "He has always been deeply interested in national politics.",
+    exampleTranslation: "그는 항상 국가 정에 깊은 관심을 가져왔다."
+  },
+  {
+    id: 1199, day: 36, word: "poll", phonetic: "/poʊl/", meaning: "n. 투표, 여론조사 / v. 투표를 하다",
+    example: "Recent opinion polls show a shift in public sentiment.",
+    exampleTranslation: "최근 여론조사는 대중의 정서 변화를 보여준다."
+  },
+  {
+    id: 1200, day: 36, word: "pollute", phonetic: "/pəˈluːt/", meaning: "v. 오염시키다",
+    example: "Factories should not pollute rivers with chemical waste.",
+    exampleTranslation: "공장들은 화학 폐기물로 강을 오염시켜서는 안 된다."
+  },
+  {
+    id: 1201, day: 36, word: "polymer", phonetic: "/ˈpɑːlɪmər/", meaning: "n. 고분자, 중합체",
+    example: "Nylon and plastic are common synthetic polymers.",
+    exampleTranslation: "나일론과 플라스틱은 흔한 합성 고분자 물질이다."
+  },
+  {
+    id: 1202, day: 36, word: "pool", phonetic: "/puːl/", meaning: "n. 수영장, 물웅덩이, (자원의) 공동 자금",
+    example: "Children were swimming and playing in the hotel pool.",
+    exampleTranslation: "아이들이 호텔 수영장에서 수영하며 놀고 있었다."
+  },
+  {
+    id: 1203, day: 36, word: "poor", phonetic: "/pʊr/", meaning: "a. 가난한, 불쌍한, 서투른",
+    example: "He grew up in a poor family in a rural village.",
+    exampleTranslation: "그는 시골 마을의 가난한 가정에서 자랐다."
+  },
+  {
+    id: 1204, day: 36, word: "popular", phonetic: "/ˈpɑːpjələr/", meaning: "a. 대중적인, 인기 있는",
+    example: "Basketball is a very popular sport among teenagers.",
+    exampleTranslation: "농구는 십대들 사이에서 매우 인기 있는 스포츠이다."
+  },
+  {
+    id: 1205, day: 36, word: "population", phonetic: "/ˌpɑːpjuˈleɪʃn/", meaning: "n. 인구, 개체군",
+    example: "The country has a total population of over fifty million.",
+    exampleTranslation: "그 국가는 총인구가 5천만이 넘는다."
+  },
+  {
+    id: 1206, day: 36, word: "pore", phonetic: "/pɔːr/", meaning: "n. (피부의) 땀구멍, 기공",
+    example: "Sweat is released through tiny pores in the skin.",
+    exampleTranslation: "땀은 피부의 미세한 땀구멍을 통해 배출된다."
+  },
+  {
+    id: 1207, day: 36, word: "port", phonetic: "/pɔːrt/", meaning: "n. 항구, 항만",
+    example: "Cargo ships loaded containers at the busy port.",
+    exampleTranslation: "화물선들이 번잡한 항구에서 컨테이너를 선적했다."
+  },
+  {
+    id: 1208, day: 36, word: "portion", phonetic: "/ˈpɔːrʃn/", meaning: "n. 부분, 1인분",
+    example: "She ate only a small portion of her meal.",
+    exampleTranslation: "그녀는 식사의 작은 부분(일부)만 먹었다."
+  },
+  {
+    id: 1209, day: 36, word: "portrait", phonetic: "/ˈpɔːrtrət/", meaning: "n. 초상화, 인물 사진",
+    example: "The museum exhibits an oil portrait of the queen.",
+    exampleTranslation: "그 미술관은 여왕의 유화 초상화를 전시하고 있다."
+  },
+  {
+    id: 1210, day: 36, word: "pose", phonetic: "/poʊz/", meaning: "v. (위협 등을) 제기하다, 포즈를 취하다 / n. 자세",
+    example: "Climate change poses a serious threat to global security.",
+    exampleTranslation: "기후 변화는 세계 안보에 심각한 위협을 제기한다."
+  },
+  {
+    id: 1211, day: 36, word: "position", phonetic: "/pəˈzɪʃn/", meaning: "n. 위치, 자리, 입장 / v. 두다",
+    example: "He applied for a managerial position in the company.",
+    exampleTranslation: "그는 회사에서 관리자 직책에 지원했다."
+  },
+  {
+    id: 1212, day: 36, word: "positive", phonetic: "/ˈpɑːzətɪv/", meaning: "a. 긍정적인, 양의, 확실하는",
+    example: "Try to maintain a positive attitude in difficult times.",
+    exampleTranslation: "어려운 시기에도 긍정적인 태도를 유지하도록 노력해라."
+  },
+  {
+    id: 1213, day: 36, word: "possess", phonetic: "/pəˈzes/", meaning: "v. 소유하다, 지니다",
+    example: "She possesses a rare talent for creative writing.",
+    exampleTranslation: "그녀는 창작 글쓰기에 대한 드문 재능을 지니고 있다."
+  },
+  {
+    id: 1214, day: 36, word: "possibility", phonetic: "/ˌpɑːsəˈbɪləti/", meaning: "n. 가능성",
+    example: "There is a strong possibility that it will rain this afternoon.",
+    exampleTranslation: "오늘 오후에 비가 올 가능성이 높다."
+  },
+  {
+    id: 1215, day: 36, word: "post", phonetic: "/poʊst/", meaning: "n. 우편, 기둥, 직위 / v. 게시하다, 우편으로 보내다",
+    example: "He posted an announcement on the company bulletin board.",
+    exampleTranslation: "그는 회사 게시판에 공지사항을 게시했다."
+  },
+  {
+    id: 1216, day: 36, word: "postpone", phonetic: "/poʊˈspoʊn/", meaning: "v. 연기하다, 미루다",
+    example: "The outdoor concert was postponed due to heavy rain.",
+    exampleTranslation: "야외 콘서트가 폭우로 인해 연기되었다."
+  },
+  {
+    id: 1217, day: 36, word: "potential", phonetic: "/pəˈtenʃl/", meaning: "a. 잠재적인 / n. 잠재력",
+    example: "Every child has the potential to achieve greatness.",
+    exampleTranslation: "모든 아이는 위대함을 달성할 잠재력을 가지고 있다."
+  },
+  {
+    id: 1218, day: 36, word: "poverty", phonetic: "/ˈpɑːvərti/", meaning: "n. 가난, 빈곤",
+    example: "The charity works hard to lift families out of poverty.",
+    exampleTranslation: "그 자선 단체는 가정들을 빈곤에서 벗어나게 하기 위해 열심히 일한다."
+  },
+  {
+    id: 1219, day: 36, word: "powder", phonetic: "/ˈpaʊdər/", meaning: "n. 가루, 분말",
+    example: "Mix the chocolate powder with warm milk.",
+    exampleTranslation: "초콜릿 가루를 따뜻한 우유와 섞으세요."
+  },
+  {
+    id: 1220, day: 36, word: "power", phonetic: "/ˈpaʊər/", meaning: "n. 힘, 전력, 권력",
+    example: "Wind and solar energy are clean sources of power.",
+    exampleTranslation: "풍력과 태양 에너지는 깨끗한 전력(동력)원이다."
+  },
+  {
+    id: 1221, day: 36, word: "practical", phonetic: "/ˈpræktɪkl/", meaning: "a. 현실적인, 실용적인",
+    example: "She offered some practical advice for solving the budget issue.",
+    exampleTranslation: "그녀는 예산 문제를 해결하기 위한 몇 가지 실용적인 조언을 제공했다."
+  },
+  {
+    id: 1222, day: 36, word: "practice", phonetic: "/ˈpræktɪs/", meaning: "n. 연습, 관행 / v. 연습하다",
+    example: "Daily practice is the key to mastering a musical instrument.",
+    exampleTranslation: "매일의 연습이 악기를 마스터하는 비결이다."
+  },
+  {
+    id: 1223, day: 36, word: "praise", phonetic: "/preɪz/", meaning: "n. 칭찬 / v. 칭찬하다",
+    example: "The teacher praised the students for their hard work.",
+    exampleTranslation: "선생님은 학생들의 노고를 칭찬했다."
+  },
+  {
+    id: 1224, day: 36, word: "preach", phonetic: "/priːtʃ/", meaning: "v. 설교하다, 설파하다",
+    example: "The priest preached a sermon about love and forgiveness.",
+    exampleTranslation: "신부님은 사랑과 용서에 관한 설교를 하셨다."
+  },
+{
+    id: 1225, day: 37, word: "precede", phonetic: "/prɪˈsiːd/", meaning: "v. 선행하다, ~보다 먼저 가다",
+    example: "A brief introduction will precede the main presentation.",
+    exampleTranslation: "간단한 소개가 메인 발표에 선행할 것이다."
+  },
+  {
+    id: 1226, day: 37, word: "precious", phonetic: "/ˈpreʃəs/", meaning: "a. 귀중한, 소중한",
+    example: "Time is our most precious resource, so don't waste it.",
+    exampleTranslation: "시간은 우리의 가장 소중한 자원이니 낭비하지 마라."
+  },
+  {
+    id: 1227, day: 37, word: "precise", phonetic: "/prɪˈsaɪs/", meaning: "a. 정밀한, 정확한",
+    example: "Can you give me the precise measurements of the room?",
+    exampleTranslation: "방의 정확한 치수를 제게 알려주실 수 있나요?"
+  },
+  {
+    id: 1228, day: 37, word: "predict", phonetic: "/prɪˈdɪkt/", meaning: "v. 예측하다, 예견하다",
+    example: "It is difficult to predict the winner of the soccer match.",
+    exampleTranslation: "축구 경기 승자를 예측하기는 어렵다."
+  },
+  {
+    id: 1229, day: 37, word: "prefer", phonetic: "/prɪˈfɜːr/", meaning: "v. 더 좋아하다, 선호하다",
+    example: "I prefer drinking green tea to coffee in the evening.",
+    exampleTranslation: "나는 저녁에 커피보다 녹차 마시는 것을 더 좋아한다."
+  },
+  {
+    id: 1230, day: 37, word: "prejudice", phonetic: "/ˈpredʒədɪs/", meaning: "n. 편견, 선입관",
+    example: "Education plays a key role in eliminating racial prejudice.",
+    exampleTranslation: "교육은 인종적 편견을 없애는 데 핵심적인 역할을 한다."
+  },
+  {
+    id: 1231, day: 37, word: "preliminary", phonetic: "/prɪˈlɪmɪneri/", meaning: "a. 예비의, 예선의",
+    example: "The athletes passed the preliminary rounds of the competition.",
+    exampleTranslation: "선수들은 대회의 예선전을 통과했다."
+  },
+  {
+    id: 1232, day: 37, word: "premise", phonetic: "/ˈpremɪs/", meaning: "n. 전제, (건물이 있는) 부지",
+    example: "His argument is based on a false premise.",
+    exampleTranslation: "그의 주장은 잘못된 전제에 기반하고 있다."
+  },
+  {
+    id: 1233, day: 37, word: "prepare", phonetic: "/prɪˈper/", meaning: "v. 준비하다",
+    example: "She spent hours preparing for the job interview.",
+    exampleTranslation: "그녀는 입사 면접을 준비하느라 몇 시간을 보냈다."
+  },
+  {
+    id: 1234, day: 37, word: "prescribe", phonetic: "/prɪˈskraɪb/", meaning: "v. 처방하다, 규정하다",
+    example: "The doctor prescribed some medicine for my cold.",
+    exampleTranslation: "의사가 내 감기에 약을 좀 처방해 주었다."
+  },
+  {
+    id: 1235, day: 37, word: "present", phonetic: "/ˈpreznt/", meaning: "a. 현재의, 참석한 / n. 선물 / v. 제시하다",
+    example: "All members were present at the board meeting.",
+    exampleTranslation: "모든 멤버가 이사회에 참석했다."
+  },
+  {
+    id: 1236, day: 37, word: "preserve", phonetic: "/prɪˈzɜːrv/", meaning: "v. 보존하다, 보호하다",
+    example: "Efforts are being made to preserve historical monuments.",
+    exampleTranslation: "역사적 기념물을 보존하기 위한 노력이 이루어지고 있다."
+  },
+  {
+    id: 1237, day: 37, word: "president", phonetic: "/ˈprezɪdənt/", meaning: "n. 대통령, 회장",
+    example: "The president gave a speech on economic reform.",
+    exampleTranslation: "대통령은 경제 개혁에 관한 연설을 했다."
+  },
+  {
+    id: 1238, day: 37, word: "press", phonetic: "/pres/", meaning: "v. 누르다, 압력을 가하다 / n. 언론, 신문",
+    example: "Press the power button to turn on the computer.",
+    exampleTranslation: "컴퓨터를 켜려면 전원 버튼을 누르세요."
+  },
+  {
+    id: 1239, day: 37, word: "pressure", phonetic: "/ˈpreʃər/", meaning: "n. 압력, 압박",
+    example: "Atmospheric pressure drops as you climb higher.",
+    exampleTranslation: "높이 올라갈수록 기압(대기압)이 떨어진다."
+  },
+  {
+    id: 1240, day: 37, word: "pretend", phonetic: "/prɪˈtend/", meaning: "v. ~인 체하다, 가장하다",
+    example: "The child pretended to be asleep when his mother entered.",
+    exampleTranslation: "아이는 엄마가 들어오자 잠든 체했다."
+  },
+  {
+    id: 1241, day: 37, word: "prevail", phonetic: "/prɪˈveɪl/", meaning: "v. 만연하다, 승리하다, 우세하다",
+    example: "Justice and truth will ultimately prevail.",
+    exampleTranslation: "정의와 진실은 결국 승리할 것이다."
+  },
+  {
+    id: 1242, day: 37, word: "prevent", phonetic: "/prɪˈvent/", meaning: "v. 예방하다, 막다",
+    example: "Washing your hands frequently helps prevent infections.",
+    exampleTranslation: "손을 자주 씻는 것은 감염을 예방하는 데 도움이 된다."
+  },
+  {
+    id: 1243, day: 37, word: "previous", phonetic: "/ˈpriːviəs/", meaning: "a. 이전의, 사전의",
+    example: "She reviewed notes from the previous lecture.",
+    exampleTranslation: "그녀는 이전 강의의 노트를 복습했다."
+  },
+  {
+    id: 1244, day: 37, word: "price", phonetic: "/praɪs/", meaning: "n. 가격, 대가",
+    example: "The price of gasoline has gone up again this week.",
+    exampleTranslation: "이번 주에 휘발유 가격이 다시 올랐다."
+  },
+  {
+    id: 1245, day: 37, word: "pride", phonetic: "/praɪd/", meaning: "n. 자부심, 자랑거리",
+    example: "She takes great pride in her children's achievements.",
+    exampleTranslation: "그녀는 아이들의 성취에 큰 자부심을 느낀다."
+  },
+  {
+    id: 1246, day: 37, word: "primary", phonetic: "/ˈpraɪmeri/", meaning: "a. 주된, 주요한, 초등의",
+    example: "Our primary goal is to improve customer satisfaction.",
+    exampleTranslation: "우리의 주된 목표는 고객 만족도를 향상시키는 것이다."
+  },
+  {
+    id: 1247, day: 37, word: "primitive", phonetic: "/ˈprɪmətɪv/", meaning: "a. 원시의, 원시적인",
+    example: "Archaeologists discovered primitive tools made of stone.",
+    exampleTranslation: "고고학자들이 돌로 만들어진 원시적 도구들을 발견했다."
+  },
+  {
+    id: 1248, day: 37, word: "principal", phonetic: "/ˈprɪnsəpl/", meaning: "a. 주요한, 주된 / n. 교장, 주역",
+    example: "The principal reason for the delay was heavy traffic.",
+    exampleTranslation: "지연의 주된 이유는 심한 교통 체증이었다."
+  },
+  {
+    id: 1249, day: 37, word: "principle", phonetic: "/ˈprɪnsəpl/", meaning: "n. 원칙, 원리",
+    example: "He is a man of strong moral principles.",
+    exampleTranslation: "그는 강력한 도덕적 원칙을 가진 사람이다."
+  },
+  {
+    id: 1250, day: 37, word: "print", phonetic: "/prɪnt/", meaning: "v. 인쇄하다, 출력하다 / n. 인쇄물",
+    example: "Can you print this document for me, please?",
+    exampleTranslation: "이 문서 좀 인쇄해 주시겠어요?"
+  },
+  {
+    id: 1251, day: 37, word: "prior", phonetic: "/ˈpraɪər/", meaning: "a. 사전의, 우선하는",
+    example: "No prior experience is required for this job.",
+    exampleTranslation: "이 일에는 사전 경력이 요구되지 않는다."
+  },
+  {
+    id: 1252, day: 37, word: "private", phonetic: "/ˈpraɪvət/", meaning: "a. 사적인, 개인의, 민간의",
+    example: "This is a private conversation, so please do not interrupt.",
+    exampleTranslation: "이것은 사적인 대화이니 방해하지 마세요."
+  },
+  {
+    id: 1253, day: 37, word: "privilege", phonetic: "/ˈprɪvəlɪdʒ/", meaning: "n. 특권, 특혜",
+    example: "Education should be a basic right, not a privilege.",
+    exampleTranslation: "교육은 특권이 아니라 기본적 권리여야 한다."
+  },
+  {
+    id: 1254, day: 37, word: "probability", phonetic: "/ˌprɑːbəˈbɪləti/", meaning: "n. 확률, 가능성",
+    example: "There is a high probability of rain this evening.",
+    exampleTranslation: "오늘 저녁에 비가 올 확률이 높다."
+  },
+  {
+    id: 1255, day: 37, word: "probe", phonetic: "/proʊb/", meaning: "v. 캐묻다, 조사하다 / n. 탐사선, 조사",
+    example: "The space probe sent back high-resolution photos of Mars.",
+    exampleTranslation: "그 우주 탐사선은 화성의 고해상도 사진들을 전송해 왔다."
+  },
+  {
+    id: 1256, day: 37, word: "problem", phonetic: "/ˈprɑːbləm/", meaning: "n. 문제",
+    example: "We need to work together to solve this environmental problem.",
+    exampleTranslation: "우리는 이 환경 문제를 해결하기 위해 함께 노력해야 한다."
+  },
+  {
+    id: 1257, day: 37, word: "procedure", phonetic: "/prəˈsiːdʒər/", meaning: "n. 절차, 순서",
+    example: "Follow the standard safety procedure in the laboratory.",
+    exampleTranslation: "실험실에서 표준 안전 절차를 따르세요."
+  },
+  {
+    id: 1258, day: 37, word: "proceed", phonetic: "/prəˈsiːd/", meaning: "v. 나아가다, 진행하다",
+    example: "The meeting will proceed as scheduled tomorrow.",
+    exampleTranslation: "회의는 내일 예정대로 진행될 것이다."
+  },
+{
+    id: 1259, day: 38, word: "process", phonetic: "/ˈprɑːses/", meaning: "n. 과정, 처리 / v. 가공하다, 처리하다",
+    example: "Learning a new language is a gradual process.",
+    exampleTranslation: "새로운 언어를 배우는 것은 점진적인 과정이다."
+  },
+  {
+    id: 1260, day: 38, word: "proclaim", phonetic: "/prəˈkleɪm/", meaning: "v. 선언하다, 공표하다",
+    example: "The government proclaimed a state of emergency.",
+    exampleTranslation: "정부는 비상사태를 선언했다."
+  },
+  {
+    id: 1261, day: 38, word: "produce", phonetic: "/prəˈduːs/", meaning: "v. 생산하다, 만들어내다 / n. 농산물",
+    example: "The factory produces thousands of smartphones daily.",
+    exampleTranslation: "그 공장은 매일 수천 대의 스마트폰을 생산한다."
+  },
+  {
+    id: 1262, day: 38, word: "product", phonetic: "/ˈprɑːdʌkt/", meaning: "n. 제품, 상품",
+    example: "The company launched a new eco-friendly product.",
+    exampleTranslation: "그 회사는 새로운 친환경 제품을 출시했다."
+  },
+  {
+    id: 1263, day: 38, word: "production", phonetic: "/prəˈdʌkʃn/", meaning: "n. 생산, 제작",
+    example: "Car production was suspended due to a shortage of parts.",
+    exampleTranslation: "부품 부족으로 인해 자동차 생산이 중단되었다."
+  },
+  {
+    id: 1264, day: 38, word: "profession", phonetic: "/prəˈfeʃn/", meaning: "n. 직업, 전문직",
+    example: "She chose medicine as her professional career.",
+    exampleTranslation: "그녀는 자신의 전문 직업으로 의학을 선택했다."
+  },
+  {
+    id: 1265, day: 38, word: "professor", phonetic: "/prəˈfesər/", meaning: "n. 교수",
+    example: "He is a professor of computer science at the university.",
+    exampleTranslation: "그는 대학에서 컴퓨터과학 교수이다."
+  },
+  {
+    id: 1266, day: 38, word: "profile", phonetic: "/ˈproʊfaɪl/", meaning: "n. 프로필, 윤곽",
+    example: "She updated her online professional profile.",
+    exampleTranslation: "그녀는 온라인 전문 프로필을 업데이트했다."
+  },
+  {
+    id: 1267, day: 38, word: "profit", phonetic: "/ˈprɑːfɪt/", meaning: "n. 이익, 수익 / v. 이익을 얻다",
+    example: "The business made a huge profit in its first year.",
+    exampleTranslation: "그 사업은 첫해에 막대한 이익을 올렸다."
+  },
+  {
+    id: 1268, day: 38, word: "program", phonetic: "/ˈproʊɡræm/", meaning: "n. 프로그램, 방송 순서 / v. 프로그래밍하다",
+    example: "He wrote a computer program to analyze data efficiently.",
+    exampleTranslation: "그는 데이터를 효율적으로 분석하기 위해 컴퓨터 프로그램을 작성했다."
+  },
+  {
+    id: 1269, day: 38, word: "progress", phonetic: "/ˈprɑːɡres/", meaning: "n. 진전, 발전 / v. 나아가다",
+    example: "The student made great progress in English speaking.",
+    exampleTranslation: "그 학생은 영어 말하기에서 큰 진전을 이루었다."
+  },
+  {
+    id: 1270, day: 38, word: "prohibit", phonetic: "/prəˈhɪbɪt/", meaning: "v. 금지하다",
+    example: "Smoking is strictly prohibited inside the museum.",
+    exampleTranslation: "박물관 내부에서는 흡연이 엄격히 금지된다."
+  },
+  {
+    id: 1271, day: 38, word: "project", phonetic: "/ˈprɑːdʒekt/", meaning: "n. 프로젝트, 과제 / /prəˈdʒekt/ v. 투사하다, 예상하다",
+    example: "Students are working together on a science project.",
+    exampleTranslation: "학생들이 과학 프로젝트를 위해 함께 작업하고 있다."
+  },
+  {
+    id: 1272, day: 38, word: "prolong", phonetic: "/prəˈlɔːŋ/", meaning: "v. 연장하다, 길게 하다",
+    example: "Regular exercise can help prolong your life.",
+    exampleTranslation: "규칙적인 운동은 수명을 연장하는 데 도움을 줄 수 있다."
+  },
+  {
+    id: 1273, day: 38, word: "prominent", phonetic: "/ˈprɑːmɪnənt/", meaning: "n. 저명한, 두드러진, 눈에 띄는",
+    example: "A prominent scientist gave a lecture at the conference.",
+    exampleTranslation: "저명한 과학자가 학회에서 강연을 했다."
+  },
+  {
+    id: 1274, day: 38, word: "promise", phonetic: "/ˈprɑːmɪs/", meaning: "n. 약속 / v. 약속하다",
+    example: "I made a promise to help him whenever he needs me.",
+    exampleTranslation: "나는 그가 필요할 때마다 돕겠다고 약속했다."
+  },
+  {
+    id: 1275, day: 38, word: "promote", phonetic: "/prəˈmoʊt/", meaning: "v. 홍보하다, 승진시키다, 촉진하다",
+    example: "The company used social media to promote its new brand.",
+    exampleTranslation: "그 회사는 새 브랜드를 홍보하기 위해 소셜 미디어를 사용했다."
+  },
+  {
+    id: 1276, day: 38, word: "prompt", phonetic: "/prɑːmpt/", meaning: "a. 즉각적인, 신속한 / v. 자극하다",
+    example: "Thank you for your prompt reply to my email.",
+    exampleTranslation: "내 이메일에 신속하게 답변해 주셔서 감사합니다."
+  },
+  {
+    id: 1277, day: 38, word: "pronounce", phonetic: "/prəˈnaʊns/", meaning: "v. 발음하다, 선언하다",
+    example: "It is sometimes difficult to pronounce foreign words correctly.",
+    exampleTranslation: "외국 단어를 정확하게 발음하는 것은 때때로 어렵다."
+  },
+  {
+    id: 1278, day: 38, word: "proof", phonetic: "/pruːf/", meaning: "n. 증거, 증명",
+    example: "Police need concrete proof before arresting a suspect.",
+    exampleTranslation: "경찰은 용의자를 체포하기 전에 구체적인 증거가 필요하다."
+  },
+  {
+    id: 1279, day: 38, word: "proper", phonetic: "/ˈprɑːpər/", meaning: "a. 적절한, 올바른",
+    example: "Wear proper clothing for the outdoor hiking trip.",
+    exampleTranslation: "야외 하이킹 여행에 적절한 옷을 착용하세요."
+  },
+  {
+    id: 1280, day: 38, word: "property", phonetic: "/ˈprɑːpərti/", meaning: "n. 재산, 소유물, 부동산, 속성",
+    example: "Water has unique physical and chemical properties.",
+    exampleTranslation: "물은 독특한 물리적, 화학적 속성을 가지고 있다."
+  },
+  {
+    id: 1281, day: 38, word: "propose", phonetic: "/prəˈpoʊz/", meaning: "v. 제안하다, 청혼하다",
+    example: "He proposed a new plan to reduce energy consumption.",
+    exampleTranslation: "그는 에너지 소비를 줄이기 위한 새로운 계획을 제안했다."
+  },
+  {
+    id: 1282, day: 38, word: "prospect", phonetic: "/ˈprɑːspekt/", meaning: "n. 전망, 가능성",
+    example: "She is excited about the prospect of studying abroad.",
+    exampleTranslation: "그녀는 유학을 가게 된다는 전망에 들떠 있다."
+  },
+  {
+    id: 1283, day: 38, word: "protect", phonetic: "/prəˈtekt/", meaning: "v. 보호하다",
+    example: "We must wear sunglasses to protect our eyes from UV rays.",
+    exampleTranslation: "우리는 자외선으로부터 눈을 보호하기 위해 선글라스를 착용해야 한다."
+  },
+  {
+    id: 1284, day: 38, word: "protein", phonetic: "/ˈproʊtiːn/", meaning: "n. 단백질",
+    example: "Meat, fish, and eggs are rich sources of protein.",
+    exampleTranslation: "고기, 생선, 달걀은 풍부한 단백질 공급원이다."
+  },
+  {
+    id: 1285, day: 38, word: "protest", phonetic: "/ˈproʊtest/", meaning: "n. 항의, 시위 / /prəˈtest/ v. 항의하다",
+    example: "Thousands of citizens joined the peaceful protest march.",
+    exampleTranslation: "수천 명의 시민들이 평화로운 항의 행진에 동참했다."
+  },
+  {
+    id: 1286, day: 38, word: "proud", phonetic: "/praʊd/", meaning: "a. 자랑스러워하는",
+    example: "Her parents were very proud of her academic achievements.",
+    exampleTranslation: "그녀의 부모님은 그녀의 학업 성취를 매우 자랑스러워했다."
+  },
+  {
+    id: 1287, day: 38, word: "prove", phonetic: "/pruːv/", meaning: "v. 증명하다, 입증하다",
+    example: "The scientist used experiments to prove his theory.",
+    exampleTranslation: "그 과학자는 자신의 이론을 증명하기 위해 실험을 사용했다."
+  },
+  {
+    id: 1288, day: 38, word: "provide", phonetic: "/prəˈvaɪd/", meaning: "v. 제공하다, 공급하다",
+    example: "The hotel provides free breakfast for all guests.",
+    exampleTranslation: "그 호텔은 모든 투숙객에게 무료 조식을 제공한다."
+  },
+  {
+    id: 1289, day: 38, word: "province", phonetic: "/ˈprɑːvɪns/", meaning: "n. 주(州), 도(道), 지방",
+    example: "They traveled across the rural province by train.",
+    exampleTranslation: "그들은 기차를 타고 시골 지방을 가로질러 여행했다."
+  },
+  {
+    id: 1290, day: 38, word: "provision", phonetic: "/prəˈvɪʒn/", meaning: "n. 공급, 조항, 식량",
+    example: "The government made provisions for emergency relief supplies.",
+    exampleTranslation: "정부는 긴급 구호 물품에 대한 공급(대책)을 마련했다."
+  },
+  {
+    id: 1291, day: 38, word: "psychology", phonetic: "/saɪˈkɑːlədʒi/", meaning: "n. 심리학, 심리",
+    example: "She is studying human psychology at the university.",
+    exampleTranslation: "그녀는 대학에서 인간 심리학을 공부하고 있다."
+  },
+  {
+    id: 1292, day: 38, word: "public", phonetic: "/ˈpʌblɪk/", meaning: "a. 공공의, 대중의 / n. 일반 대중",
+    example: "The park is open to the general public free of charge.",
+    exampleTranslation: "그 공인은 일반 대중에게 무료로 개방되어 있다."
+  },
+  
 ];
