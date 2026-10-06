@@ -4197,7 +4197,7 @@ export const INITIAL_WORDS: WordItem[] = [
     exampleTranslation: "그들은 수년 동안 쌓아온 친밀한 우정을 나누고 있다."
   },
   {
-    id: 828, day: 25, word: "intrigue", phonetic: /ɪnˈtriːɡ/, meaning: "v. 강한 흥미를 끌다 / n. 음모",
+    id: 828, day: 25, word: "intrigue", phonetic: "/ɪnˈtriːɡ/", meaning: "v. 강한 흥미를 끌다 / n. 음모",
     example: "The mysterious letter began to intrigue her.",
     exampleTranslation: "그 의문의 편지가 그녀의 강한 흥미를 끌기 시작했다."
   },
