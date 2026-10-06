@@ -2,8 +2,10 @@ import { NextResponse } from "next/server";
 import webpush from "web-push";
 import { subscriptions } from "@/utils/store";
 
+// ✅ 핵심: Next.js가 빌드 시점에 이 파일을 미리 실행(prerendering)하는 것을 막아줍니다.
+export const dynamic = "force-dynamic";
+
 export async function GET(req: Request) {
-  // 빌드 에러를 막기 위해 함수 안쪽으로 위치를 옮겼습니다!
   webpush.setVapidDetails(
     process.env.VAPID_SUBJECT || "mailto:admin@example.com",
     process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY!,
