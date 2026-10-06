@@ -7,6 +7,7 @@ export interface WordItem {
   tip?: string;
   example: string;
   exampleTranslation: string;
+  sourceTag?: string;
 }
 
 export const INITIAL_WORDS: WordItem[] = [
