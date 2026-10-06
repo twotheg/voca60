@@ -9937,7 +9937,7 @@ export const INITIAL_WORDS: WordItem[] = [
     exampleTranslation: "마라톤을 뛰는 것은 신체적, 정신적 강인함 둘 다 요구한다."
   },
   {
-    id: 1976, day: 59, word: "tour", phonetic: /tʊr/, meaning: "n. 관광, 여행 / v. 여행하다",
+    id: 1976, day: 59, word: "tour", phonetic: "/tʊr/", meaning: "n. 관광, 여행 / v. 여행하다",
     example: "They went on a guided tour of historic European cities.",
     exampleTranslation: "그들은 유럽의 역사적인 도시들을 도는 가이드 동반 관광을 갔다."
   },
