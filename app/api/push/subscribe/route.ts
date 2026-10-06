@@ -1,6 +1,5 @@
 import { NextResponse } from "next/server";
-
-export let subscriptions: any[] = [];
+import { subscriptions } from "@/utils/store";
 
 export async function POST(req: Request) {
   try {

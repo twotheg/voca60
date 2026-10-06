@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import { Bell, BellCheck } from "lucide-react";
+import { Bell, BellRing } from "lucide-react";
 import { urlBase64ToUint8Array } from "@/utils/push";
 
 export default function PushNotificationManager() {
@@ -59,7 +59,7 @@ export default function PushNotificationManager() {
   return (
     <div className="w-full max-w-md my-3 px-4 py-3 bg-slate-800/60 border border-slate-700/60 rounded-2xl flex items-center justify-between">
       <div className="flex items-center space-x-2 text-xs text-slate-300">
-        {isSubscribed ? <BellCheck className="w-4 h-4 text-emerald-400" /> : <Bell className="w-4 h-4 text-indigo-400" />}
+        {isSubscribed ? <BellRing className="w-4 h-4 text-emerald-400" /> : <Bell className="w-4 h-4 text-indigo-400" />}
         <span>{isSubscribed ? "아침 복습 알림 수신 중" : "매일 오전 8시 복습 알림 받기"}</span>
       </div>
       {!isSubscribed && (

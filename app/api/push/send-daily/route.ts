@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import webpush from "web-push";
-import { subscriptions } from "../subscribe/route";
+import { subscriptions } from "@/utils/store";
 
 webpush.setVapidDetails(
   process.env.VAPID_SUBJECT || "mailto:admin@example.com",
