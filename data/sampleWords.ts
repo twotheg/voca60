@@ -5592,7 +5592,7 @@ export const INITIAL_WORDS: WordItem[] = [
     exampleTranslation: "그들은 나무 울타리를 흰색으로 칠했다."
   },
   {
-    id: 1107, day: 33, word: "pair", phonetic: /per/, meaning: "n. 한 쌍, 켤레",
+    id: 1107, day: 33, word: "pair", phonetic: "/per/", meaning: "n. 한 쌍, 켤레",
     example: "I need to buy a new pair of running shoes.",
     exampleTranslation: "나는 새 러닝화 한 켤레를 사야 한다."
   },
