@@ -8,6 +8,9 @@ export interface WordItem {
   example: string;
   exampleTranslation: string;
   sourceTag?: string;
+  pos?: string;
+  meaningPrimary?: string;
+  meaningSecondary?: string;
 }
 
 export const INITIAL_WORDS: WordItem[] = [
