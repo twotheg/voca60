@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="vocaBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="50%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#1E1B4B" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#vocaBg)"/>
+  <g filter="url(#dropShadow)" transform="translate(96, 106)">
+    <path d="M16 48 C 60 38, 110 44, 155 64 L 155 240 C 110 220, 60 216, 16 226 Z" fill="#FFFFFF" fill-opacity="0.95"/>
+    <path d="M165 64 C 210 44, 260 38, 304 48 L 304 226 C 260 216, 210 220, 165 240 Z" fill="#FFFFFF"/>
+    <rect x="156" y="58" width="8" height="184" rx="4" fill="#CBD5E1"/>
+    <polygon points="160,20 172,44 198,46 178,64 184,90 160,76 136,90 142,64 122,46 148,44" fill="#FACC15"/>
+  </g>
+  <text x="256" y="420" font-family="-apple-system, BlinkMacSystemFont, 'Pretendard', sans-serif" font-size="64" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">VOCA 60</text>
+</svg>

@@ -1,0 +1,18 @@
+{
+  "name": "Voca60 수능 영단어 마스터",
+  "short_name": "Voca60",
+  "description": "수능·내신 대비 2,000단어 60일 완성 보카 앱",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#4f46e5",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
