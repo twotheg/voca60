@@ -156,7 +156,7 @@ export default function VocaApp() {
               {mode === "study" ? (
                 <div className="flex items-center justify-between">
                   <button onClick={handlePrev} disabled={currentIndex === 0} className="p-3 rounded-xl bg-slate-700 text-slate-300 disabled:opacity-30 disabled:cursor-not-allowed hover:bg-slate-600 transition"><ChevronLeft className="w-5 h-5" /></button>
-                  <button onClick={() => playAudio(currentWord.exampleEn)} className="text-xs font-semibold text-slate-400 hover:text-white flex items-center space-x-1"><Volume2 className="w-4 h-4" /><span>예문 듣기</span></button>
+                  <button onClick={() => playAudio(currentWord.exampleEn || "")} className="text-xs font-semibold text-slate-400 hover:text-white flex items-center space-x-1"><Volume2 className="w-4 h-4" /><span>예문 듣기</span></button>
                   <button onClick={handleNext} className="p-3 rounded-xl bg-indigo-600 text-white hover:bg-indigo-500 transition"><ChevronRight className="w-5 h-5" /></button>
                 </div>
               ) : (
