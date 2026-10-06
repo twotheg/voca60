@@ -7334,7 +7334,7 @@ export const INITIAL_WORDS: WordItem[] = [
   {
     id: 1455, day: 43, word: "ridiculous", phonetic: "/rɪˈdɪkjələs/", meaning: "a. 터무니없는, 우스꽝스러운",
     example: "Paying such a high price for a simple t-shirt is ridiculous.",
-    example Translation: "단순한 티셔츠 하나에 그렇게 비싼 값을 지불하는 것은 터무니없다."
+    exampleTranslation: "단순한 티셔츠 하나에 그렇게 비싼 값을 지불하는 것은 터무니없다."
   },
   {
     id: 1456, day: 43, word: "right", phonetic: "/raɪd/", meaning: "a. 옳은, 오른쪽의 / n. 권리, 오른쪽",
