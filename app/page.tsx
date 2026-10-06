@@ -1,7 +1,11 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { INITIAL_WORDS, WordItem } from "@/data/sampleWords";
+
+interface DayProgress {
+  count: number;
+}
 
 export default function Home() {
   const [selectedDay, setSelectedDay] = useState<number | null>(null);
@@ -10,25 +14,46 @@ export default function Home() {
   // 학습 상태
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // 테스트 상태
+  // Day별 학습 횟수 기록 (localStorage 연동)
+  const [progressMap, setProgressMap] = useState<Record<number, DayProgress>>({});
+
+  // 주관식 테스트 상태
   const [testIndex, setTestIndex] = useState(0);
-  const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
-  const [isCorrectAnswer, setIsCorrectAnswer] = useState<boolean | null>(null);
+  const [userInput, setUserInput] = useState("");
+  const [testMode, setTestMode] = useState<"wordToMeaning" | "meaningToWord">("wordToMeaning");
+  const [testResult, setTestResult] = useState<"correct" | "incorrect" | null>(null);
   const [wrongWords, setWrongWords] = useState<WordItem[]>([]);
   const [testCompleted, setTestCompleted] = useState(false);
-  const [shuffledOptions, setShuffledOptions] = useState<string[]>([]);
 
   // 오답 복습 상태
   const [wrongIndex, setWrongIndex] = useState(0);
 
-  // 현재 선택된 Day의 단어 목록
+  useEffect(() => {
+    const saved = localStorage.getItem("voca60_progress");
+    if (saved) {
+      try {
+        setProgressMap(JSON.parse(saved));
+      } catch (e) {
+        console.error(e);
+      }
+    }
+  }, []);
+
+  const saveProgress = (day: number) => {
+    const updated = {
+      ...progressMap,
+      [day]: { count: (progressMap[day]?.count || 0) + 1 },
+    };
+    setProgressMap(updated);
+    localStorage.setItem("voca60_progress", JSON.stringify(updated));
+  };
+
   const activeWordList = selectedDay 
     ? INITIAL_WORDS.filter((w) => w.day === selectedDay)
     : [];
 
   const currentWord = activeWordList[currentIndex];
 
-  // 음성 재생 함수
   const playAudio = (text: string) => {
     if (!window.speechSynthesis) return;
     window.speechSynthesis.cancel();
@@ -37,7 +62,6 @@ export default function Home() {
     window.speechSynthesis.speak(utterance);
   };
 
-  // Day 선택 시 학습 시작
   const handleSelectDay = (day: number) => {
     setSelectedDay(day);
     setCurrentIndex(0);
@@ -45,46 +69,47 @@ export default function Home() {
     setWrongWords([]);
     setTestCompleted(false);
     setTestIndex(0);
+    setUserInput("");
+    setTestResult(null);
   };
 
-  // 탭 전환 시 초기화 작업
   const handleTabChange = (tab: "study" | "test" | "wrong") => {
     setActiveTab(tab);
     if (tab === "test") {
       setTestIndex(0);
-      setSelectedAnswer(null);
-      setIsCorrectAnswer(null);
+      setUserInput("");
+      setTestResult(null);
       setTestCompleted(false);
-      generateOptions(0, activeWordList);
     } else if (tab === "wrong") {
       setWrongIndex(0);
     }
   };
 
-  // 4지선다 보기 생성
-  const generateOptions = (tIdx: number, targetList: WordItem[]) => {
-    const targetWord = targetList[tIdx];
-    if (!targetWord) return;
-
-    const otherWords = INITIAL_WORDS.filter((w) => w.word !== targetWord.word);
-    const shuffledOthers = [...otherWords].sort(() => 0.5 - Math.random()).slice(0, 3);
-    const options = [targetWord.meaning, ...shuffledOthers.map((w) => w.meaning)];
-    setShuffledOptions(options.sort(() => 0.5 - Math.random()));
-    setSelectedAnswer(null);
-    setIsCorrectAnswer(null);
-  };
-
-  // 테스트 정답 선택
-  const handleAnswerSelect = (option: string) => {
-    if (selectedAnswer !== null) return;
-    setSelectedAnswer(option);
+  // 주관식 정답 제출 체크
+  const handleTestSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!userInput.trim() || testResult !== null) return;
 
     const currentTestWord = activeWordList[testIndex];
-    const isCorrect = option === currentTestWord.meaning;
-    setIsCorrectAnswer(isCorrect);
+    let isCorrect = false;
 
-    if (!isCorrect) {
-      // 틀린 단어 목록에 추가 (중복 방지)
+    const cleanInput = userInput.trim().toLowerCase();
+
+    if (testMode === "wordToMeaning") {
+      // 뜻 쓰기 (포함 여부 혹은 유사성 체크)
+      const targetMeaning = currentTestWord.meaning.toLowerCase();
+      // 간단하게 핵심 키워드나 전체 텍스트 매칭
+      isCorrect = targetMeaning.includes(cleanInput) || cleanInput.includes(targetMeaning.replace(/^[a-z]\.\s*/, ""));
+    } else {
+      // 영어 단어 쓰기
+      const targetWord = currentTestWord.word.toLowerCase();
+      isCorrect = cleanInput === targetWord;
+    }
+
+    if (isCorrect) {
+      setTestResult("correct");
+    } else {
+      setTestResult("incorrect");
       setWrongWords((prev) => {
         if (!prev.some((w) => w.word === currentTestWord.word)) {
           return [...prev, currentTestWord];
@@ -96,11 +121,28 @@ export default function Home() {
     setTimeout(() => {
       if (testIndex < activeWordList.length - 1) {
         setTestIndex((prev) => prev + 1);
-        generateOptions(testIndex + 1, activeWordList);
+        setUserInput("");
+        setTestResult(null);
       } else {
         setTestCompleted(true);
+        if (selectedDay) {
+          saveProgress(selectedDay); // 테스트 완료 시 해당 Day 학습 횟수 1증가 및 컬러 업데이트
+        }
       }
-    }, 1000);
+    }, 1200);
+  };
+
+  // 반복 횟수에 따른 버튼 배경색 결정 (빨간색 제외, 노란색 -> 초록색 -> 파란색/보라색 순환)
+  const getDayButtonStyle = (count: number) => {
+    if (!count || count === 0) {
+      return "bg-slate-800/80 hover:bg-slate-700 border-slate-700 text-slate-300";
+    } else if (count === 1) {
+      return "bg-amber-500/20 hover:bg-amber-500/30 border-amber-500/60 text-amber-200 shadow-amber-500/10"; // 1회: 노란빛
+    } else if (count === 2) {
+      return "bg-emerald-500/20 hover:bg-emerald-500/30 border-emerald-500/60 text-emerald-200 shadow-emerald-500/10"; // 2회: 초록빛
+    } else {
+      return "bg-indigo-500/20 hover:bg-indigo-500/30 border-indigo-500/60 text-indigo-200 shadow-indigo-500/10"; // 3회 이상: 파란빛/보라빛
+    }
   };
 
   return (
@@ -123,24 +165,37 @@ export default function Home() {
         )}
       </header>
 
-      {/* 1. Day가 선택되지 않았을 때: 60일 목록 대시보드 */}
+      {/* 1. Day 목록 대시보드 */}
       {selectedDay === null ? (
         <div className="w-full max-w-md space-y-4">
           <div className="bg-slate-900/80 border border-slate-800 rounded-2xl p-4 shadow-xl">
-            <h2 className="text-sm font-semibold text-indigo-300 mb-3 flex items-center gap-1.5">
-              <span>🗓️️</span> 60일 학습 커리큘럼 선택
-            </h2>
+            <div className="flex items-center justify-between mb-3">
+              <h2 className="text-sm font-semibold text-indigo-300 flex items-center gap-1.5">
+                <span>🗓</span> 60일 학습 커리큘럼 선택
+              </h2>
+              <span className="text-[10px] text-slate-400">
+                🟡 1회 | 🟢 2회 | 🔵 3회 이상 완료
+              </span>
+            </div>
             <div className="grid grid-cols-5 gap-2 max-h-[65vh] overflow-y-auto pr-1">
               {Array.from({ length: 60 }, (_, i) => i + 1).map((day) => {
-                const count = INITIAL_WORDS.filter((w) => w.day === day).length;
+                const count = progressMap[day]?.count || 0;
+                const totalWords = INITIAL_WORDS.filter((w) => w.day === day).length;
+                const buttonStyle = getDayButtonStyle(count);
+
                 return (
                   <button
                     key={day}
                     onClick={() => handleSelectDay(day)}
-                    className="flex flex-col items-center justify-center py-3 bg-slate-800/80 hover:bg-indigo-600 border border-slate-700 hover:border-indigo-500 rounded-xl transition group shadow-sm"
+                    className={`flex flex-col items-center justify-center py-3 border rounded-xl transition group shadow-sm relative ${buttonStyle}`}
                   >
-                    <span className="text-xs font-bold text-slate-300 group-hover:text-white">Day {day}</span>
-                    <span className="text-[10px] text-slate-500 group-hover:text-indigo-200 mt-0.5">{count}단어</span>
+                    <span className="text-xs font-bold group-hover:scale-105 transition">Day {day}</span>
+                    <span className="text-[10px] opacity-70 mt-0.5">{totalWords}단어</span>
+                    {count > 0 && (
+                      <span className="absolute top-1 right-1.5 text-[9px] font-mono font-bold bg-slate-950/60 px-1 rounded">
+                        {count}회
+                      </span>
+                    )}
                   </button>
                 );
               })}
@@ -148,9 +203,9 @@ export default function Home() {
           </div>
         </div>
       ) : (
-        /* 2. Day가 선택되었을 때: 상단 3개 세션 탭 (학습 / 테스트 / 오답) */
+        /* 2. Day 선택된 상태: 학습 / 테스트 / 오답 세션 */
         <div className="w-full max-w-md space-y-4">
-          {/* 3개 세션 탭 네비게이션 */}
+          {/* 상단 탭 */}
           <div className="bg-slate-900 border border-slate-800 p-1.5 rounded-2xl flex items-center justify-between shadow-lg">
             <button
               onClick={() => handleTabChange("study")}
@@ -170,11 +225,11 @@ export default function Home() {
                   : "text-slate-400 hover:text-slate-200 hover:bg-slate-800/50"
               }`}
             >
-              ❓ 테스트
+              ✍️ 테스트
             </button>
             <button
               onClick={() => handleTabChange("wrong")}
-              className={`flex-1 py-2 text-xs font-bold rounded-xl transition relative ${
+              className={`flex-1 py-2 text-xs font-bold rounded-xl transition ${
                 activeTab === "wrong"
                   ? "bg-indigo-600 text-white shadow-md shadow-indigo-600/30"
                   : "text-slate-400 hover:text-slate-200 hover:bg-slate-800/50"
@@ -184,7 +239,7 @@ export default function Home() {
             </button>
           </div>
 
-          {/* 탭 1: 학습(Study) 세션 */}
+          {/* 탭 1: 학습 세션 */}
           {activeTab === "study" && currentWord && (
             <div className="space-y-4">
               <div className="flex items-center justify-between text-xs text-slate-400 px-1">
@@ -252,7 +307,7 @@ export default function Home() {
                       if (currentIndex < activeWordList.length - 1) {
                         setCurrentIndex((prev) => prev + 1);
                       } else {
-                        handleTabChange("test"); // 마지막 단어에서 다음 누르면 테스트로 이동
+                        handleTabChange("test");
                       }
                     }}
                     className="flex-1 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-500 font-semibold text-xs transition shadow-lg shadow-indigo-600/30"
@@ -264,13 +319,21 @@ export default function Home() {
             </div>
           )}
 
-          {/* 탭 2: 테스트(Test) 세션 */}
+          {/* 탭 2: 주관식 테스트 세션 */}
           {activeTab === "test" && activeWordList[testIndex] && (
             <div className="space-y-4">
               <div className="flex items-center justify-between text-xs text-slate-400 px-1">
-                <span className="bg-purple-950/80 text-purple-300 border border-purple-800/60 px-2.5 py-1 rounded-full font-semibold">
-                  Day {selectedDay} 테스트
-                </span>
+                <div className="flex items-center gap-2">
+                  <span className="bg-purple-950/80 text-purple-300 border border-purple-800/60 px-2.5 py-1 rounded-full font-semibold">
+                    Day {selectedDay} 테스트
+                  </span>
+                  <button
+                    onClick={() => setTestMode(testMode === "wordToMeaning" ? "meaningToWord" : "wordToMeaning")}
+                    className="text-[10px] bg-slate-800 hover:bg-slate-700 px-2 py-1 rounded border border-slate-700 text-slate-300"
+                  >
+                    {testMode === "wordToMeaning" ? "🔄 단어→뜻 쓰기" : "🔄 뜻→영어쓰기"}
+                  </button>
+                </div>
                 <span className="font-mono font-medium">
                   {!testCompleted ? `${testIndex + 1} / ${activeWordList.length}` : "완료"}
                 </span>
@@ -278,47 +341,53 @@ export default function Home() {
 
               {!testCompleted ? (
                 <div className="bg-slate-900 border border-slate-800 rounded-3xl p-6 shadow-2xl space-y-6">
-                  <div className="text-center py-6 bg-slate-950/40 rounded-2xl border border-slate-800/60">
-                    <span className="text-xs text-purple-400 font-bold uppercase tracking-wider">Meaning Check</span>
-                    <h2 className="text-3xl font-black text-white mt-1">
-                      {activeWordList[testIndex].word}
+                  <div className="text-center py-8 bg-slate-950/40 rounded-2xl border border-slate-800/60">
+                    <span className="text-xs text-purple-400 font-bold uppercase tracking-wider">
+                      {testMode === "wordToMeaning" ? "영어 단어 뜻 쓰기" : "뜻 보고 영어 단어 쓰기"}
+                    </span>
+                    <h2 className="text-3xl font-black text-white mt-2">
+                      {testMode === "wordToMeaning" ? activeWordList[testIndex].word : activeWordList[testIndex].meaning}
                     </h2>
+                    {testMode === "wordToMeaning" && (
+                      <p className="text-xs text-slate-500 font-mono mt-1">{activeWordList[testIndex].phonetic}</p>
+                    )}
                   </div>
 
-                  <div className="space-y-2.5">
-                    {shuffledOptions.map((option, idx) => {
-                      const isSelected = selectedAnswer === option;
-                      const isCorrect = option === activeWordList[testIndex].meaning;
+                  <form onSubmit={handleTestSubmit} className="space-y-4">
+                    <input
+                      type="text"
+                      value={userInput}
+                      onChange={(e) => setUserInput(e.target.value)}
+                      placeholder={testMode === "wordToMeaning" ? "뜻을 입력하세요 (예: 이해하다)" : "영단어를 입력하세요"}
+                      disabled={testResult !== null}
+                      autoFocus
+                      className="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3.5 text-sm text-white focus:outline-none focus:border-indigo-500 transition"
+                    />
 
-                      let btnStyle = "bg-slate-800/80 hover:bg-slate-700 border-slate-700 text-slate-200";
-                      if (selectedAnswer !== null) {
-                        if (isCorrect) btnStyle = "bg-emerald-600/90 border-emerald-500 text-white font-bold";
-                        else if (isSelected) btnStyle = "bg-rose-600/90 border-rose-500 text-white font-bold";
-                        else btnStyle = "bg-slate-800/40 border-slate-800 text-slate-500 opacity-50";
-                      }
+                    {testResult !== null && (
+                      <div className={`p-3 rounded-xl text-xs font-bold text-center animate-pulse ${
+                        testResult === "correct" ? "bg-emerald-500/20 text-emerald-300 border border-emerald-500/40" : "bg-rose-500/20 text-rose-300 border border-rose-500/40"
+                      }`}>
+                        {testResult === "correct" ? "✅ 정답입니다!" : `❌ 오답! 정답: ${testMode === "wordToMeaning" ? activeWordList[testIndex].meaning : activeWordList[testIndex].word}`}
+                      </div>
+                    )}
 
-                      return (
-                        <button
-                          key={idx}
-                          onClick={() => handleAnswerSelect(option)}
-                          disabled={selectedAnswer !== null}
-                          className={`w-full p-3.5 rounded-xl border text-left text-xs transition flex items-center justify-between ${btnStyle}`}
-                        >
-                          <span>{option}</span>
-                          {selectedAnswer !== null && isCorrect && <span>✅</span>}
-                          {selectedAnswer !== null && isSelected && !isCorrect && <span>❌</span>}
-                        </button>
-                      );
-                    })}
-                  </div>
+                    <button
+                      type="submit"
+                      disabled={testResult !== null || !userInput.trim()}
+                      className="w-full py-3.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 font-bold text-xs transition shadow-lg shadow-indigo-600/30"
+                    >
+                      정답 제출
+                    </button>
+                  </form>
                 </div>
               ) : (
                 <div className="bg-slate-900 border border-slate-800 rounded-3xl p-6 shadow-2xl text-center space-y-6">
-                  <div className="w-16 h-16 bg-purple-600/20 border border-purple-500/40 rounded-full flex items-center justify-center mx-auto text-2xl">
-                    🎯
+                  <div className="w-16 h-16 bg-indigo-600/20 border border-indigo-500/40 rounded-full flex items-center justify-center mx-auto text-2xl">
+                    🎉
                   </div>
                   <div>
-                    <h2 className="text-xl font-extrabold text-white mb-1">테스트 완료!</h2>
+                    <h2 className="text-xl font-extrabold text-white mb-1">테스트 완료! (Day {selectedDay} 누적 반영됨)</h2>
                     <p className="text-xs text-slate-400">틀린 문제 개수</p>
                     <div className="text-3xl font-black text-rose-400 mt-2">
                       {wrongWords.length}개 <span className="text-sm font-normal text-slate-400">/ 총 {activeWordList.length}문항</span>
@@ -345,7 +414,7 @@ export default function Home() {
             </div>
           )}
 
-          {/* 탭 3: 오답(Wrong) 복습 세션 */}
+          {/* 탭 3: 오답 복습 세션 */}
           {activeTab === "wrong" && (
             <div className="space-y-4">
               <div className="flex items-center justify-between text-xs text-slate-400 px-1">
@@ -414,7 +483,7 @@ export default function Home() {
                           handleTabChange("study");
                         }
                       }}
-                      className="flex-1 py-3 rounded-xl bg-rose-600 hover:bg-rose-500 font-semibold text-xs transition shadow-lg shadow-rose-600/30"
+                      className="flex-1 py-3 rounded-xl bg-rose-600 hover:bg-rose-500 font-bold text-xs transition shadow-lg shadow-rose-600/30"
                     >
                       {wrongIndex === wrongWords.length - 1 ? "복습 완료 🏁" : "다음"}
                     </button>
