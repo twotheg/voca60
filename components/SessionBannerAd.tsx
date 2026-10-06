@@ -20,7 +20,7 @@ export default function SessionBannerAd() {
         className="adsbygoogle"
         style={{ display: 'inline-block', width: '320px', height: '50px' }}
         data-ad-client="ca-pub-4424569297437395" 
-        data-ad-slot="여기에_새로_만든_광고단위_번호_입력" 
+        data-ad-slot="8537989581"
       />
     </div>
   );
