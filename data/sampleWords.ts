@@ -6002,7 +6002,7 @@ export const INITIAL_WORDS: WordItem[] = [
     exampleTranslation: "그 낭만주의 시인은 자연에 관한 영감을 주는 운문을 썼다."
   },
   {
-    id: 1189, day: 35, word: "point", phonetic: /pɔɪnt/, meaning: "n. 요점, 점수, 끝 / v. 가리키다",
+    id: 1189, day: 35, word: "point", phonetic: "/pɔɪnt/", meaning: "n. 요점, 점수, 끝 / v. 가리키다",
     example: "He pointed at the map to show us the route.",
     exampleTranslation: "그는 우리에게 경로를 보여주기 위해 지도를 손가락으로 가리켰다."
   },
