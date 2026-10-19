@@ -1,0 +1,25 @@
+// app/api/auth/[...nextauth]/route.ts
+import NextAuth from "next-auth";
+import GoogleProvider from "next-auth/providers/google";
+import NaverProvider from "next-auth/providers/naver";
+import KakaoProvider from "next-auth/providers/kakao";
+
+const handler = NextAuth({
+  providers: [
+    GoogleProvider({
+      clientId: process.env.GOOGLE_CLIENT_ID || "",
+      clientSecret: process.env.GOOGLE_CLIENT_SECRET || "",
+    }),
+    NaverProvider({
+      clientId: process.env.NAVER_CLIENT_ID || "",
+      clientSecret: process.env.NAVER_CLIENT_SECRET || "",
+    }),
+    KakaoProvider({
+      clientId: process.env.KAKAO_CLIENT_ID || "",
+      clientSecret: process.env.KAKAO_CLIENT_SECRET || "",
+    }),
+  ],
+  // 향후 여기에 데이터베이스 어댑터를 연결할 예정입니다.
+});
+
+export { handler as GET, handler as POST };
