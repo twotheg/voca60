@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.twotheg.voca60",
+        "sha256_cert_fingerprints": ["01:4D:76:BC:3F:A7:FB:5A:39:42:3B:2D:C8:7B:50:9D:48:2F:D0:A9:B0:67:6A:75:64:BD:43:F9:05:12:6A:D0"]
+      }
+    }]
