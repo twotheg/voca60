@@ -4,29 +4,53 @@ import SessionBannerAd from "@/components/SessionBannerAd";
 import React, { useState, useEffect } from "react";
 import { INITIAL_WORDS, WordItem } from "@/data/sampleWords";
 
+// 1. 방금 만든 로그인 버튼과 Supabase 클라이언트를 불러옵니다.
+import LoginButtons from "@/components/LoginButtons";
+import { createClient } from "@/utils/supabase/client";
+
 interface DayProgress {
   count: number;
 }
 
 export default function Home() {
+  // ==========================================
+  // [추가됨] Supabase 로그인 상태 관리
+  // ==========================================
+  const [session, setSession] = useState<any>(null);
+  const [isAuthLoading, setIsAuthLoading] = useState(true);
+  const supabase = createClient();
+
+  useEffect(() => {
+    // 1. 처음 앱을 켰을 때 로그인되어 있는지 확인
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      setSession(session);
+      setIsAuthLoading(false);
+    });
+
+    // 2. 로그인/로그아웃 상태가 바뀔 때마다 화면 업데이트
+    const {
+      data: { subscription },
+    } = supabase.auth.onAuthStateChange((_event, session) => {
+      setSession(session);
+    });
+
+    return () => subscription.unsubscribe();
+  }, [supabase.auth]);
+
+
+  // ==========================================
+  // [기존 코드 유지] 단어장 상태 관리들
+  // ==========================================
   const [selectedDay, setSelectedDay] = useState<number | null>(null);
   const [activeTab, setActiveTab] = useState<"study" | "test" | "wrong">("study");
-
-  // 학습 상태
   const [currentIndex, setCurrentIndex] = useState(0);
-
-  // Day별 학습 횟수 기록 (localStorage 연동)
   const [progressMap, setProgressMap] = useState<Record<number, DayProgress>>({});
-
-  // 주관식 테스트 상태
   const [testMode, setTestMode] = useState<"wordToMeaning" | "meaningToWord" | null>(null);
   const [testIndex, setTestIndex] = useState(0);
   const [userInput, setUserInput] = useState("");
   const [testResult, setTestResult] = useState<"correct" | "incorrect" | null>(null);
   const [wrongWords, setWrongWords] = useState<WordItem[]>([]);
   const [testCompleted, setTestCompleted] = useState(false);
-
-  // 오답 복습 상태
   const [wrongIndex, setWrongIndex] = useState(0);
 
   useEffect(() => {
@@ -77,7 +101,7 @@ export default function Home() {
   const handleTabChange = (tab: "study" | "test" | "wrong") => {
     setActiveTab(tab);
     if (tab === "test") {
-      setTestMode(null); // 테스트 탭 누르면 모드 선택 화면으로 진입
+      setTestMode(null); 
       setTestIndex(0);
       setUserInput("");
       setTestResult(null);
@@ -87,7 +111,6 @@ export default function Home() {
     }
   };
 
-  // 주관식 정답 제출 체크
   const handleTestSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!userInput.trim() || testResult !== null || !testMode) return;
@@ -142,8 +165,40 @@ export default function Home() {
     }
   };
 
+
+  // ==========================================
+  // [추가됨] 화면 렌더링 분기 처리 (Auth Gate)
+  // ==========================================
+  
+  // 1. 로그인 상태를 확인 중일 때 (깜빡임 방지용 로딩 화면)
+  if (isAuthLoading) {
+    return (
+      <main className="min-h-screen bg-slate-950 flex flex-col items-center justify-center">
+        <div className="w-10 h-10 border-4 border-indigo-500 border-t-transparent rounded-full animate-spin mb-4"></div>
+        <p className="text-slate-400 text-sm font-semibold animate-pulse">Voca60 준비 중...</p>
+      </main>
+    );
+  }
+
+  // 2. 로그인이 안 되어 있을 때 (구글/카카오 로그인 버튼 화면 표시)
+  if (!session) {
+    return (
+      <main className="flex min-h-screen flex-col items-center justify-center bg-slate-950 p-6">
+        <div className="w-full max-w-md text-center">
+          <h1 className="text-5xl font-extrabold text-white mb-4 tracking-tight">
+            Voca<span className="text-indigo-500">60</span>
+          </h1>
+          <p className="text-slate-400 mb-10 text-sm">
+            하루 1일치로 끝내는<br />수능·내신 필수 영단어 마스터
+          </p>
+          <LoginButtons />
+        </div>
+      </main>
+    );
+  }
+
+  // 3. 로그인이 완료되었을 때 (기존 단어장 앱 화면 표시)
   return (
-    // 하단 고정 광고 영역(약 50~60px)에 단어 내용이 가리지 않도록 paddingBottom을 추가했습니다.
     <main className="min-h-screen bg-slate-950 text-slate-100 flex flex-col items-center p-4 sm:p-6 pb-20">
       {/* 상단 타이틀 및 네비게이션 */}
       <header className="w-full max-w-md flex items-center justify-between mb-6 pt-2">
@@ -153,14 +208,23 @@ export default function Home() {
           </h1>
           <p className="text-xs text-slate-400">60일 완성 필수 영단어 프로젝트</p>
         </div>
-        {selectedDay !== null && (
+        <div className="flex gap-2">
+          {selectedDay !== null && (
+            <button
+              onClick={() => setSelectedDay(null)}
+              className="text-xs bg-slate-800 hover:bg-slate-700 text-slate-300 px-3 py-1.5 rounded-lg border border-slate-700 transition flex items-center gap-1"
+            >
+              <span>📁</span> Day 목록
+            </button>
+          )}
+          {/* 로그아웃 버튼 추가 (선택 사항) */}
           <button
-            onClick={() => setSelectedDay(null)}
-            className="text-xs bg-slate-800 hover:bg-slate-700 text-slate-300 px-3 py-1.5 rounded-lg border border-slate-700 transition flex items-center gap-1"
+            onClick={() => supabase.auth.signOut()}
+            className="text-xs bg-rose-950/50 hover:bg-rose-900/50 text-rose-300 px-3 py-1.5 rounded-lg border border-rose-900/50 transition flex items-center gap-1"
           >
-            <span>📁</span> Day 목록으로
+            로그아웃
           </button>
-        )}
+        </div>
       </header>
 
       {/* 1. Day 목록 대시보드 */}
@@ -172,7 +236,7 @@ export default function Home() {
                 <span>🗓</span> 60일 학습 커리큘럼 선택
               </h2>
               <span className="text-[10px] text-slate-400">
-                🟡 1회 | 🟢 2회 | 🔵 3회 이상 완료
+                🟡 1회 | 🟢 2회 | 🔵 3회 이상
               </span>
             </div>
             <div className="grid grid-cols-5 gap-2 max-h-[65vh] overflow-y-auto pr-1">
@@ -310,7 +374,7 @@ export default function Home() {
                     }}
                     className="flex-1 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-500 font-semibold text-xs transition shadow-lg shadow-indigo-600/30"
                   >
-                    {currentIndex === activeWordList.length - 1 ? "테스트로 이동 ➡️" : "다음"}
+                    {currentIndex === activeWordList.length - 1 ? "테스트로 ➡️" : "다음"}
                   </button>
                 </div>
               </div>
@@ -324,7 +388,7 @@ export default function Home() {
                 <div className="bg-slate-900 border border-slate-800 rounded-3xl p-6 shadow-2xl space-y-4 text-center">
                   <div className="py-2">
                     <span className="bg-purple-950/80 text-purple-300 border border-purple-800/60 px-3 py-1 rounded-full text-xs font-semibold">
-                      Day {selectedDay} 테스트 모드 선택
+                      Day {selectedDay} 테스트 모드
                     </span>
                     <h2 className="text-lg font-extrabold text-white mt-3">원하시는 테스트 방식을 골라주세요</h2>
                     <p className="text-xs text-slate-400 mt-1">학습한 단어들을 두 가지 방식으로 점검할 수 있습니다.</p>
@@ -379,7 +443,7 @@ export default function Home() {
                   <div className="flex items-center justify-between text-xs text-slate-400 px-1">
                     <div className="flex items-center gap-2">
                       <span className="bg-purple-950/80 text-purple-300 border border-purple-800/60 px-2.5 py-1 rounded-full font-semibold">
-                        {testMode === "wordToMeaning" ? "✍️ 단어→뜻 테스트" : "🔤 뜻→영어 테스트"}
+                        {testMode === "wordToMeaning" ? "✍️ 단어→뜻" : "🔤 뜻→영어"}
                       </span>
                       <button
                         onClick={() => setTestMode(null)}
@@ -441,7 +505,7 @@ export default function Home() {
                         🎉
                       </div>
                       <div>
-                        <h2 className="text-xl font-extrabold text-white mb-1">테스트 완료! (Day {selectedDay} 누적 반영됨)</h2>
+                        <h2 className="text-xl font-extrabold text-white mb-1">테스트 완료!</h2>
                         <p className="text-xs text-slate-400">틀린 문제 개수</p>
                         <div className="text-3xl font-black text-rose-400 mt-2">
                           {wrongWords.length}개 <span className="text-sm font-normal text-slate-400">/ 총 {activeWordList.length}문항</span>
@@ -551,7 +615,6 @@ export default function Home() {
         </div>
       )}
 
-      {/* 화면 하단 고정 배너 광고 컴포넌트 */}
       <SessionBannerAd />
     </main>
   );
