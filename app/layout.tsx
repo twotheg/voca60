@@ -1,8 +1,7 @@
 import type { Metadata, Viewport } from "next";
-import Script from "next/script";
 import "./globals.css";
-// 방금 만든 WakeLock 컴포넌트 불러오기 (경로에 맞게 수정: ../components/WakeLock)
 import WakeLock from "../components/WakeLock";
+import AdSenseScript from "../components/AdSenseScript";
 
 export const metadata: Metadata = {
   title: "Voca60 수능 마스터",
@@ -32,16 +31,10 @@ export default function RootLayout({
     <html lang="ko">
       <head>
         <link rel="apple-touch-icon" href="/icon-192.png" />
-        
-        {/* 구글 애드센스 기본 스크립트 */}
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4424569297437395"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
       </head>
       <body>
+        {/* 로그인/인증 경로를 제외하고 애드센스 스크립트 로드 */}
+        <AdSenseScript />
         {/* 앱 전체에 화면 꺼짐 방지 기능 적용 */}
         <WakeLock />
         {children}
