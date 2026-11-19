@@ -4,8 +4,9 @@ import SessionBannerAd from "@/components/SessionBannerAd";
 import React, { useState, useEffect } from "react";
 import { INITIAL_WORDS, WordItem } from "@/data/sampleWords";
 
-// 1. 방금 만든 로그인 버튼과 Supabase 클라이언트를 불러옵니다.
+// 1. 로그인 버튼, 랜딩 콘텐츠, Supabase 클라이언트 불러오기
 import LoginButtons from "@/components/LoginButtons";
+import LandingContent from "@/components/LandingContent";
 import { createClient } from "@/utils/supabase/client";
 
 interface DayProgress {
@@ -180,10 +181,10 @@ export default function Home() {
     );
   }
 
-  // 2. 로그인이 안 되어 있을 때 (구글/카카오 로그인 버튼 화면 표시)
+  // 2. 로그인이 안 되어 있을 때 (구글/카카오 로그인 버튼 + 애드센스용 랜딩 콘텐츠 표시)
   if (!session) {
     return (
-      <main className="flex min-h-screen flex-col items-center justify-center bg-slate-950 p-6">
+      <main className="flex min-h-screen flex-col items-center bg-slate-950 px-6 py-16">
         <div className="w-full max-w-md text-center">
           <h1 className="text-5xl font-extrabold text-white mb-4 tracking-tight">
             Voca<span className="text-indigo-500">60</span>
@@ -193,6 +194,9 @@ export default function Home() {
           </p>
           <LoginButtons />
         </div>
+
+        {/* 구글 크롤러 및 비로그인 방문자를 위한 서비스 소개·샘플 단어·FAQ */}
+        <LandingContent />
       </main>
     );
   }
@@ -217,7 +221,7 @@ export default function Home() {
               <span>📁</span> Day 목록
             </button>
           )}
-          {/* 로그아웃 버튼 추가 (선택 사항) */}
+          {/* 로그아웃 버튼 */}
           <button
             onClick={() => supabase.auth.signOut()}
             className="text-xs bg-rose-950/50 hover:bg-rose-900/50 text-rose-300 px-3 py-1.5 rounded-lg border border-rose-900/50 transition flex items-center gap-1"
